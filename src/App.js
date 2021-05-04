@@ -1,11 +1,9 @@
-import BarraNavegacao from './components/BarraNavegacao/BarraNavegacao';
-
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
     <div>
-      <div>Teste</div>
-      <BarraNavegacao></BarraNavegacao>
+      <Home></Home>
     </div>
   );
 }
