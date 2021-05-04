@@ -1,9 +1,12 @@
-import logo from './logo.svg';
+import BarraNavegacao from './components/BarraNavegacao/BarraNavegacao';
 
 
 function App() {
   return (
-    <div>Teste</div>
+    <div>
+      <div>Teste</div>
+      <BarraNavegacao></BarraNavegacao>
+    </div>
   );
 }
 
