@@ -18,7 +18,7 @@ const BarraNavegacao = (props) => {
                     <Link to="/"><Col><NavbarBrand className="d-flex flex-row float-left">Home</NavbarBrand></Col></Link>
                     <Link to="/administracao"><Col><NavbarBrand className="d-flex flex-row float-left">Administração</NavbarBrand></Col></Link>
                     <Col><NavbarBrand href="/paroquia" className="d-flex flex-row float-left">Paróquias</NavbarBrand></Col>
-                    <Col><NavbarBrand href="/contato" className="d-flex flex-row float-left">Contato</NavbarBrand></Col>
+                    <Link to="/contato"><Col><NavbarBrand className="d-flex flex-row float-left">Contato</NavbarBrand></Col></Link>
                     <Col><NavItem href="/" className="d-flex flex-row float-rigth"><input type="text" placeholder="Pesquisar..."></input></NavItem></Col>
                     <NavbarToggler onClick={toggleNavbar} className="mr-2" />
                     <Collapse isOpen={!collapsed} navbar>
