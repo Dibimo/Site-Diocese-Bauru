@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import BarraNavegacao from "./../../components/BarraNavegacao/BarraNavegacao";
 import Rodape from "./../../components/Rodape/Rodape";
-
+import Titulo from "./../../components/Titulo/Titulo";
 
 class Contato extends Component {
   render() {
     return (
       <div className="container">
         <BarraNavegacao></BarraNavegacao>
+        <Titulo titulo={'Contato'}></Titulo>
         {/* Titulo */}
         <div> {/*Parte 1 - "entrar em contato direto com a diocese"*/}
             <div style={{textAlign: "center"}}>
