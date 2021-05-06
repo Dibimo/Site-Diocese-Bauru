@@ -17,7 +17,7 @@ class PainelRotativo extends Component {
   render() {
     console.log(this.props.diretorio);
     return (
-      <div>
+      <div className="">
         <AwesomeSlider style={this.props.style}>
           {this.props.nomesImagens.map((image) => (
             <div

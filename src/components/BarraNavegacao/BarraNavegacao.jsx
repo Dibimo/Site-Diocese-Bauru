@@ -1,22 +1,44 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Col } from 'reactstrap';
 import "./estilo.css"
-class BarraNavegacao extends Component {
-    render() {
-        return (
-            <div>
-                <nav>
-                    <button>Mais</button>
-                    <ul>
-                        <li>Administração</li>
-                        <li>Paróquias</li>
-                        <li>Contato</li>
-                    </ul>
-                    <input type="text"></input>
-                    <button>Pesquisar</button>
-                </nav>
+
+
+const BarraNavegacao = (props) => {
+  const [collapsed, setCollapsed] = useState(true);
+
+  const toggleNavbar = () => setCollapsed(!collapsed);
+
+    return (
+        <div className="bg-danger">
+            <div className="navbar-dark bg-danger border border-danger rounded d-flex flex-column">
+                <div className="p-2">
+                    <Navbar className="bg-danger rounded" light expand="row">
+                    <Col><NavbarBrand href="/adm" className="d-flex flex-row float-left">Administração</NavbarBrand></Col>
+                    <Col><NavbarBrand href="/paroquia" className="d-flex flex-row float-left">Paróquias</NavbarBrand></Col>
+                    <Col><NavbarBrand href="/contato" className="d-flex flex-row float-left">Contato</NavbarBrand></Col>
+                    <Col><NavItem href="/" className="d-flex flex-row float-rigth"><input type="text" placeholder="Pesquisar..."></input></NavItem></Col>
+                    <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+                    <Collapse isOpen={!collapsed} navbar>
+                        <Nav navbar>
+                            <NavItem>
+                                <NavLink href="/adm"><h4>...</h4></NavLink>
+                            </NavItem>
+
+                            <NavItem>
+                                <NavLink href="/paroquia"><h4>...</h4></NavLink>
+                            </NavItem>
+
+                            <NavItem>
+                                <NavLink href="/contato"><h4>...</h4></NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
+                    </Navbar>
+                </div>
             </div>
-        );
-    }
+        </div>
+    );
 }
 
-export default BarraNavegacao;
+export default BarraNavegacao;  
