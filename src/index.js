@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Administracao from './pages/Administracao/Administracao'
 
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact={true} component={App} />
+        <Route path="/Administracao" component={Administracao} />
+      </Switch>
+    </BrowserRouter>,
+  document.getElementById("root")
 );
 
