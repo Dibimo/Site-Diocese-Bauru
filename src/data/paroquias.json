@@ -1,0 +1,821 @@
+{
+  "agudos": {
+    "nossaSenhoraAparecida": {
+      "nome": "Nossa Senhora Apareida",
+      "horariosDeMissa": [
+        "Todas as quintas-feiras - 19h30",
+        "Primeira sexta-feira do mês - 19h30, em devoção ao Sagrado Coração de Jesus",
+        "Domigos - 8h e 9h"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Sao João Batista ",
+          "local": "Rua Hilario Ramos n. 262, Jardim Vienense",
+          "horarios": ["Domigos as 10h30"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 3,
+        "criacao": "12/10/2019",
+        "festa": "12/10",
+        "padroeiro": "Nossa Senhora Aparecida",
+        "administradorParoquial": "Padre Paulo Tavares",
+        "vigarioParoquial": "Padre Rafael Zagatto"
+      }
+    },
+    "santoAntonioDePauda": {
+      "nome": "Santo Antônio de Pádua",
+      "horariosDeMissa": [
+        "Terça-feira: 19h30",
+        "Sábado: 19h",
+        "Domingo: 7h, 9h, 19h"
+      ],
+      "capelas": [
+        {
+          "nome": "Setor São Pedro",
+          "local": "R. Ophelis de Almeida Françoso, 972",
+          "horarios": ["Sábado: 19h30"]
+        },
+        {
+          "nome": "Setor Santa Clara",
+          "local": "R. Nene Travain, 271, Santa Cândida",
+          "horarios": ["Domingo: 9h"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 3,
+        "festa": "13/60",
+        "criacao": "22/08/2000",
+        "padroeiro": "Santo Antônio",
+        "paroco": "Pe. Paulo Tavares de Brito",
+        "diaconoPermanente": "Diác. Marcos Alberto Arantes",
+        "fazendas": [
+          {
+            "nome": "Turvinho",
+            "local": "Estrada do Mamoeiro",
+            "horarios": ["2ª sexta-feira 20h00"]
+          },
+          {
+            "nome": "Santa Isabel",
+            "local": "Estrada dos Cabritos, 33",
+            "horarios": ["4ª sexta-feira 20h00"]
+          }
+        ]
+      }
+    },
+    "saoPauloApostolo": {
+      "nome": "São Paulo Apostolo",
+      "horariosDeMissa": [
+        "Terça-feira: 15h",
+        "Quarta-feira: 19h",
+        "Primeira quinta-feira do mês: 7h",
+        "Sexta-feira: 19h",
+        "Sábado: 19h",
+        "Domingo: 9h e 19h"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Santa Cecília",
+          "local": "R. Capitão Francisco Avato, 235, Santa Cecília",
+          "horarios": ["2º e 4 domingo: 18h"]
+        },
+        {
+          "nome": "Capela São Francisco",
+          "local": "R. Arsênio De Conti, 15, Jardim Cruzeiro",
+          "horarios": ["2º e 4º domingo: 7h30"]
+        },
+        {
+          "nome": "Capela Nossa Senhora Aparecida",
+          "local": "R. Dionísio Dalberto, 21, Pampulha",
+          "horarios": ["2º e 4º domingo: 10h"]
+        },
+        {
+          "nome": "Capela São João Batista",
+          "local": "Av. Hilário Ramos, 610, Jardim Vienense",
+          "horarios": ["1º domingo: 17h30"]
+        },
+        {
+          "nome": "Capela Nossa Senhora das Graças",
+          "local": "R. Francisco A. Peixoto Gomide, 291, Vila Honorina",
+          "horarios": ["1º domingo: 9h"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 3,
+        "criacao": "13/06/1898",
+        "festa": "25/01",
+        "padroeiro": "São Paulo Apóstolo",
+        "paroco": "Pe. Frei Silvio Trindade Werlingue, OFM",
+        "vigarioParoquial": "Pe. Frei Pedro do Nascimento Vianna, OFM"
+      }
+    }
+  },
+  "avai": {
+    "saoSebastiao": {
+      "nome": "São Sebastião",
+      "horariosDeMissa": [
+        "Quinta-feira: 19h30",
+        "1ª Sexta-feira: 19h30 (Apostalado da Oração)",
+        "2ª Sexta-feira: 19h30 (Missa dos Enfermos)",
+        "Domingos: 19h30"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Nossa Senhora Aparecida",
+          "local": "(cidade)",
+          "horarios": ["Quarta-feira: 19h30 (Celebração da Palavra e Novena)"]
+        },
+        {
+          "nome": "Capela Santo Antônio",
+          "local": "Bairro Laranjeira- Estrada Vicinal Avaí/ Duartina",
+          "horarios": ["2º sábado: 19h30"]
+        },
+        {
+          "nome": "Capela Nossa Senhora Aparecida",
+          "local": "Aldeia Ekeruá",
+          "horarios": ["4ª sexta-feira: 19h30"]
+        },
+        {
+          "nome": "Capela Nossa Senhora Aparecida",
+          "local": "Fazenda Água dos Patos",
+          "horarios": ["4º sábado: 19h30"]
+        },
+        {
+          "nome": "Capela Nossa Senhora Aparecida",
+          "local": "Fazenda Boa Sorte",
+          "horarios": ["4º sábado: 19h30"]
+        },
+        {
+          "nome": "Comunidade Nossa Senhora Aparecida",
+          "local": "Assentamento dos Palmares",
+          "horarios": ["3ª sexta-feira: 19h30"]
+        },
+        {
+          "nome": "Capela Nossa Senhora de Guadalupe",
+          "local": "Aldeia Tereguá",
+          "horarios": ["2º domingo: 19h30"]
+        },
+        {
+          "nome": "Capela Nossa Senhora Aparecida",
+          "local": "Aldeia Kopenoty",
+          "horarios": ["3º domingo: 10h30"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 6,
+        "festa": "20/01",
+        "criacao": "31/05/1925",
+        "padroeiro": "São Sebastião",
+        "paroco": "Pe. Joseph Pottamplackal"
+      }
+    }
+  },
+  "boraceia": {
+    "nossaSenhoraAparecida": {
+      "nome": "Nossa Senhora Aparecida",
+      "horariosDeMissa": [
+        "1ª quarta-feira: 7h",
+        "Quinta-feira: 19h30",
+        "1ªsexta-feira: 18h30",
+        "Demais sextas-feiras: 19h30 (missa nos setores)",
+        "Sábado: 18h30",
+        "Domingo: 8h, 10h e 19h"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela São João Batista",
+          "local": "Praça Central – Santelmo",
+          "horarios": ["3ª quarta-feira: 19h30", "Sábado: 20h"]
+        },
+        {
+          "nome": "Capela São Sebastião",
+          "local": "Barreiro Grande",
+          "horarios": ["2ª terça-feira: 20h"]
+        },
+        {
+          "nome": "Capela São José",
+          "local": "Taquaral",
+          "horarios": ["Última terça-feira do mês: 20h"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 7,
+        "criacao": "02/02/1929",
+        "festa": "12/10",
+        "padroeiro": "Nossa Senhora Aparecida",
+        "paroco": "Pe. Antônio Marcos Roque de Carvalho"
+      }
+    }
+  },
+  "pederneiras": {
+    "nossaSenhoraAparecida": {
+      "nome": "Nossa Senhora Aparecida",
+      "horariosDeMissa": [
+        "Domingo: 9h30 e 19h30",
+        "Segunda: 7h",
+        "Terça-feira: 19h30 (Capelas e Setores)",
+        "Quarta-feira: 15h (Missa dos enfermos)",
+        "Quinta-feira: 7h ( Adoração Santíssimo Sacramento o dia todo até as 19h00)",
+        "1ª e 4ª sexta-feira: 19h30",
+        "Sábado: 19h30"
+      ],
+      "capelas": [
+          {
+              "nome": "Capela São João Batista",
+              "local": "Bairro Antônio de Conti",
+              "horarios": ["Domingo: 17h30"]
+          },
+          {
+              "nome": "Capela Santa Isabel",
+              "local": "Distrito de Vanglória",
+              "horarios": ["2º e 4º domingo: 7h30","1ª e 3ª terça-feira: 20h"]
+          },
+          {
+              "nome": "Capela São Luiz Gonzaga",
+              "local": "Bairro Itatingui",
+              "horarios": ["Dia 05/08: 11h"]
+          },
+          {
+              "nome": "Capela Santa Luzia",
+              "local": "-",
+              "horarios": ["Dias 12/02; 08/04; 10/06; 12/08; 14/10; 13/12"]
+          },
+          {
+              "nome": "Capela Nossa Senhora do Monte Serrat",
+              "local": "Bairro do Macuco",
+              "horarios": ["3ª quarta-feira: 19h30"]
+          },
+          {
+              "nome": "Capela São José",
+              "local": "Fazenda dos Patos",
+              "horarios": ["4ª quarta-feira: 19h30"]
+          }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 7,
+        "criacao": "02/02/1969",
+        "festa": "12/10",
+        "padroeiro": "Nossa Senhora Aparecida",
+        "administradorParoquial": "Pe. Luiz Eduardo Monteiro Fontana",
+        "vigarioParoquial": "Pe. Ednei Antônio Braga Rodrigues"
+      }
+    },
+    "saoSebastiao":{
+        "nome":"São Sebastião",
+        "horariosDeMissa":[
+            "Terça-feira: 7h",
+            "Quinta-feira: 7h",
+            "1ª Sexta-feira: 19h",
+            "Sábado: 19h",
+            "Domingo: 7h, 10h e 19h"
+        ],
+        "capelas": [
+            {
+                "nome": "Capela São Pedro",
+                "local": "Rua Alberto Ladaga Pisani, N-479 – Bairro D. Pedro I",
+                "horarios": ["Sábado: 20h30"]
+            },
+            {
+                "nome": "Capela Santa Rita e Santo Antônio",
+                "local": "Av. Antônio Ademir Leandri, L-1595, Bairro Bertolini I",
+                "horarios": ["Domingo: 8h30"]
+            },
+            {
+                "nome": "Asilo São Vicente de Paula",
+                "local": "Asilo São Vicente de Paula",
+                "horarios": ["Quarta-feira: 15h"]
+            }
+        ],
+        "informacoesAdicionais": {
+            "regiaoPastoral": 7, 
+            "criacao":"02/06/1898", 
+            "festa":"20/01", 
+            "padroeiro":"São Sebastião",
+            "paroco": "Pe. Luiz Eduardo Monteiro Fontana",
+            "vigarioParoquial": "Pe. Ednei Antônio Braga Rodrigues"
+        }
+    },
+    "saoJudasTadeu":{
+        "nome":"São Judas Tadeu",
+        "horariosDeMissa":[
+            "Domingo: 8hs e 19h30",
+            "Quinta-feira: 19h30",
+            "Sexta-feira: 19h30 (Segunda sexta-feira do mês: celebração da Palavra)",
+            "Última quarta-feira do mês: 15hs (missa pelos enfermos)"
+        ],
+        "capelas": [
+            {
+                "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+                "local": "Bairro Cidade Nova",
+                "horarios": [
+                    "Terça-feira: 8h",
+                    "Sábado: 20h30"
+                ]
+            },
+            {
+                "nome": "Capela Santa Teresinha do Menino Jesus",
+                "local": "Bairro Maria Elena",
+                "horarios": ["Domingo: 10h"]
+            },
+            {
+                "nome": "Comunidade Nossa Senhora das Graças",
+                "local": "Bairro Juliano Vicente Minguili",
+                "horarios": ["Quarta-feira: 19h30"]
+            },
+            {
+                "nome": "Capela Nossa Senhora Aparecida e Santana",
+                "local": "Residencial Recreio Lago dos Paturis",
+                "horarios": [
+                    "1º, 3º e 5º sábado: 18h30 (Missa)",
+                    "2º e 4º sábado: 18h30 (Celebração da Palavra)"
+                ]
+            },
+            {
+                "nome": "Capela São José e Santa Luzia",
+                "local": "Distrito de Guaianás",
+                "horarios": ["2º e 4º sábado: 18h30"]
+            },
+            {
+                "nome": "Capela Nossa Senhora Aparecida",
+                "local": "Bairro do Saltinho",
+                "horarios": ["1º sexta-feira: 19h30"]
+            }
+        ],
+        "informacoesAdicionais": {
+            "regiaoPastoral": 7, 
+            "criacao":"-", 
+            "festa":"28/10", 
+            "padroeiro":"São Judas Tadeu", 
+            "administradorParoquial": "Pe. Anderson Luís Moreira"
+        }
+    }
+  },
+  "cabraliaPaulista":{
+      "senhorBomJesusDoMirante":{
+          "nome":"Senhor Bom Jesus do Mirante",
+          "horariosDeMissa":[
+              "Domingo: 8h30 e 19h30",
+              "1ª Sexta-feira: 19h30"
+          ],
+          "capelas": [
+              {
+                  "nome": "Capela São João Batista",
+                  "local": "Bairro Floresta",
+                  "horarios": ["1ª e 3ª quintas-feiras: 19h30"]
+              },
+              {
+                  "nome": "Colônia Antônio Freferico Ozanam",
+                  "local": "Colônia Antônio Freferico Ozanam",
+                  "horarios": ["Quinta-feira: 15h"]
+              }
+          ],
+          "informacoesAdicionais": {
+              "regiaoPastoral": 6, 
+              "criacao":"25/03/1927", 
+              "festa":"06/08", 
+              "padroeiro":"Senhor Bom Jesus",
+              "administradorParoquial": "Pe. Maurício dos Santos Guerra" 
+          }
+      }
+  },
+  "duartina": {
+      "santaLuiza":{
+          "nome":"Santa Luzia",
+          "horariosDeMissa":[
+            "Quinta-feira: 17h",
+            "4ª quinta-feira do mês: 20h (Missa animada pela RCC)",
+            "1ª sexta-feira do mês: 19h30 (Missa animada pelo Apostolado da Oração)",
+            "Sábado: 20h",
+            "Domingo: 7h30 e 19h30"
+          ],
+          "capelas": [
+              {
+                  "nome": "Capela São José",
+                  "local": "Rua: Aldo Fanhani, 311, Vila Duartina",
+                  "horarios": ["Quarta-feira: 20h"]
+              },
+              {
+                  "nome": "Capela São Judas Tadeu",
+                  "local": "Rua: Mansur Sabbagh, s/nº, Sebastião Pupo",
+                  "horarios": ["Domingo: 11h"]
+              },
+              {
+                  "nome": "Comunidade São Sebastião (Recanto dos Vicentinos)",
+                  "local": "Avenida Nove de Julho, 1470, Planur",
+                  "horarios": ["Domingo: 9h (Celebração da Palavra/Missa animadas pela Comunidade São Sebastião)"]
+              }
+          ],
+          "informacoesAdicionais": {
+              "regiaoPastoral": 6, 
+              "criacao":"12/04/1925", 
+              "festa":"13/12", 
+              "padroeiro":"Santa Luzia",
+              "rotatividade": "- Todas as terças e Quintas-feiras, às 20h, rotatividade de missas nos setores, zona rural e Capela do Hospital (em casos especiais, modificações serão comunicadas com antecedência).",
+              "administradorParoquial": "Padre Luiz Antônio de Almeida",
+              "diaconoPermanente": "Sebastião Fabiano de Oliveira"
+          }
+      }
+  },
+  "galia": {
+      "saoJose":{
+          "nome":"São Jose",
+          "horariosDeMissa":[
+            "Quarta-feira: 19h",
+            "1ª sexta-feira: 19h",
+            "Sábado: 19h",
+            "Domingo: 9h e 19h30"
+          ],
+          "capelas": [
+              {
+                  "nome": "Capela Nossa Senhora Aparecida",
+                  "local": "R. Eduardo de Souza Porto, s/nº - Fernão",
+                  "horarios": ["Sábado: 20h30"]
+              },
+              {
+                  "nome": "Capela São Vicente ( Hospital)",
+                  "local": "Rua Décio Silvério, 321 Centro – Gália",
+                  "horarios": ["3ª sexta-feira: 16h"]
+              },
+              {
+                  "nome": "Capela São Benedito",
+                  "local": "Rua 27 de Maio, 150, São Benedito - Gália",
+                  "horarios": ["1ª terça-feira: 20h"]
+              },
+              {
+                  "nome": "Capela Sagrada Família",
+                  "local": "Estrada Vicinal Romeu Tech- Bairro Rural CAIC - Fernão",
+                  "horarios": ["3ª sexta-feira: 20h30"]
+              },
+              {
+                  "nome": "Capela São Paulo Apóstolo",
+                  "local": "Bairro Rural - Barra Bonita – Fernão",
+                  "horarios": ["3ª terça-feira: 20h30"]
+              }
+          ],
+          "informacoesAdicionais": {
+              "regiaoPastoral": 6, 
+              "criacao":"29/09/1926", 
+              "festa":"19/03", 
+              "padroeiro":"São José",
+              "administradorParoquial": "Pe. Márcio José Cattache" 
+          }
+      }
+  },
+  "lucianopolis": {
+      "saoPedroApostolo":{
+          "nome":"São Pedro Apóstolo",
+          "horariosDeMissa":[
+            "Terça-feira: 19h30",
+            "Sexta-feira: 15h",
+            "Domingo: 10h"
+          ],
+          "capelas": [
+              {
+                  "nome": "Capela Nossa Senhora Aparecida",
+                  "local": "Bairro Ribeirão Bonito",
+                  "horarios": ["2º Sábado: 17h"]
+              },
+              {
+                  "nome": "Capela Nossa Senhora Aparecida",
+                  "local": "Bairro Água da Mandioca",
+                  "horarios": ["2º domingo: Horário a decidir durante a semana."]
+              }
+          ],
+          "informacoesAdicionais": {
+              "regiaoPastoral": 6, 
+              "criacao":"15/04/1967", 
+              "festa":"29/07", 
+              "padroeiro":"São Pedro",
+              "administradorParoquial": "Pe. Maurício dos Santos Guerra"
+          }
+      }
+  },
+  "paulistania": {
+      "santaTeresinhaDoMeninoJesusEdaSagradaFace":{
+          "nome":"Santa Teresinha do Menino Jesus e da Sagrada Face",
+          "horariosDeMissa":[
+            "Segunda-feira e sexta-feira: 19h30 (residência)",
+            "2ª quinta-feira: 19h30 (missa RCC)",
+            "1ª sexta-feira: 19h30 (Sagrado Coração de Jesus)",
+            "Sábado: 19h",
+            "Domingo: 10h15"
+          ],
+          "capelas": [
+              {
+                  "nome": "Capela Nossa Senhora Aparecida",
+                  "local": "Bairro Limoeiro",
+                  "horarios": ["Sábado: 20h30"]
+              },
+              {
+                  "nome": "Capela Santa Cruz",
+                  "local": "Distrito de Domélia",
+                  "horarios": ["Domingo: 8h30"]
+              }
+          ],
+          "informacoesAdicionais": {
+              "regiaoPastoral": 6, 
+              "criacao":"19/01/2001", 
+              "festa":"01/10",
+              "padroeiro":"Santa Teresinha",
+              "administradorParoquial": "Pe. Antônio Rodrigues Neto"
+          }
+      }
+  },
+  "piratininga": {
+      "santaMaria":{
+          "nome":"Santa Maria",
+          "horariosDeMissa":[
+            "Quarta-feira: 16h",
+            "Quinta-feira: 6h30",
+            "1ª sexta-feira: 16h (Apostolado da Oração)",
+            "Sábado: 19h",
+            "Domingo: 7h, 9h (Missa das crianças), 19h"
+          ],
+          "capelas": [
+              {
+                  "nome": "Capela Nossa Senhora Aparecida",
+                  "local": "Alba (zona rural)",
+                  "horarios": ["Domingo: 10h30 (Escala de Missa ou Celebração)"]
+              },
+              {
+                  "nome": "Capela Santo Antônio",
+                  "local": "Brasília Paulista (zona rural)",
+                  "horarios": ["Domingo: 10h30 (Escala de Missa ou Celebração)"]
+              },
+              {
+                  "nome": "Capela Nossa Senhora Aparecida",
+                  "local": "Água do Paiol (zona rural)",
+                  "horarios": ["4ª sexta-feira: 20h"]
+              }
+          ],
+          "informacoesAdicionais": {
+              "regiaoPastoral": 5, 
+              "criacao":"29/071916", 
+              "festa":"31/05", 
+              "paroco": "Pe. Enedir Gonçalves Moreira",
+              "padroeiro":"Santa Maria",
+              "setor": "Setor: Sábado: 19h ou 20h30 (Escala de Missa ou Celebração)"
+          }
+      }
+  },
+  "iacanga": {
+      "saoJoaoBatista":{
+          "nome":"São João Batista",
+          "horariosDeMissa":[
+            "Todo dia 24 às 19h30: (Missa em louvor a São João Batista)",
+            "Quarta-feira: 15h00 (Missa e novena de Nossa Senhora do Perpétuo Socorro)",
+            "Quinta-feira: 15h00 (a cada 15 dias Missa da Misericórdia)",
+            "Sexta-feira: 15h00 (exceto última sexta)",
+            "Sábado: 19h30",
+            "Domingo: 10h00 (Missa das crianças) e 19h30"
+          ],
+          "capelas": [
+              {
+                  "nome": "Capela do hospital",
+                  "local": "Hospital?",
+                  "horarios": ["Última sexta-feira: 15h00"]
+              },
+              {
+                  "nome": "Capela São Benedito",
+                  "local": "Praça São Benedito s/nº",
+                  "horarios": [
+                    "Domingo: 8h00",
+                    "Última Quinta-feira do mês: das 18h30 às 19h30 (adoração e missa)"
+                  ]
+              },
+              {
+                  "nome": "Capela Santo Antônio",
+                  "local": "Bairro Ribeirãozinho",
+                  "horarios": ["2ª quarta-feira: 19h30"]
+              },
+              {
+                  "nome": "Capela Santa Virgínea ",
+                  "local": "Bairro do Quilombo",
+                  "horarios": ["3ª quarta-feira: 19h30"]
+              },
+              {
+                  "nome": "Capela São Vicente Ferrer",
+                  "local": "Bairro São Vicente",
+                  "horarios": [
+                    "1ª sexta-feira: 19h30",
+                    "3º domingo: 15h00"
+                  ]
+              },
+              {
+                  "nome": "Capela São Judas Tadeu",
+                  "local": "Bairro Jardim Brasil",
+                  "horarios": ["3ª quarta-feira: 19h30 (Celebração da Palavra) "]
+              }
+
+          ],
+          "informacoesAdicionais": {
+              "regiaoPastoral": 2, 
+              "criacao":"08/09/1925", 
+              "festa":"24/06", 
+              "padroeiro":"São João Bastista",
+              "paroco": "Pe. Rosinaldo Faria de Sousa" 
+          }
+      }
+  },
+  "arealva": {
+      "santaCatarinaDeAlexandria":{
+          "nome":"Santa Catarina de Alexandria",
+          "horariosDeMissa":[
+            "Todos os dias: 08h00 (Terço Eucarístico)",
+            "1ª segunda-feira: 06h00 (missa no cemitério)",
+            "Quarta-feira: 17h00 (Terço da Mãe Peregrina)",
+            "Quinta-feira: 19h00 (Hora Santa Mariana)",
+            "1ª sexta-feira: 19h30 (Missa do Sagrado Coração de Jesus)",
+            "2ª, 3ª e 4ª sextas-feiras: 7h00 (Missa e Novena de Nossa Senhora do Perpétuo Socorro)",
+            "Última sexta-feira do mês: 00h00 (Missa dos jovens)",
+            "Sábado: 17h00 (Missa das crianças)",
+            "Domingo: 19h00 (19h30 no horário de verão)"
+          ],
+          "capelas": [
+              {
+                  "nome": "Capela Rainha da Paz ",
+                  "local": "Rua Túlio Lenharo, 57 (Bairro Vila Damascena)",
+                  "horarios": [
+                    "Segunda à sexta-feira: 8h00 (Terço com Eucaristia)",
+                    "1ª terça-feira: 20h00 (Missa de Casais)",
+                    "2ª terça-feira: 20h00 (Terço dos homens)",
+                    "3ª terça-feira: 20h00 (Terço das mulheres)",
+                    "Sábado: 19h00 (Missa)",
+                    "Sábado: a noite toda (Adoração ao Santíssimo)"
+                  ]
+              },
+              {
+                  "nome": "Capela São Pedro ",
+                  "local": "Rua José Antonio de Faria S/N (Bairro São Pedro)",
+                  "horarios": [
+                    "Todos os dias: 16h00 (Terço Eucarístico)",
+                    "2º, 3º e 4º domingo: 7h30 (Missa)"
+                  ]
+              },
+              {
+                  "nome": "Capela Nossa Senhora Aparecida",
+                  "local": "Bairro Aparecidinha",
+                  "horarios": [
+                    "Terça-feira: 20h00 (Celebração da Palavra e terço)",
+                    "4ª sexta-feira: 19h30 (Missa)"
+                  ]
+              },
+              {
+                  "nome": "Capela Santa Luzia",
+                  "local": "Sítio Santa Virgínia Bairro (Bairro Taquaraçu)",
+                  "horarios": [
+                    "Todo dia 13: 19h30 (Adoração ao Santíssimo)",
+                    "2ª quarta-feira: 19h30 (Missa)",
+                    "4º quinta-feira: 6h00 (missa)",
+                    "Sábado: 19h30 (Celebração da Palavra)"
+                  ]
+              },
+              {
+                  "nome": "Capela São João Batista",
+                  "local": "Sítio São Geraldo (Bairro Ribeirão Bonito)",
+                  "horarios": [
+                    "4ª terça-feira: 19h30 (Missa)",
+                    "2ª quarta-feira: 06h00 (Missa)",
+                    "Quarta-feira: 19h30 (Terço)",
+                    "Sexta-feira: 19h30 (Celebração da Palavra)"
+                  ]
+              },
+              {
+                  "nome": "Capela Santo Antônio",
+                  "local": "(Bairro Gomes)",
+                  "horarios": [
+                    "Todo dia 13: 19h30 (Adoração ao Santíssimo)",
+                    "Quarta-feira: 19h30 (Adoração ao Santíssimo)",
+                    "3ª quarta-feira: 19h30 (Missa)",
+                    "1ª sexta-feira: 19h30 (Celebração da Palavra)",
+                    "Sábado: 19h30 (Celebração da Palavra)"
+                  ]
+              },
+              {
+                  "nome": "Capela Menino Jesus",
+                  "local": "(Bairro Corvo Branco)",
+                  "horarios": ["1ª quarta-feira: 19h30 (Missa)"]
+              },
+              {
+                  "nome": "Capela Santa Terezinha",
+                  "local": "Sítio Barra Bonita (Bairro Eufrauzino)",
+                  "horarios": [
+                    "3º sexta-feira: 19h30 (Missa)",
+                    "Sábado: 15h00 (Celebração da Palavra)"
+                  ]
+              },
+              {
+                  "nome": "Capela São Sebastião",
+                  "local": "Avenida Fluvial, 55 (Bairro Vale do Sol)",
+                  "horarios": ["4º quarta-feira: 19h30 (Missa)"]
+              },
+              {
+                  "nome": "Capela São Vicente de Paula",
+                  "local": "Avenida da Saudade, 593, Vila Vicentina – Centro (Vila Vicentina)",
+                  "horarios": [
+                    "1ª e 3ª terça-feira: 15h00 (Missa)",
+                    "2ª e 4ª terça-feira: 09h00 (Celebração da Palavra)"
+                  ]
+              },
+              {
+                  "nome": "Capela Nossa Senhora Aparecida",
+                  "local": "(Bairro Soturninha)",
+                  "horarios": [
+                    "Todo dia 12 de cada mês: 20h00 (Adoração ao Santíssimo)",
+                    "1ª, 3ª e 4ª sextas-feiras: 20h00 (Celebração da Palavra)",
+                    "2ª sexta-feira: 20h00 (Missa)"
+                  ]
+              },
+              {
+                  "nome": "Capela Santa Isabel",
+                  "local": "Praça Manoel da Silva (Bairro Santa Isabel)",
+                  "horarios": [
+                    "1º e 3º domingo: 10h00 (Missa)",
+                    "2º e 4º domingo: 15h00 (Celebração da Palavra)"
+                  ]
+              },
+              {
+                  "nome": "Capela São Francisco de Paula",
+                  "local": "Rua José Gonçalves de Mendonça , 140 (Distrito Jacuba)",
+                  "horarios": [
+                    "Todos os dias: 8h30 (Terço)",
+                    "Quarta-feira: 19h30 (Grupo de Oração)",
+                    "Quarta-feira: 15h00 (Novena de Nossa Senhora)",
+                    "1ª quinta-feira: 15h00 (Missa)",
+                    "Sexta-feira: 20h00 (Intercessão)",
+                    "1ª sexta-feira feira do mês, o dia todo até as 20h00 (Adoração ao Santíssimo)",
+                    "1ªsexta-feira: 20h00 (Celebração da Palavra - Sagrado Coração de Jesus)",
+                    "1º, 3º e 4º sábado: 20h00 (celebração da Palavra)",
+                    "2º domingo: 10h00 (Missa)"
+                  ]
+              },
+              {
+                  "nome": "Capela Santo Antônio ",
+                  "local": "Avenida Adelino Mendonça, 485, Centro (Cidade)",
+                  "horarios": [
+                    "Segunda-feira: 8h00 (Terço Eucarístico)",
+                    "Terça-feira: o dia todo (Adoração ao Santíssimo)",
+                    "Quarta-feira: 19h00 (Terço Eucarístico)",
+                    "1ª quinta-feira: 19h30 (Missa)"
+                  ]
+              },
+              {
+                  "nome": "Capela São José",
+                  "local": "Rua Jorge Rufino Luciano, 270, Vila José Ricardo",
+                  "horarios": [
+                    "2ª quinta-feira: 19h30 (Missa)",
+                    "Sexta-feira: o dia todo (Adoração ao Santíssimo)",
+                    "1º domingo: 7h30 (Missa)"
+                  ]
+              },
+              {
+                  "nome": "Santuário de Schoenstatt – Ermida",
+                  "local": "-",
+                  "horarios": ["3ª quinta-feira: 19h30 (Missa)"]
+              },
+              {
+                  "nome": "Capela Nossa Senhora Aparecida",
+                  "local": "Rua Pedro Cinegaglia,S/N (Bairro Marilândia)",
+                  "horarios": [
+                    "3ª terça-feira: 19h30 (Missa)",
+                    "1ª sexta-feira: 06h00 (Missa)",
+                    "Sábado: 19h30 (Adoração ao Santíssimo e Celebração da Palavra)"
+                  ]
+              },
+              {
+                  "nome": "Capela Santa Cruz",
+                  "local": "(Santa Cruz)",
+                  "horarios": [
+                    "Toda quinta-feira: 19h30 (Novena de Nossa Senhora do Perpétuo Socorro)",
+                    "Domingo: 09h00 (Celebração da Palavra)",
+                    "4º domingo: 10h00 (Missa)"
+                  ]
+              },
+              {
+                  "nome": "Comunidade São Francisco de Assis",
+                  "local": "(Recanto São Francisco)",
+                  "horarios": ["2ª quinta-feira: 19h30"]
+              },
+              {
+                  "nome": "Comunidade Santa Rita de Cássia",
+                  "local": "Comunidade Santa Rita de Cássia",
+                  "horarios": ["2ª terça-feira: 19h30"]
+              },
+              {
+                  "nome": "Capela Ressureição",
+                  "local": "(Cemitério)",
+                  "horarios": ["1ª segunda-feira: 06h00"]
+              }
+          ],
+          "informacoesAdicionais": {
+              "regiaoPastoral": 2, 
+              "criacao":"08/09/1925", 
+              "festa":"25/11", 
+              "padroeiro":"Santa Catarina de Alexandria", 
+              "paroco": "Pe. Romildo Alceu da Silva",
+              "diaconoPermanente": "Diác. Antônio Arthur Fernandes"
+          }
+      }
+  }
+  
+}
