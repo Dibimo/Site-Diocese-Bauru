@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import BarraNavegacao from "./../../components/BarraNavegacao/BarraNavegacao";
 import Rodape from "./../../components/Rodape/Rodape";
 import CardParoquia from "./../../components/CardParoquia/CardParoquia";
+import Titulo from "./../../components/Titulo/Titulo";
 import paroquias from "./../../data/paroquias.json";
 
 class Paroquias extends Component {
@@ -37,6 +38,7 @@ class Paroquias extends Component {
     return (
       <div className="container">
         <BarraNavegacao></BarraNavegacao>
+        <Titulo titulo={"Paróquias"}></Titulo>
         <select
           name="selecionaCidade"
           id="selecionadaCidade"
