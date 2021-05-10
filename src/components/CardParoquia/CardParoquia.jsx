@@ -6,17 +6,22 @@ class CardParoquia extends Component {
     super(props);
     this.paroquia = {};
   }
-  constroiHorariosMissas(horariosVetor) {
+  constroiHorariosMissas(vetor) {
     let horariosDivs = [];
-    horariosVetor.map((horario) => {
+    vetor.map((horario) => {
       horariosDivs.push(<div> &ensp; {horario}</div>);
     });
     return horariosDivs;
   }
 
-  constroiCapelas(capelasVetor) {
+  constroiCapelas(vetor) {
+    let capelas = [<div>Capelas</div>];
+    if(vetor.length == 0){
+      capelas.push(<div>Matriz</div>)
+      return (capelas);
+    }
     let capelasDivs = [];
-    capelasVetor.map((capela) => {
+    vetor.map((capela) => {
       capelasDivs.push(
         <div>
           <div>&ensp;{capela.nome}</div>
@@ -26,7 +31,8 @@ class CardParoquia extends Component {
         </div>
       );
     });
-    return capelasDivs;
+    capelas.push(capelasDivs);
+    return capelas;
   }
 
   
@@ -39,7 +45,6 @@ class CardParoquia extends Component {
         <div>Horarios das Missas Matriz:</div>
         {this.constroiHorariosMissas(this.props.paroquia.horariosDeMissa)}
         <hr></hr>
-        <div>Capelas</div>
         {this.constroiCapelas(this.props.paroquia.capelas)}
       </div>
     );

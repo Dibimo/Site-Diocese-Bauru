@@ -45,6 +45,7 @@ class Paroquias extends Component {
           onChange={this.handleChange}
         >
           <option value="agudos">Escolha a Cidade</option>
+          <option value="bauru">Bauru</option>
           <option value="agudos">Agudos</option>
           <option value="avai">Avai</option>
           <option value="boraceia">Boraceia</option>
