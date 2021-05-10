@@ -1,7 +1,7 @@
 {
   "agudos": {
     "nossaSenhoraAparecida": {
-      "nome": "Nossa Senhora Apareida",
+      "nome": "Nossa Senhora Aparecida",
       "horariosDeMissa": [
         "Todas as quintas-feiras - 19h30",
         "Primeira sexta-feira do mês - 19h30, em devoção ao Sagrado Coração de Jesus",
@@ -816,6 +816,723 @@
               "diaconoPermanente": "Diác. Antônio Arthur Fernandes"
           }
       }
+  },
+  "bauru": {
+    "nossaSenhoraAparecida": {
+      "nome": "Nossa Senhora Aparecida",
+      "horariosDeMissa": [
+        "Segunda a Quinta-feita - 19h00",
+        "Quarta-feira - 6h30, 15h00 e 19h30 (Novena Perpétua)",
+        "Sexta-feira - 15h00",
+        "Sábado - 7h00",
+        "Domingo - 6h30, 8h00, 10h00 e 18h00"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Cruzeiro Santa Luzia",
+          "local": "Rua 12 de Outubro, 14-61, Vila Seabra",
+          "horarios": ["Domingo: 19h30"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 1,
+        "criacao": "28/12/1952",
+        "festa": "12/10",
+        "padroeiro": "Nossa Senhora Aparecida",
+        "administradorParoquial": "Pe. Joaquim dos Santos Filho, MSC",
+        "vigarioParoquial": "Pe. Carlos Roberto Rodrigues, MSC"
+      }
+    },
+    "saoCristovao":{
+      "nome": "São Cristóvão",
+      "horariosDeMissa": [
+        "Terça a sexta-feira: 7h00",
+        "Sábado: 17h",
+        "Domingo: 10h00, 12h15 e 19h00"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Nossa Senhora do Rosário",
+          "local": "Rua Luis Ferrari, 3-121, Parque das Nações",
+          "horarios": ["Domingo: 8h00"]
+        },
+        {
+          "nome": "Capela Nossa Senhora do Carmo",
+          "local": "Rua Aviador Ribeiro de Barros, 7-45, Jardim Europa",
+          "horarios": ["Terça-feira: 20h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 1,
+        "criacao": "27/03/1991",
+        "festa": " 25/07",
+        "padroeiro": "São Cristóvão",
+        "administradorParoquial": "Pe. Marcos Eduardo Pavan"
+      }
+    },
+    "saoJudaseSaoDimas":{
+      "nome": "São Judas Tadeu e São Dimas - Bauru",
+      "horariosDeMissa": [
+        "Quinta-feira: 19h30 (O dia todo adoração ao Santíssimo Sacramento a partir das 08h00)",
+        "1ª Sexta-feira: 16h00",
+        "Sábado: 19h30",
+        "Domingo: 08h00",
+        "Todo dia 28 do mês: 19h30 (Exceto quando cai aos domingos)"
+      ],
+      "capelas": [
+        {
+          "nome": "Santuário Nossa Senhora de Fátima",
+          "local": "Avenida Comendador José da Silva Martha, quadra 2, Jardim Estoril",
+          "horarios": ["Terça a Sexta: 07h00", "Quarta: 15h00 (Missa e Novena de Nossa Senhora do Perpétuo Socorro)","1° Sábado: 08h00","Domingo: 10h30 e 19h30"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 1,
+        "criacao": "21/05/1962",
+        "festa": "28/10 e 25/3",
+        "padroeiro": "São Cristóvão",
+        "paroco": "Pe. Gustavo da Natividade",
+        "diaconoPermanente": "Diác. José Luiz Faco"
+      }
+    },
+    "santaRitaDeCassia":{
+      "nome": "Santa Rita de Cássia",
+      "horariosDeMissa": [
+        "Quinta-feira: 15h00 (Missa dos doentes)",
+        "1ª sexta-feira: 19h30 (Missa do Sagrado Coração de Jesus)",
+        "Sábado: 16h30 e 19h00",
+        "Domingo: 7h30, 10h00 (Missa das Crianças),19h00 (Missa dos Jovens)"
+      ],
+      "capelas" :[],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 1,
+        "criacao": "02/02/1969",
+        "festa": "22/05",
+        "padroeiro": "Santa Rita",
+        "paroco": "Pe. Milton César Carraschi"
+      }
+    },
+    "santaTeresinhaDoMeninoJesus": {
+      "nome": "Santa Teresinha do Menino Jesus",
+      "horariosDeMissa": [
+        "Segunda a Sábado: 17h00",
+        "1º sábado do mês: 08h00 (Missa Imaculado Coração de Maria)",
+        "Domingo: 9h00 e 19h00"
+      ],
+      "capelas":[],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 1,
+        "criacao": "28/12/1952",
+        "festa": "01/10",
+        "padroeiro": "Santa Teresinha",
+        "paroco": "Pe. Carlos Henrique Andrade Siqueira",
+        "vigario": "Pe. Eduardo Campagnani Ferreira"
+      }
+    },
+    "saoJoseDeAnchieta": {
+      "nome": "São José de Anchieta",
+      "horariosDeMissa": [
+        "Quarta-feira: 20h00",
+        "Quinta-feira: 15h00 (Novena Nossa Senhora do Perpétuo Socorro)",
+        "1ª sexta-feira: 20h00 (Missa Sagrado Coração de Jesus)",
+        "Sábado: 20h00",
+        "Domingo: 10h00"
+      ],
+      "capelas": [
+        {
+          "nome": "Comunidade Santo Expedito",
+          "local": "A Rua Dorvalino Melges, Q2, Bauru 1",
+          "horarios": ["Domingo: 8h30"]
+        },
+        {
+          "nome": "Comunidade São Francisco de Assis",
+          "local": "Rua Zoraide Ribeiro Buso, 1-64, Jardim Chapadão",
+          "horarios": ["Domingo: 20h00"]
+        },
+        {
+          "nome": "Comunidade Nossa Senhora Aparecida",
+          "local": "Assentamento",
+          "horarios": ["Terça-feira a cada 15 dias: 20h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 2,
+        "paroco": "Pe. Edson Roberto Codato"
+      }
+    },
+    "nossaSenhoradasGracas":{
+      "nome": "Nossa Senhora das Graças",
+      "horariosDeMissa": [
+        "Segunda, quarta e sexta-feira: 19h30",
+        "Terça-feira: 15h30",
+        "Quinta-feira: 19h30 (Missa Seminário Propedêutico)",
+        "Sexta-feira: 06h30",
+        "Sábado: 14h30 e 19h30",
+        "Domingo: 8h00, 10h30 e 19h30"
+      ],
+      "capelas": [
+        {
+          "nome": "São Miguel Arcanjo",
+          "local": "Rua João Manoel Mendes Caetano, s/nº, Jardim Pagani",
+          "horarios": ["1º sexta-feira: 19h30 (Sagrado Coração de Jesus)", "Sábado: 19h30"]
+        },
+        {
+          "nome": "São João Batista",
+          "local": "Rua Salathiel Victorino da Silva, 18-78, Jardim Marília",
+          "horarios": ["Domingo: 9h30"]
+        },
+        {
+          "nome": "São Pedro",
+          "local": "Rua José Bonifácio, 20-15, Jardim Godoy",
+          "horarios": ["1º sexta-feira: 19h30 (Sagrado Coração de Jesus)", "Domingo: 19h30"]
+        },
+        {
+          "nome": "Comunidade São Francisco de Assis",
+          "local": "Rua Josefa Suniga Lopes, 4-48, Colina Verde e Parque City",
+          "horarios": ["Sábado: 18h00"]
+        },
+        {
+          "nome": "Comunidade Nossa Senhora Aparecida",
+          "local": "Rua Rosângela Vieira Martins Carvalho, 3-17, Jardim Ivone",
+          "horarios": ["Domingo: 9h30"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 2,
+        "criacao": "15/08/1966",
+        "festa": "27/11",
+        "padroeiro": "Nossa Senhora das Graças",
+        "paroco": " Padre Carlos André da Silva Câmara, RCJ",
+        "vigario": "Pe. Mateus de Jesus Donizetti Albino, RCJ, Pe. Guido Montinelli, RCJ, Pe. Henrique de Lima Mateus, RCJ" 
+        }
+      },
+      "saoBras":{
+      "nome": "São Brás",
+      "horariosDeMissa": [
+        "1 vez por mês: 19h30 (Grupo de Oração Missão Resgate)",
+        "Segunda-feira: 19h30 (terço dos homens)",
+        "Todo dia 03 de cada mês: 19h30 (missa de São Brás)",
+        "Terça-feira: 19h30 (Missa de setor)",
+        "Última terça-feira do mês: 15h00 (Missa da Saúde)",
+        "Quarta-feira: 19h30",
+        "2ª quinta-feira: 19h30 (Adoração)",
+        "Domingo: 8h00 e 19h30"
+      ],
+      "capelas": [
+        {
+          "nome": "Nossa Senhora Aparecida",
+          "local": "Rua 9 de Julho, s/n- Tibiriçá",
+          "horarios": ["Segunda-feira: 20h00 (Novena das Almas)", "Terça-feira: 19h30 (Missa de setor)","Sábado: 20h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 2,
+        "criacao": "19/03/2000",
+        "festa": "03/02",
+        "padroeiro": "São Brás",
+        "paroco": "Pe. Sebastião Pereira"
+      }
+    },
+    "santaEdwiges" : {
+      "nome": "Santa Edwiges",
+      "horariosDeMissa": [
+        "Segunda-feira: 20h00 (Terço dos homens)",
+        "Quinta-feira: 20h00 (Grupo de Oração)",
+        "1ª sexta-feira: 20h00 (Missa do Sagrado de Jesus)",
+        "Domingo: 10h00 e 18h00"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Nossa Senhora do Carmo",
+          "local": "Rua Luiz Marcilio Bernardo, 3-20, Bauru 2000",
+          "horarios": ["Segunda-feira: 20h00 (Terço das Mulheres)", "Domingo: 7h00"]
+        },
+        {
+          "nome": "Capela Nossa Senhora de Guadalupe",
+          "local": "Rua Simphoriano Cara, 5-30, Beija Flor",
+          "horarios": ["Terça-feira: 18h00 (Vicentinos)", "Terça-feira: 19h00 (Legião de Maria)","Quinta-feira: 20h00 (Missa)","Sábado: 19h30 (Missa)"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 2,
+        "criacao": "19/03/1999",
+        "festa": "16/10",
+        "padroeiro": "Santa Edwiges",
+        "administradorParoquial": "Pe. Gilberto José de Melo"
+      }
+    },
+    "santaLuzia": {
+      "nome": "Santa Luzia",
+      "horariosDeMissa": [
+        "1ª quinta-feira: 20h00 (Hora Santa)",
+        "Dia 13 de cada mês: 20h00 (Missa da Luz)",
+        "Domingo: 10h00 e 19h30"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Santa Maria Goretti",
+          "local": "Avenida Coronel Antônio Ávila Rebolças, 3-45, Jardim Eldorado",
+          "horarios": ["Quarta-feira: 19h30 (Missa pelas Famílias)", "Domingo: 8h00"]
+        },
+        {
+          "nome": "Comunidade Nossa Senhora Aparecida",
+          "local": "Rua Silas Vicente de Toledo Piza, 5-36, Jardim Flórida",
+          "horarios": ["Sábado: 19h30"]
+        },
+        {
+          "nome": "Fraternidade Santo Inácio de Antioquia",
+          "local": "Alameda das Hortênsias, 8-40, Parque Vista Alegre",
+          "horarios": ["Terça a sexta-feira: 7h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 2,
+        "festa": "13/12",
+        "criacao": "20/01/1969",
+        "padroeiro": "Santa Luzia",
+        "paroco": "Pe. Frei Luciano da Silva Barbosa, SIA",
+        "diaconoPermanente": "Diác. Marcos Alberto Arantes"
+      }
+    },
+    "saoPauloApostolo" :{
+      "nome": "São Paulo Apóstolo",
+      "horariosDeMissa": [
+        "1ª sexta-feira: 20h00 (Sagrado Coração de Jesus / Hora Santa)",
+        "Todas as sextas-feiras: 19h30 (Missa pelas famílias)",
+        "Domingo: 8h00 e 19h30"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Santa Paulina",
+          "local": "Rua Ângelo Vianello, 2-5, Nova Bauru",
+          "horarios": ["Sábado: 20h00"]
+        },
+        {
+          "nome": "Capela Nossa Senhora Aparecida",
+          "local": "Rua Antônio Jerônimo da Silva, 2-55, Pousada ll",
+          "horarios": ["Domingo: 10h00"]
+        },
+        {
+          "nome": "Capela São Roque",
+          "local": "Barra Grande",
+          "horarios": ["1º e 3º Sábado: 18h30"]
+        },
+        {
+          "nome": "Capela São Sebastião",
+          "local": "Rio Verde",
+          "horarios": ["2º e 4º Sábado: 18h30"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 2,
+        "festa": "29/06",
+        "criacao": "03/10/2004",
+        "padroeiro": "São Paulo Apóstolo",
+        "administradorParoquial": " Pe. Frei José Adeildo dos Santos, SIA"
+      }
+    },
+    "mariaMaeDoRedentor" :{
+      "nome": "Maria Mãe do Redentor",
+      "horariosDeMissa": [
+        "Quarta-feira: 19h30",
+        "Sexta-feira: 19h30",
+        "Domingo: 10h00 e 19h00"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Nossa Senhora do Terço",
+          "local": "Av: Cruzeiro do Sul, 45-23 - Parque Ferradura Mirim",
+          "horarios": ["Domingo: 8h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 3,
+        "festa": "15/09",
+        "criacao": "11/11/1987",
+        "paroco": "Pe. Agnaldo Pereira",
+        "diacono": "Diácono Murilo Keler Fernandes",
+        "padroeiro": "Maria Mãe do Redentor"
+      }
+    },
+    "imaculadaConceicao" :{
+      "nome": "Imaculada Conceição",
+      "horariosDeMissa": [
+        "Quarta-feira: 19h30",
+        "Domingo: 09h30 e 19h30"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Cristo Rei",
+          "local": "Rua Adante Gigo, 8-77, Jardim Carolina",
+          "horarios": ["Sexta-feira: 16h", "Domingo: 8h"]
+        },
+        {
+          "nome": "Capela Nossa Senhora da Assunção",
+          "local": "Rua Celso Lemos de Almeida, 1-35, Geisel",
+          "horarios": ["Última segunda-feira do mês: 20h00 (Missa carismática)", "Terça-feira: 16h00", "Sábado: 19h30, Hospital Estadual", "Sexta-feira: 14h30"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 3,
+        "festa": "08/12",
+        "criacao": "08/12/2006",
+        "paroco": "Pe. Everaldo Junior Rambaldi"
+      }
+    },
+    "mariaDeNaraze":{
+      "nome": "Maria de Nazaré",
+      "horariosDeMissa": [
+        "Sexta-feira, às 20h, na Igreja Matriz",
+        "1ª sexta-feira: 20h (Missa devocional ao Sagrado Coração de Jesus, com bênçãos dos medicamentos.)",
+        "2ª sexta-feira: 20h (Missa e Novena do Divino Pai Eterno, com bênçãos da água, do sal, dos objetos de devoções, motoristas e chaves de veículos.)","3ª sexta-feira: 20h (Missa pela cura e libertação das famílias, com benção às famílias com o Santíssimo Sacramento.)", "4ª sexta-feira: 20h (Missa pela Misericórdia, com unção dos enfermos.)", "Domingo: 07h30", "Domingo: 19h00"
+      ],
+      "capelas": [
+        {
+          "nome": "Igreja São Francisco de Assis",
+          "local": "Rua Carlos Gomes Camargo, 2-82, Núcleo Otávio Rasi",
+          "horarios": ["Quarta-feira às 19h30", "1ª quarta-feira Missa e Novena do Divino Pai Eterno.", "Domingo: 09h30"]
+        },
+        {
+          "nome": "Condomínio Terra Nova",
+          "horarios": ["2ª Terça – feira, às 20hs"]
+        },
+        {
+          "nome": "Igreja Nossa Senhora Rainha da Paz",
+          "local": "Rua Carlos Gomes Teixeira, 9-14, Jardim Tangarás",
+          "horarios": ["Sábado: 18h00"]
+        },
+        {
+          "nome": "Igreja Santa Teresinha do Menino Jesus",
+          "local": "Rua Wirton Pinto dos Santos, quadra 3, Parque Santa Terezinha.",
+          "horarios": ["Sábado: 20h00"]
+        },
+        {
+          "nome": "Capela do Instituto Lauro",
+          "horarios": ["1ª Quinta-feira: 11hs"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 3,
+        "festa": "25/03",
+        "criacao": "25/03/1999",
+        "paroco": "Pe. Camilo da Silva Matos",
+        "padroeiro": "Maria de Nazaré",
+        "diaconoPermanente": "Paulo Roberto Oliveira Lourenço"
+      }
+    },
+    "santuarioDoSagradoCoracao":{
+      "nome": "Santuário do Sagrado Coração de Jesus",
+      "horariosDeMissa": [
+        "De segunda a sexta-feira: 18h (capela do Santíssimo)",
+        "1ª terça-feira: 18h (Missa e Novena de Nossa Senhora do Perpétuo Socorro)",
+        "1ª Sexta-feira: 18h00 (Missa Sagrado Coração de Jesus)","Sábado: 19h", "Domingo: 10h e 19h", "2º domingo: 10h00 (Missa Santa Filomena)"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela da USC",
+          "local": "Universidade do Sagrado Coração",
+          "horarios": ["Segunda, terça, quinta e sexta-feira: 6h55", "Quarta-feira: 18h (Teatro Clélia Merloni)"]
+        },
+        {
+          "nome": "UNESP",
+          "local": "UNESP Bauru",
+          "horarios": ["Toda 2ª terça-feira do mês: 18h"]
+        },
+        {
+          "nome": "Centrinho",
+          "local": "Centrinho Bauru",
+          "horarios": ["Quarta-feira: 13h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 3,
+        "festa": "móvel",
+        "criacao": "07/06/1991",
+        "paroco": "Pe. Leonildo Minutti Júnior",
+        "padroeiro": "Sagrado Coração de Jesus",
+        "diaconoPermanente": "Diác. Dr. José Rafael Mazzoni"
+      }
+    },
+    "sagradaFamilia" :{
+      "nome": "Sagrada Família",
+      "horariosDeMissa": [
+        "Segunda a Sexta: 7h00 da manhã.",
+        "Sábado: 18h00",
+        "Domingos: 10h00 e 19h00"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela São Francisco Xavier",
+          "local": "Rua Valdemar Pereira Ferreira dos Santos, 5-30, Jardim Nicéia",
+          "horarios": ["Sábado às 19h30"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 3,
+        "festa": "Sagrada Família",
+        "criacao": "11/02/1995",
+        "padroeiro": "Sagrada Família",
+        "administradorParoquial": "Pe. Gustavo Rubin da Mota"
+      }
+    },
+    "saoSebastiao":{
+      "nome": "São Sebastião",
+      "horariosDeMissa": [
+        "​Quarta-feira: 19h30",
+        "Sexta-feira: 8h00",
+        "Sábado: 17h00",
+        "Domingo: 10h00 e 19h00"
+      ],
+      "capelas":[],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 3,
+        "festa": "móvel",
+        "criacao": "20/1",
+        "paroco": "Pe. Leonildo Minutti Júnior",
+        "padroeiro": "São Sebastião",
+        "diaconoPermanente": "Diác. Dr. José Rafael Mazzoni"
+      }
+    },
+    "saoSebatiao" :{
+      "nome": "São Sebastião",
+      "horariosDeMissa": [
+        "​Quarta-feira: 19h30",
+        "Sexta-feira: 8h00",
+        "Sábado: 17h00",
+        "Domingo: 10h00 e 19h00"
+      ],
+      "capelas":[],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 3,
+        "festa": "20/1",
+        "criacao": "21/05/1962",
+        "paroco": "Pe. Agnaldo Pereira",
+        "padroeiro": "São Sebastião",
+        "diacono": "Diácono Murilo Keler Fernandes"
+      }
+    },
+    "santoAntonioDePadua":{
+      "nome": "Santo Antônio de Pádua",
+      "horariosDeMissa": [
+        "Terça-feira: missa às 19h00",
+        "Quinta-feira: missa às 19h00",
+        "Sábado: missa às 19h00",
+        "Domingo: missas às 7h  /  9h  /  10h30  /  19h"
+      ],
+      "capelas": [
+        {
+          "nome": "Comunidade Santa Edwiges",
+          "horarios": ["Missas: 2º e 4º domingo, às 8h30", "Celebrações: 1º, 3º e 5º domingo, às 8h30"]
+        },
+        {
+          "nome": " Comunidade Senhor Bom Jesus",
+          "horarios": ["Missas: 1º e 3º sábado, às 19h", "Celebrações: 2º, 4º e 5º sábado, às 19h00"]
+        },
+        {
+          "nome": "Comunidade São Lucas",
+          "horarios": ["Missas: 2º e 4º sábado, às 19h30", "Celebrações: 1º, 3º e 5º sábado, às 19h30"]
+        },
+        {
+          "nome": "Comunidade São Francisco",
+          "horarios": ["Missas: 1º e 3º domingo, às 8h30", "Celebrações: 2º, 4º e 5º domingo, às 8h30"]
+        },
+        {
+          "nome": "Comunidade São João Batista",
+          "horarios": ["Missas: 1º e 3º domingo, às 19h00", "Celebrações: 2º, 4º e 5º domingo, às 19h00"]
+        },
+        {
+          "nome": "Comunidade São José",
+          "horarios": ["Missas: 2º e 4º domingo, às 19h00", "Celebrações: 1º, 3º e 5º domingo, às 19h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 4,
+        "festa": "13/06",
+        "criacao": "28/12/1952",
+        "paroco": "Pe. Frei Ademir Sanquetti, OFM",
+        "padroeiro": "Santo Antônio",
+        "vigarioParoquial" : "Pe. Frei André Becker, OFM; Pe. Frei Ricardo Backbs, OFM"
+      }
+    },
+    "saoBenedito" : {
+      "nome": "São Benedito",
+      "horariosDeMissa": [
+        "1ª sexta-feira: 15h00 (Missa do Sagrado Coração de Jesus)",
+        "Domingo: 7h00, 10h00 e 19h00"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Nossa Senhora de Lourdes",
+          "local": "Rua: Carlos de Campos, 14-46, Vila Souto",
+          "horarios": ["Domingo: 8h30min"]
+        },
+        {
+          "nome": "Capela Nossa Senhora da Penha",
+          "local": "Rua: Siqueira Campos, 4-85, Vila Giunta",
+          "horarios": ["Terça à sexta-feira: 7h00", "Sábado: 19h30"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 4,
+        "festa": "05/10",
+        "criacao": "21/07/1944",
+        "paroco": "Pe. Gustavo Henrique Crepaldi",
+        "padroeiro": "São Benedito"
+      }
+    },
+    "santaClara":{
+      "nome": "Santa Clara",
+      "horariosDeMissa": [
+        "2ª Quinta-feira: 19h00 (Hora Santa)",
+        "Quinta-feira: 20h00","1º, 3º e 5º Domingo: 9h30 e 19h00", "2º e 4º Domingo: 9h30 (Celebração da Palavra)"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela São Miguel",
+          "local": "Rua: Soldado José Pereira, 2-40, Nova Esperança",
+          "horarios": ["1ª sexta-feira: 20h00", "1º, 3º e 5º Domingo: 8h00", " 2º e 4º Domingo: 8h (Celebração da Palavra)"]
+        },
+        {
+          "nome": "Capela Nossa Senhora das Dores",
+          "local": "Avenida Gabriel Rabelo de Andrade, 8-18, Parque Jaraguá",
+          "horarios": ["3º sexta-feira: 20h00", "2º e 4º Domingo:10h00", "1º, 3º e 5º Domingo: 10h00 (Celebração da Palavra)"]
+        },
+        {
+          "nome": "Capela São Mateus",
+          "local": "Rua: Alameda Ematite, 3-64, Santa Edviges",
+          "horarios": ["1º, 3º e 5º Sábado: 19h00", "2º e 4º Sábado: 19h00 (Celebração da Palavra)"]
+        },
+        {
+          "nome": "Capela São Sebastião",
+          "local": "Rua: São Sebastião, 1-96, Jardim da Grama",
+          "horarios": ["4ª sexta-feira: 20h00", "2º e 4º Domingo: 8h30"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 4,
+        "festa": "11/08",
+        "criacao": "11/08/2001",
+        "administradorParoquial": "Pe. Giuliano Henrique Lourenço Alamino",
+        "padroeiro": "Santa Clara de Assis",
+        "diacono": "Thiago de Freitas Albertini"
+      }
+    },
+    "saoJoseTrabalhador":{
+      "nome": "São José Trabalhador",
+      "horariosDeMissa": [
+        "Quarta-feira: 15h (Novena de Nossa Senhora do Perpétuo Socorro)",
+        "1ª sexta-feira: 19h30 (Apostolado da oração)"," Quinta-feira: 8h00 (Hora Santa)", " Quinta-feira: 20h (Missa de Setor)", " Domingo: 8h30, 10h00 e 19h30"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Nossa Senhora Aparecida",
+          "local": "Rua: Edílson Alves de Carvalho, quadra 5, Vila Celina",
+          "horarios": ["Sábado: 19h00"]
+        },
+        {
+          "nome": "Capela Santa Madre Paulina",
+          "local": "Hospital Manoel de Abreu",
+          "horarios": ["Quinta-feira: 15h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 4,
+        "festa": "19/03",
+        "criacao": "25/12/1994",
+        "paroco": "Pe. Giuliano Henrique Lourenço Alamino",
+        "padroeiro": "São José Operário",
+        "diacono": "Thiago Freitas Albertini"
+      }
+    },
+    "saoPedroApostolo": {
+      "nome": "São Pedro Apóstolo",
+      "horariosDeMissa": [
+        "Quarta-feira: 20h00",
+        "1ª sexta-feira do mês: 20h (Missa do Sagrado Coração de Jesus)","Domingo: 9h30"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Nossa Senhora Rainha da Paz",
+          "local": "Rua Ezequiel de Mendonça, 4-5 - Pq. Santa Cândida",
+          "horarios": ["Sábado: 20h00", "Terça-feira: 20h (Missa nos Setores)"]
+        },
+        {
+          "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+          "local": "Rua Odil Pires da Silva, 2-56 - Pq. Real",
+          "horarios": ["Domingo: 8h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 4,
+        "festa": "29/06",
+        "criacao": "04/03/1999",
+        "administradorParoquial": "Pe. Reinaldo Batista da Cunha",
+        "padroeiro": "São Pedro"
+      }
+    },
+    "nossaSenhoraDaAssuncao":{
+        "nome": "Nossa Senhora da Assunção",
+        "horariosDeMissa": [
+          "Quarta-feira: 20h00 (Novena do Divino Pai Eterno)",
+          "Domingo: 9h30 e 19h30"
+        ],
+        "capelas": [
+          {
+            "nome": "Capela Jesus Trabalhador",
+            "local": "Rua José Thomas Ferreira, Quadra 3 (esquina com a Rua Argentina, Quadra 22) – Jd. Solange",
+            "horarios": ["Domingo: 8h00"]
+          }
+        ],
+        "informacoesAdicionais": {
+          "regiaoPastoral": 5,
+          "festa": "15/08",
+          "criacao": "13/02/2000",
+          "administradorParoquial": "Pe. Fernando Crialez Mastelari",
+          "padroeiro": "Nossa Senhora da Assunção"
+        }
+    },
+    "senhorBomJesus":{
+      "nome": "Senhor Bom Jesus",
+      "horariosDeMissa": ["Quarta–feira: 20h00"," Quinta–Feira: 15h00", "1ª Sexta-feira:  20h00", " Sábado: 18h30", "Domingo: 7h30, 9h30 e 19h00", " Terça e Sexta-feira: 20h00 - Missa nos Setores"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela São Pio X",
+          "local": " Rua Chyo Otaki, 6-70 – Vila Santista",
+          "horarios": ["Sábado: 20h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 5,
+        "festa": "06/08",
+        "criacao": "23/05/1965",
+        "paroco": "Pe. Wellington Supriano",
+        "padroeiro": "Senhor Bom Jesus"
+      }
+    },
+    "saoJoaoBatistaeNossaSenhoraLourdes":{
+      "nome": "São João Batista e Nossa Senhora de Lourdes",
+      "horariosDeMissa": ["1ª sexta-feira: 20h00 (Missa Sagrado Coração de Jesus)", " Dia 24 de cada mês: 20h00 (Missa em louvor a São João Batista)", " Quarta-feira: 20h00 (Novena Nossa Senhora do Perpétuo Socorro)", " Domingo: 9h30 (Missa das Crianças) e 19h00"
+      ],
+      "capelas": [
+        {
+          "nome": "Capela Sagrada Família",
+          "local": "Rua Arlindo Fidélis, 1-2 Jardim Ferraz",
+          "horarios": ["Domingo: 8h00"]
+        },
+        {
+          "nome": "Capela Nossa Senhora do Rosário",
+          "local": "Rua Waldomiro Gonçalves, 4-23, Joaquim Guilherme",
+          "horarios": ["Sábado: 19h00"]
+        }
+      ],
+      "informacoesAdicionais": {
+        "regiaoPastoral": 5,
+        "festa": "24/06",
+        "criacao": "23/06/1998",
+        "paroco": "Pe. Luís Antônio Carqueijo Sé",
+        "padroeiro": "São João Batista"
+      }
+    }
   }
-  
 }
