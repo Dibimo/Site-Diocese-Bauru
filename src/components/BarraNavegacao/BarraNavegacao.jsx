@@ -11,10 +11,10 @@ const BarraNavegacao = (props) => {
   const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
-        <div className="bg-danger">
-            <div className="navbar-dark bg-danger border border-danger rounded d-flex flex-column">
+        <div style={{backgroundColor: "darkred"}}>
+            <div className="navbar-dark  rounded d-flex flex-column">
                 <div className="p-2">
-                    <Navbar className="bg-danger rounded" light expand="row">
+                    <Navbar className=" rounded" light expand="row">
                     <Link to="/"><Col><NavbarBrand className="d-flex flex-row float-left">Home</NavbarBrand></Col></Link>
                     <Link to="/administracao"><Col><NavbarBrand className="d-flex flex-row float-left">Administração</NavbarBrand></Col></Link>
                     <Link to="/paroquias"><Col><NavbarBrand href="/paroquia" className="d-flex flex-row float-left">Paróquias</NavbarBrand></Col></Link>

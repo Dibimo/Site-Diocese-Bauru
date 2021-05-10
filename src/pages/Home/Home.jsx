@@ -2,7 +2,13 @@ import React, { Component } from 'react';
 import BarraNavegacao from './../../components/BarraNavegacao/BarraNavegacao'
 import PainelRotativo from './../../components/PainelRotativo/PainelRotativo'
 import Rodape from './../../components/Rodape/Rodape'
+import Card from "./Card";
+import Card2 from "./Card2";
+import Card3 from "./Card3";
+import {Grid} from "@material-ui/core";
+import Container from '@material-ui/core/Container';
 import "./estilo.css"
+
 
 
 var listaImagens = [];
@@ -18,7 +24,7 @@ class Home extends Component {
   }
   render() {
     return (
-      <div className="container">
+      <Container style={{backgroundColor: "#F3EEE8"}} border="1px" border-radius="5px"  sm="maxWidth">        
         <BarraNavegacao></BarraNavegacao>
         
         <PainelRotativo
@@ -46,41 +52,24 @@ class Home extends Component {
               </span></h2>
             </div>          
             <br></br><br></br>
-            <div alignitems="center" class="row">
+            
+            <Grid container 
+                spacing={4}
+                direction="row"
+                justify="center"
+                alignItems="center"
+              >
+              <Grid align="center" item xs={12} sm={6} md={4}>
+                <Card />
+              </Grid> 
+              <Grid align="center" item xs={12} sm={6} md={4}>
+                <Card2 />
+              </Grid>   
+              <Grid align="center" item xs={12} sm={6} md={4}>
+                <Card3 />
+              </Grid>
+            </Grid>
 
-              <div className="col-md-4 padding">
-                <div className="card h-30">
-                  <form>
-                    <div className="card-body">
-                      <img src="/imagens/Home/aconteceDiocese/Comunicados.jpg" width="100%" height="300px" alt="..." />
-                    </div>
-                    <div align="center" className="card-footer bg-danger"><h4>COMUNICADOS</h4></div>
-                  </form>
-                </div>
-              </div>
-
-              <div className="col-md-4 padding">
-                <div className="card h-30">
-                  <form>
-                    <div className="card-body">
-                      <img src="/imagens/Home/aconteceDiocese/Noticias.png" width="100%" height="300px" alt="..." />
-                    </div>
-                    <div align="center" className="card-footer bg-danger"><h4>NOTÍCIAS</h4></div>
-                  </form>
-                </div>
-              </div>
-
-              <div className="col-md-4 padding">
-                <div className="card">
-                  <form>
-                    <div className="card-body">
-                      <a href="/"><img src="/imagens/Home/aconteceDiocese/Bispos e padres.jpg" width="100%" height="300px" alt="..." /></a>
-                    </div>
-                    <div align="center" className="card-footer bg-danger"><h4>CLERO</h4></div>
-                  </form>
-                </div>
-              </div>
-            </div>
             <br></br>
           </div>
 
@@ -95,7 +84,7 @@ class Home extends Component {
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.367780221864!2d-49.07951328442846!3d-22.339737823500133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf6703e95f3977%3A0x99358b5e43d92e68!2sDiocese%20de%20Bauru%20-%20C%C3%BAria%20Diocesana!5e0!3m2!1spt-BR!2sbr!4v1619972127201!5m2!1spt-BR!2sbr" style={{width: "100%", height: "500px", border:0}} allowfullscreen="" loading="lazy" class="map"></iframe>
 
         <Rodape></Rodape>
-      </div>
+      </Container>  
     );
   }
 }
