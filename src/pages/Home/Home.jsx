@@ -3,8 +3,6 @@ import BarraNavegacao from './../../components/BarraNavegacao/BarraNavegacao'
 import PainelRotativo from './../../components/PainelRotativo/PainelRotativo'
 import Rodape from './../../components/Rodape/Rodape'
 import Card from "./Card";
-import Card2 from "./Card2";
-import Card3 from "./Card3";
 import {Grid} from "@material-ui/core";
 import Container from '@material-ui/core/Container';
 import "./estilo.css"
@@ -60,13 +58,13 @@ class Home extends Component {
                 alignItems="center"
               >
               <Grid align="center" item xs={12} sm={6} md={4}>
-                <Card />
+                <Card titulo="Comunicados" />
               </Grid> 
               <Grid align="center" item xs={12} sm={6} md={4}>
-                <Card2 />
+                <Card titulo="Notícias" />
               </Grid>   
               <Grid align="center" item xs={12} sm={6} md={4}>
-                <Card3 />
+                <Card titulo="Clero" />
               </Grid>
             </Grid>
 

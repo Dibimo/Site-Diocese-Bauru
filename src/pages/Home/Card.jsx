@@ -21,23 +21,22 @@ const useStyles = makeStyles({
   }
 });
 
-export default function MediaCard() {
+export default function MediaCard({titulo}) {
   const classes = useStyles();
-
   return (
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/imagens/Home/aconteceDiocese/Comunicados.jpg"
-          title="Comunicados"
+          image={`/imagens/Home/aconteceDiocese/${titulo}.jpg`}
+          title={`${titulo}`}
         />
-        <CardContent style={{backgroundColor: "darkred"}}>
+        <CardContent style={{ backgroundColor: "darkred" }}>
           <Typography align="center" gutterBottom variant="h5" component="h2">
-            Comunicados
+            {`${titulo}`}
           </Typography>
         </CardContent>
       </CardActionArea>
-    </Card>    
+    </Card>
   );
 }
