@@ -7,6 +7,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Administracao from './pages/Administracao/Administracao';
 import Contato from './pages/Contato/Contato';
 import Paroquia from './pages/Paroquias/Paroquias';
+import Programacao from './pages/Programacao/Programacao';
 
 
 
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Route path="/Administracao" component={Administracao} />
         <Route path="/contato" component={Contato} />
         <Route path="/paroquias" component={Paroquia} />
+        <Route path="/programacao" component={Programacao} />
 
       </Switch>
     </BrowserRouter>,
