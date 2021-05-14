@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import BarraNavegacao from './../../components/BarraNavegacao/BarraNavegacao'
 import PainelRotativo from './../../components/PainelRotativo/PainelRotativo'
 import Rodape from './../../components/Rodape/Rodape'
@@ -35,7 +36,7 @@ class Home extends Component {
 
           <br></br>
           <div  align="center" padding="2px" style={{marginTop: "40px"}}>
-            <button width="200px" height="80px">Programação</button>
+            <Link to="/programacao"><button width="200px" height="80px">Programação</button></Link>
             <button>Movimentos</button>
             <button type="submit"><i class="fas fa-church"></i>Seminários</button>
           </div>
