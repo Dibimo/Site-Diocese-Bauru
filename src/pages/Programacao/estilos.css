@@ -1,0 +1,23 @@
+.react-calendar button{
+    border-radius: 0px;
+}
+
+.react-calendar button.evento{
+    margin: 0;
+    outline: 0.5px solid rgb(216, 64, 64);
+    
+}
+
+.react-calendar button.domingo{
+    color: #d10000;
+}
+.react-calendar button.domingo.react-calendar__tile--active,
+button.react-calendar__month-view__days__day--weekend.react-calendar__tile--active {
+    color: white;
+}
+
+
+
+button.react-calendar__month-view__days__day--weekend {
+    color: black;
+}
