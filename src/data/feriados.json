@@ -1,0 +1,18 @@
+{
+    "fevereiro": {
+        "fevereiro15": ["Carnaval"],
+        "fevereiro16": ["Carnaval"],
+        "fevereiro17": ["Quarta-feira de cinzas"]
+    },
+    "abril": {
+        "abril4": ["Páscoa"]
+    },
+    "maio": {
+        "maio1": ["Dia do trabalho", "Missa especial em honra aos trabalhadores"],
+        "maio16": ["Dia 16 de Maio", "Confraternização depois da Missa para Jovens"],
+        "maio26": ["Dia de Santo Tal"]
+    },
+    "junho": {
+        "junho3": ["Cospus Christi"]
+    }
+}
