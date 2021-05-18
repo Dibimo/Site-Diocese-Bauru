@@ -9,7 +9,7 @@ class Paroquias extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      opcao: "agudos",
+      opcao: "",
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -20,15 +20,17 @@ class Paroquias extends Component {
 
   constroiCards(opcao) {
     if (!Object.keys(paroquias).includes(opcao)) {
-      return <div></div>;
+      return null;
     }
     let cards = [];
     let cidadeSelecionada = paroquias[opcao];
     let nomesParoquias = Object.keys(cidadeSelecionada);
 
     nomesParoquias.map((paroquia) => {
+      //caminho para a pasta de imagens de cada paroquia
+      let caminhoImagem = "imagens/Paroquias/" + opcao + "/" + paroquia + "/";
       cards.push(
-        <CardParoquia paroquia={cidadeSelecionada[paroquia]}></CardParoquia>
+        <CardParoquia paroquia={cidadeSelecionada[paroquia]} caminhoImagem={caminhoImagem}></CardParoquia>
       );
     });
     return cards;
@@ -44,20 +46,20 @@ class Paroquias extends Component {
           id="selecionadaCidade"
           onChange={this.handleChange}
         >
-          <option value="agudos">Escolha a Cidade</option>
-          <option value="bauru">Bauru</option>
+          <option value="">Escolha a Cidade</option>
           <option value="agudos">Agudos</option>
+          <option value="arealva">Arealva</option>
           <option value="avai">Avai</option>
+          <option value="bauru">Bauru</option>
           <option value="boraceia">Boraceia</option>
-          <option value="pederneiras">Pederneiras</option>
           <option value="cabraliaPaulista">Cabralia Paulista</option>
           <option value="duartina">Duartina</option>
           <option value="galia">Galia</option>
+          <option value="iacanga">Iacanga</option>
           <option value="lucianopolis">Lucianopolis</option>
           <option value="paulistania">Paulistania</option>
+          <option value="pederneiras">Pederneiras</option>
           <option value="piratininga">Piratininga</option>
-          <option value="iacanga">Iacanga</option>
-          <option value="arealva">Arealva</option>
         </select>
         {this.constroiCards(this.state.opcao)}
         <Rodape></Rodape>

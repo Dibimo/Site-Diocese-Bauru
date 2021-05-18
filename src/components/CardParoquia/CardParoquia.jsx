@@ -4,8 +4,10 @@ import React, { Component } from "react";
 class CardParoquia extends Component {
   constructor(props) {
     super(props);
+    this.caminhoImagem = "";
     this.paroquia = {};
   }
+
   constroiHorariosMissas(vetor) {
     let horariosDivs = [];
     vetor.map((horario) => {
@@ -35,17 +37,50 @@ class CardParoquia extends Component {
     return capelas;
   }
 
-  
+  constroiInformacoesAdicionais(info){
+    let divs = [];
+    //montando as informações fixas
+    divs.push(
+      <div>Padroeiro: {info.padroeiro}</div>,
+      <div>Região Pastoral: {info.regiaoPastoral}</div>,
+      <div>Criada em: {info.criacao}</div>,
+      <div>Data da Festa: {info.festa}</div>
+    );
+    //removendo informações fixas do objeto
+    delete info.padroeiro;
+    delete info.regiaoPastoral;
+    delete info.criacao;
+    delete info.festa;
+
+    //percorrendo as demais informações
+    let informacoesAdicionais = Object.keys(info);
+    informacoesAdicionais.map((adicional)=>{
+      console.log(this.props.caminhoImagem + adicional + ".webp");
+      divs.push(
+        <div>
+          <img src={this.props.caminhoImagem + adicional + ".webp"} alt={info[adicional]} />
+          <div>{info[adicional]}</div>
+        </div>
+      );
+    });
+    return divs;
+  }
+
 
   render() {
+
     return (
       <div className="container" style={{ border: "1px solid", margin: "2px" }}>
-        <div>Nome: {this.props.paroquia.nome}</div>
+        <img src={this.props.caminhoImagem+ "paroquia.webp"} />
+        <h5>{this.props.paroquia.nome}</h5>
 
         <div>Horarios das Missas Matriz:</div>
         {this.constroiHorariosMissas(this.props.paroquia.horariosDeMissa)}
-        <hr></hr>
+        <hr />
         {this.constroiCapelas(this.props.paroquia.capelas)}
+
+        <h6>Informações Adicionais</h6>
+        {this.constroiInformacoesAdicionais(this.props.paroquia.informacoesAdicionais)}
       </div>
     );
   }

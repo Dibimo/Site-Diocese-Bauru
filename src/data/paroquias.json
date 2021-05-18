@@ -20,7 +20,7 @@
         "festa": "12/10",
         "padroeiro": "Nossa Senhora Aparecida",
         "administradorParoquial": "Padre Paulo Tavares",
-        "vigarioParoquial": "Padre Rafael Zagatto"
+        "vigario": "Padre Rafael Zagatto"
       }
     },
     "santoAntonioDePauda": {
@@ -40,6 +40,16 @@
           "nome": "Setor Santa Clara",
           "local": "R. Nene Travain, 271, Santa Cândida",
           "horarios": ["Domingo: 9h"]
+        },
+        {
+          "nome": "Fazenda Turvinho",
+          "local": "Estrada do Mamoeiro",
+          "horarios": ["2ª sexta-feira 20h00"]
+        },
+        {
+          "nome": "Fazenda Santa Isabel",
+          "local": "Estrada dos Cabritos, 33",
+          "horarios": ["4ª sexta-feira 20h00"]
         }
       ],
       "informacoesAdicionais": {
@@ -47,20 +57,8 @@
         "festa": "13/60",
         "criacao": "22/08/2000",
         "padroeiro": "Santo Antônio",
-        "paroco": "Pe. Paulo Tavares de Brito",
-        "diaconoPermanente": "Diác. Marcos Alberto Arantes",
-        "fazendas": [
-          {
-            "nome": "Turvinho",
-            "local": "Estrada do Mamoeiro",
-            "horarios": ["2ª sexta-feira 20h00"]
-          },
-          {
-            "nome": "Santa Isabel",
-            "local": "Estrada dos Cabritos, 33",
-            "horarios": ["4ª sexta-feira 20h00"]
-          }
-        ]
+        "paroco": "Paróco - Pe. Paulo Tavares de Brito",
+        "diacono": "Diác. Marcos Alberto Arantes"
       }
     },
     "saoPauloApostolo": {
@@ -105,8 +103,8 @@
         "criacao": "13/06/1898",
         "festa": "25/01",
         "padroeiro": "São Paulo Apóstolo",
-        "paroco": "Pe. Frei Silvio Trindade Werlingue, OFM",
-        "vigarioParoquial": "Pe. Frei Pedro do Nascimento Vianna, OFM"
+        "paroco": "Paróco - Pe. Frei Silvio Trindade Werlingue, OFM",
+        "vigario": "Pe. Frei Pedro do Nascimento Vianna, OFM"
       }
     }
   },
@@ -166,7 +164,7 @@
         "festa": "20/01",
         "criacao": "31/05/1925",
         "padroeiro": "São Sebastião",
-        "paroco": "Pe. Joseph Pottamplackal"
+        "paroco": "Paróco - Pe. Joseph Pottamplackal"
       }
     }
   },
@@ -203,7 +201,7 @@
         "criacao": "02/02/1929",
         "festa": "12/10",
         "padroeiro": "Nossa Senhora Aparecida",
-        "paroco": "Pe. Antônio Marcos Roque de Carvalho"
+        "paroco": "Paróco - Pe. Antônio Marcos Roque de Carvalho"
       }
     }
   },
@@ -257,7 +255,7 @@
         "festa": "12/10",
         "padroeiro": "Nossa Senhora Aparecida",
         "administradorParoquial": "Pe. Luiz Eduardo Monteiro Fontana",
-        "vigarioParoquial": "Pe. Ednei Antônio Braga Rodrigues"
+        "vigario": "Pe. Ednei Antônio Braga Rodrigues"
       }
     },
     "saoSebastiao":{
@@ -291,8 +289,8 @@
             "criacao":"02/06/1898", 
             "festa":"20/01", 
             "padroeiro":"São Sebastião",
-            "paroco": "Pe. Luiz Eduardo Monteiro Fontana",
-            "vigarioParoquial": "Pe. Ednei Antônio Braga Rodrigues"
+            "paroco": "Paróco - Pe. Luiz Eduardo Monteiro Fontana",
+            "vigario": "Pe. Ednei Antônio Braga Rodrigues"
         }
     },
     "saoJudasTadeu":{
@@ -412,7 +410,7 @@
               "padroeiro":"Santa Luzia",
               "rotatividade": "- Todas as terças e Quintas-feiras, às 20h, rotatividade de missas nos setores, zona rural e Capela do Hospital (em casos especiais, modificações serão comunicadas com antecedência).",
               "administradorParoquial": "Padre Luiz Antônio de Almeida",
-              "diaconoPermanente": "Sebastião Fabiano de Oliveira"
+              "diacono": "Sebastião Fabiano de Oliveira"
           }
       }
   },
@@ -552,9 +550,9 @@
               "regiaoPastoral": 5, 
               "criacao":"29/071916", 
               "festa":"31/05", 
-              "paroco": "Pe. Enedir Gonçalves Moreira",
               "padroeiro":"Santa Maria",
-              "setor": "Setor: Sábado: 19h ou 20h30 (Escala de Missa ou Celebração)"
+              "setor": "Setor: Sábado: 19h ou 20h30 (Escala de Missa ou Celebração)",
+              "paroco": "Paróco - Pe. Enedir Gonçalves Moreira"
           }
       }
   },
@@ -613,7 +611,7 @@
               "criacao":"08/09/1925", 
               "festa":"24/06", 
               "padroeiro":"São João Bastista",
-              "paroco": "Pe. Rosinaldo Faria de Sousa" 
+              "paroco": "Paróco - Pe. Rosinaldo Faria de Sousa" 
           }
       }
   },
@@ -812,8 +810,8 @@
               "criacao":"08/09/1925", 
               "festa":"25/11", 
               "padroeiro":"Santa Catarina de Alexandria", 
-              "paroco": "Pe. Romildo Alceu da Silva",
-              "diaconoPermanente": "Diác. Antônio Arthur Fernandes"
+              "paroco": "Paróco - Pe. Romildo Alceu da Silva",
+              "diacono": "Diác. Antônio Arthur Fernandes"
           }
       }
   },
@@ -840,7 +838,7 @@
         "festa": "12/10",
         "padroeiro": "Nossa Senhora Aparecida",
         "administradorParoquial": "Pe. Joaquim dos Santos Filho, MSC",
-        "vigarioParoquial": "Pe. Carlos Roberto Rodrigues, MSC"
+        "vigario": "Pe. Carlos Roberto Rodrigues, MSC"
       }
     },
     "saoCristovao":{
@@ -891,8 +889,8 @@
         "criacao": "21/05/1962",
         "festa": "28/10 e 25/3",
         "padroeiro": "São Cristóvão",
-        "paroco": "Pe. Gustavo da Natividade",
-        "diaconoPermanente": "Diác. José Luiz Faco"
+        "paroco": "Paróco - Pe. Gustavo da Natividade",
+        "diacono": "Diác. José Luiz Faco"
       }
     },
     "santaRitaDeCassia":{
@@ -909,7 +907,7 @@
         "criacao": "02/02/1969",
         "festa": "22/05",
         "padroeiro": "Santa Rita",
-        "paroco": "Pe. Milton César Carraschi"
+        "paroco": "Paróco - Pe. Milton César Carraschi"
       }
     },
     "santaTeresinhaDoMeninoJesus": {
@@ -925,7 +923,7 @@
         "criacao": "28/12/1952",
         "festa": "01/10",
         "padroeiro": "Santa Teresinha",
-        "paroco": "Pe. Carlos Henrique Andrade Siqueira",
+        "paroco": "Paróco - Pe. Carlos Henrique Andrade Siqueira",
         "vigario": "Pe. Eduardo Campagnani Ferreira"
       }
     },
@@ -957,7 +955,7 @@
       ],
       "informacoesAdicionais": {
         "regiaoPastoral": 2,
-        "paroco": "Pe. Edson Roberto Codato"
+        "paroco": "Paróco - Pe. Edson Roberto Codato"
       }
     },
     "nossaSenhoradasGracas":{
@@ -1002,7 +1000,7 @@
         "criacao": "15/08/1966",
         "festa": "27/11",
         "padroeiro": "Nossa Senhora das Graças",
-        "paroco": " Padre Carlos André da Silva Câmara, RCJ",
+        "paroco": "Paróco - Padre Carlos André da Silva Câmara, RCJ",
         "vigario": "Pe. Mateus de Jesus Donizetti Albino, RCJ, Pe. Guido Montinelli, RCJ, Pe. Henrique de Lima Mateus, RCJ" 
         }
       },
@@ -1030,7 +1028,7 @@
         "criacao": "19/03/2000",
         "festa": "03/02",
         "padroeiro": "São Brás",
-        "paroco": "Pe. Sebastião Pereira"
+        "paroco": "Paróco - Pe. Sebastião Pereira"
       }
     },
     "santaEdwiges" : {
@@ -1090,8 +1088,8 @@
         "festa": "13/12",
         "criacao": "20/01/1969",
         "padroeiro": "Santa Luzia",
-        "paroco": "Pe. Frei Luciano da Silva Barbosa, SIA",
-        "diaconoPermanente": "Diác. Marcos Alberto Arantes"
+        "paroco": "Paróco - Pe. Frei Luciano da Silva Barbosa, SIA",
+        "diacono": "Diác. Marcos Alberto Arantes"
       }
     },
     "saoPauloApostolo" :{
@@ -1149,7 +1147,7 @@
         "regiaoPastoral": 3,
         "festa": "15/09",
         "criacao": "11/11/1987",
-        "paroco": "Pe. Agnaldo Pereira",
+        "paroco": "Paróco - Pe. Agnaldo Pereira",
         "diacono": "Diácono Murilo Keler Fernandes",
         "padroeiro": "Maria Mãe do Redentor"
       }
@@ -1176,7 +1174,7 @@
         "regiaoPastoral": 3,
         "festa": "08/12",
         "criacao": "08/12/2006",
-        "paroco": "Pe. Everaldo Junior Rambaldi"
+        "paroco": "Paróco - Pe. Everaldo Junior Rambaldi"
       }
     },
     "mariaDeNaraze":{
@@ -1215,9 +1213,9 @@
         "regiaoPastoral": 3,
         "festa": "25/03",
         "criacao": "25/03/1999",
-        "paroco": "Pe. Camilo da Silva Matos",
+        "paroco": "Paróco - Pe. Camilo da Silva Matos",
         "padroeiro": "Maria de Nazaré",
-        "diaconoPermanente": "Paulo Roberto Oliveira Lourenço"
+        "diacono": "Paulo Roberto Oliveira Lourenço"
       }
     },
     "santuarioDoSagradoCoracao":{
@@ -1248,9 +1246,9 @@
         "regiaoPastoral": 3,
         "festa": "móvel",
         "criacao": "07/06/1991",
-        "paroco": "Pe. Leonildo Minutti Júnior",
+        "paroco": "Paróco - Pe. Leonildo Minutti Júnior",
         "padroeiro": "Sagrado Coração de Jesus",
-        "diaconoPermanente": "Diác. Dr. José Rafael Mazzoni"
+        "diacono": "Diác. Dr. José Rafael Mazzoni"
       }
     },
     "sagradaFamilia" :{
@@ -1288,9 +1286,9 @@
         "regiaoPastoral": 3,
         "festa": "móvel",
         "criacao": "20/1",
-        "paroco": "Pe. Leonildo Minutti Júnior",
+        "paroco": "Paróco - Pe. Leonildo Minutti Júnior",
         "padroeiro": "São Sebastião",
-        "diaconoPermanente": "Diác. Dr. José Rafael Mazzoni"
+        "diacono": "Diác. Dr. José Rafael Mazzoni"
       }
     },
     "saoSebatiao" :{
@@ -1306,7 +1304,7 @@
         "regiaoPastoral": 3,
         "festa": "20/1",
         "criacao": "21/05/1962",
-        "paroco": "Pe. Agnaldo Pereira",
+        "paroco": "Paróco - Pe. Agnaldo Pereira",
         "padroeiro": "São Sebastião",
         "diacono": "Diácono Murilo Keler Fernandes"
       }
@@ -1349,9 +1347,9 @@
         "regiaoPastoral": 4,
         "festa": "13/06",
         "criacao": "28/12/1952",
-        "paroco": "Pe. Frei Ademir Sanquetti, OFM",
+        "paroco": "Paróco - Pe. Frei Ademir Sanquetti, OFM",
         "padroeiro": "Santo Antônio",
-        "vigarioParoquial" : "Pe. Frei André Becker, OFM; Pe. Frei Ricardo Backbs, OFM"
+        "vigario" : "Pe. Frei André Becker, OFM; Pe. Frei Ricardo Backbs, OFM"
       }
     },
     "saoBenedito" : {
@@ -1376,7 +1374,7 @@
         "regiaoPastoral": 4,
         "festa": "05/10",
         "criacao": "21/07/1944",
-        "paroco": "Pe. Gustavo Henrique Crepaldi",
+        "paroco": "Paróco - Pe. Gustavo Henrique Crepaldi",
         "padroeiro": "São Benedito"
       }
     },
@@ -1439,7 +1437,7 @@
         "regiaoPastoral": 4,
         "festa": "19/03",
         "criacao": "25/12/1994",
-        "paroco": "Pe. Giuliano Henrique Lourenço Alamino",
+        "paroco": "Paróco - Pe. Giuliano Henrique Lourenço Alamino",
         "padroeiro": "São José Operário",
         "diacono": "Thiago Freitas Albertini"
       }
@@ -1506,7 +1504,7 @@
         "regiaoPastoral": 5,
         "festa": "06/08",
         "criacao": "23/05/1965",
-        "paroco": "Pe. Wellington Supriano",
+        "paroco": "Paróco - Pe. Wellington Supriano",
         "padroeiro": "Senhor Bom Jesus"
       }
     },
@@ -1530,7 +1528,7 @@
         "regiaoPastoral": 5,
         "festa": "24/06",
         "criacao": "23/06/1998",
-        "paroco": "Pe. Luís Antônio Carqueijo Sé",
+        "paroco": "Paróco - Pe. Luís Antônio Carqueijo Sé",
         "padroeiro": "São João Batista"
       }
     }
