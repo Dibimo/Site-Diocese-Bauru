@@ -955,7 +955,10 @@
       ],
       "informacoesAdicionais": {
         "regiaoPastoral": 2,
-        "paroco": "Paróco - Pe. Edson Roberto Codato"
+        "paroco": "Paróco - Pe. Edson Roberto Codato",
+        "criacao": "-",
+        "festa": "-",
+        "padroeiro": "São Jose de Anchieta"
       }
     },
     "nossaSenhoradasGracas":{
@@ -1001,7 +1004,9 @@
         "festa": "27/11",
         "padroeiro": "Nossa Senhora das Graças",
         "paroco": "Paróco - Padre Carlos André da Silva Câmara, RCJ",
-        "vigario": "Pe. Mateus de Jesus Donizetti Albino, RCJ, Pe. Guido Montinelli, RCJ, Pe. Henrique de Lima Mateus, RCJ" 
+        "vigario1": "Pe. Mateus de Jesus Donizetti Albino, RCJ,", 
+        "vigario2": "Pe. Guido Montinelli, RCJ, ", 
+        "vigario3": "Pe. Henrique de Lima Mateus, RCJ" 
         }
       },
       "saoBras":{
@@ -1088,8 +1093,7 @@
         "festa": "13/12",
         "criacao": "20/01/1969",
         "padroeiro": "Santa Luzia",
-        "paroco": "Paróco - Pe. Frei Luciano da Silva Barbosa, SIA",
-        "diacono": "Diác. Marcos Alberto Arantes"
+        "paroco": "Paróco - Pe. Frei Luciano da Silva Barbosa, SIA"
       }
     },
     "saoPauloApostolo" :{
@@ -1291,24 +1295,6 @@
         "diacono": "Diác. Dr. José Rafael Mazzoni"
       }
     },
-    "saoSebatiao" :{
-      "nome": "São Sebastião",
-      "horariosDeMissa": [
-        "​Quarta-feira: 19h30",
-        "Sexta-feira: 8h00",
-        "Sábado: 17h00",
-        "Domingo: 10h00 e 19h00"
-      ],
-      "capelas":[],
-      "informacoesAdicionais": {
-        "regiaoPastoral": 3,
-        "festa": "20/1",
-        "criacao": "21/05/1962",
-        "paroco": "Paróco - Pe. Agnaldo Pereira",
-        "padroeiro": "São Sebastião",
-        "diacono": "Diácono Murilo Keler Fernandes"
-      }
-    },
     "santoAntonioDePadua":{
       "nome": "Santo Antônio de Pádua",
       "horariosDeMissa": [
@@ -1349,7 +1335,8 @@
         "criacao": "28/12/1952",
         "paroco": "Paróco - Pe. Frei Ademir Sanquetti, OFM",
         "padroeiro": "Santo Antônio",
-        "vigario" : "Pe. Frei André Becker, OFM; Pe. Frei Ricardo Backbs, OFM"
+        "vigario1" : "Vigario - Pe. Frei André Becker, OFM",
+        "vigario2": "Vigario - Pe. Frei Ricardo Backbs, OFM"
       }
     },
     "saoBenedito" : {
