@@ -53,12 +53,26 @@ class CardParoquia extends Component {
     delete info.festa;
 
     //percorrendo as demais informações
+    let imagens = [
+      /paroco/,
+      /administradorParoquial/, 
+      /diacono/, 
+      /vigario/, 
+    ];
     let informacoesAdicionais = Object.keys(info);
-    informacoesAdicionais.map((adicional)=>{
-      console.log(this.props.caminhoImagem + adicional + ".webp");
+    informacoesAdicionais.map((adicional, key)=>{
+      let tagImagem = null;
+      if(imagens.some(img => img.test(adicional))){
+        tagImagem = (
+          <img
+            src={this.props.caminhoImagem + adicional + ".webp"}
+            alt={info[adicional]}
+          />
+        );
+      }
       divs.push(
-        <div>
-          <img src={this.props.caminhoImagem + adicional + ".webp"} alt={info[adicional]} />
+        <div key={key}>
+          {tagImagem}
           <div>{info[adicional]}</div>
         </div>
       );
@@ -71,8 +85,8 @@ class CardParoquia extends Component {
 
     return (
       <div className="container" style={{ border: "1px solid", margin: "2px" }}>
-        <img src={this.props.caminhoImagem+ "paroquia.webp"} />
         <h5>{this.props.paroquia.nome}</h5>
+        <img src={this.props.caminhoImagem+ "paroquia.webp"} />
 
         <div>Horarios das Missas Matriz:</div>
         {this.constroiHorariosMissas(this.props.paroquia.horariosDeMissa)}
