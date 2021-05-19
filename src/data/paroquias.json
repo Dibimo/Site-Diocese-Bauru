@@ -19,8 +19,8 @@
         "criacao": "12/10/2019",
         "festa": "12/10",
         "padroeiro": "Nossa Senhora Aparecida",
-        "administradorParoquial": "Padre Paulo Tavares",
-        "vigario": "Padre Rafael Zagatto"
+        "administradorParoquial": "Administrador Paroquial - Padre Paulo Tavares",
+        "vigario": "Vigário - Padre Rafael Zagatto"
       }
     },
     "santoAntonioDePauda": {
@@ -58,7 +58,7 @@
         "criacao": "22/08/2000",
         "padroeiro": "Santo Antônio",
         "paroco": "Paróco - Pe. Paulo Tavares de Brito",
-        "diacono": "Diác. Marcos Alberto Arantes"
+        "diacono": "Diácono - Diác. Marcos Alberto Arantes"
       }
     },
     "saoPauloApostolo": {
@@ -104,7 +104,7 @@
         "festa": "25/01",
         "padroeiro": "São Paulo Apóstolo",
         "paroco": "Paróco - Pe. Frei Silvio Trindade Werlingue, OFM",
-        "vigario": "Pe. Frei Pedro do Nascimento Vianna, OFM"
+        "vigario": "Vigário - Pe. Frei Pedro do Nascimento Vianna, OFM"
       }
     }
   },
@@ -254,8 +254,8 @@
         "criacao": "02/02/1969",
         "festa": "12/10",
         "padroeiro": "Nossa Senhora Aparecida",
-        "administradorParoquial": "Pe. Luiz Eduardo Monteiro Fontana",
-        "vigario": "Pe. Ednei Antônio Braga Rodrigues"
+        "administradorParoquial": "Administrador Paroquial - Pe. Luiz Eduardo Monteiro Fontana",
+        "vigario": "Vigário - Pe. Ednei Antônio Braga Rodrigues"
       }
     },
     "saoSebastiao":{
@@ -290,7 +290,7 @@
             "festa":"20/01", 
             "padroeiro":"São Sebastião",
             "paroco": "Paróco - Pe. Luiz Eduardo Monteiro Fontana",
-            "vigario": "Pe. Ednei Antônio Braga Rodrigues"
+            "vigario": "Vigário - Pe. Ednei Antônio Braga Rodrigues"
         }
     },
     "saoJudasTadeu":{
@@ -344,7 +344,7 @@
             "criacao":"-", 
             "festa":"28/10", 
             "padroeiro":"São Judas Tadeu", 
-            "administradorParoquial": "Pe. Anderson Luís Moreira"
+            "administradorParoquial": "Administrador Paroquial - Pe. Anderson Luís Moreira"
         }
     }
   },
@@ -372,7 +372,7 @@
               "criacao":"25/03/1927", 
               "festa":"06/08", 
               "padroeiro":"Senhor Bom Jesus",
-              "administradorParoquial": "Pe. Maurício dos Santos Guerra" 
+              "administradorParoquial": "Administrador Paroquial - Pe. Maurício dos Santos Guerra" 
           }
       }
   },
@@ -409,8 +409,8 @@
               "festa":"13/12", 
               "padroeiro":"Santa Luzia",
               "rotatividade": "- Todas as terças e Quintas-feiras, às 20h, rotatividade de missas nos setores, zona rural e Capela do Hospital (em casos especiais, modificações serão comunicadas com antecedência).",
-              "administradorParoquial": "Padre Luiz Antônio de Almeida",
-              "diacono": "Sebastião Fabiano de Oliveira"
+              "administradorParoquial": "Administrador Paroquial - Padre Luiz Antônio de Almeida",
+              "diacono": "Diácono - Sebastião Fabiano de Oliveira"
           }
       }
   },
@@ -455,7 +455,7 @@
               "criacao":"29/09/1926", 
               "festa":"19/03", 
               "padroeiro":"São José",
-              "administradorParoquial": "Pe. Márcio José Cattache" 
+              "administradorParoquial": "Administrador Paroquial - Pe. Márcio José Cattache" 
           }
       }
   },
@@ -484,7 +484,7 @@
               "criacao":"15/04/1967", 
               "festa":"29/07", 
               "padroeiro":"São Pedro",
-              "administradorParoquial": "Pe. Maurício dos Santos Guerra"
+              "administradorParoquial": "Administrador Paroquial - Pe. Maurício dos Santos Guerra"
           }
       }
   },
@@ -515,7 +515,7 @@
               "criacao":"19/01/2001", 
               "festa":"01/10",
               "padroeiro":"Santa Teresinha",
-              "administradorParoquial": "Pe. Antônio Rodrigues Neto"
+              "administradorParoquial": "Administrador Paroquial - Pe. Antônio Rodrigues Neto"
           }
       }
   },
@@ -811,7 +811,7 @@
               "festa":"25/11", 
               "padroeiro":"Santa Catarina de Alexandria", 
               "paroco": "Paróco - Pe. Romildo Alceu da Silva",
-              "diacono": "Diác. Antônio Arthur Fernandes"
+              "diacono": "Diácono - Antônio Arthur Fernandes"
           }
       }
   },
@@ -837,8 +837,8 @@
         "criacao": "28/12/1952",
         "festa": "12/10",
         "padroeiro": "Nossa Senhora Aparecida",
-        "administradorParoquial": "Pe. Joaquim dos Santos Filho, MSC",
-        "vigario": "Pe. Carlos Roberto Rodrigues, MSC"
+        "administradorParoquial": "Administrador Paroquial - Pe. Joaquim dos Santos Filho, MSC",
+        "vigario": "Vigário - Pe. Carlos Roberto Rodrigues, MSC"
       }
     },
     "saoCristovao":{
@@ -865,7 +865,7 @@
         "criacao": "27/03/1991",
         "festa": " 25/07",
         "padroeiro": "São Cristóvão",
-        "administradorParoquial": "Pe. Marcos Eduardo Pavan"
+        "administradorParoquial": "Administrador Paroquial - Pe. Marcos Eduardo Pavan"
       }
     },
     "saoJudaseSaoDimas":{
@@ -890,7 +890,7 @@
         "festa": "28/10 e 25/3",
         "padroeiro": "São Cristóvão",
         "paroco": "Paróco - Pe. Gustavo da Natividade",
-        "diacono": "Diác. José Luiz Faco"
+        "diacono": "Diácono - José Luiz Faco"
       }
     },
     "santaRitaDeCassia":{
@@ -924,7 +924,7 @@
         "festa": "01/10",
         "padroeiro": "Santa Teresinha",
         "paroco": "Paróco - Pe. Carlos Henrique Andrade Siqueira",
-        "vigario": "Pe. Eduardo Campagnani Ferreira"
+        "vigario": "Vigário - Pe. Eduardo Campagnani Ferreira"
       }
     },
     "saoJoseDeAnchieta": {
@@ -1004,9 +1004,9 @@
         "festa": "27/11",
         "padroeiro": "Nossa Senhora das Graças",
         "paroco": "Paróco - Padre Carlos André da Silva Câmara, RCJ",
-        "vigario1": "Pe. Mateus de Jesus Donizetti Albino, RCJ,", 
-        "vigario2": "Pe. Guido Montinelli, RCJ, ", 
-        "vigario3": "Pe. Henrique de Lima Mateus, RCJ" 
+        "vigario1": "Vigário - Pe. Mateus de Jesus Donizetti Albino, RCJ,", 
+        "vigario2": "Vigário - Pe. Guido Montinelli, RCJ, ", 
+        "vigario3": "Vigário - Pe. Henrique de Lima Mateus, RCJ" 
         }
       },
       "saoBras":{
@@ -1061,7 +1061,7 @@
         "criacao": "19/03/1999",
         "festa": "16/10",
         "padroeiro": "Santa Edwiges",
-        "administradorParoquial": "Pe. Gilberto José de Melo"
+        "administradorParoquial": "Administrador Paroquial - Pe. Gilberto José de Melo"
       }
     },
     "santaLuzia": {
@@ -1130,7 +1130,7 @@
         "festa": "29/06",
         "criacao": "03/10/2004",
         "padroeiro": "São Paulo Apóstolo",
-        "administradorParoquial": " Pe. Frei José Adeildo dos Santos, SIA"
+        "administradorParoquial": "Administrador Paroquial - Pe. Frei José Adeildo dos Santos, SIA"
       }
     },
     "mariaMaeDoRedentor" :{
@@ -1152,7 +1152,7 @@
         "festa": "15/09",
         "criacao": "11/11/1987",
         "paroco": "Paróco - Pe. Agnaldo Pereira",
-        "diacono": "Diácono Murilo Keler Fernandes",
+        "diacono": "Diácono - Murilo Keler Fernandes",
         "padroeiro": "Maria Mãe do Redentor"
       }
     },
@@ -1219,7 +1219,7 @@
         "criacao": "25/03/1999",
         "paroco": "Paróco - Pe. Camilo da Silva Matos",
         "padroeiro": "Maria de Nazaré",
-        "diacono": "Paulo Roberto Oliveira Lourenço"
+        "diacono": "Diácono - Paulo Roberto Oliveira Lourenço"
       }
     },
     "santuarioDoSagradoCoracao":{
@@ -1252,7 +1252,7 @@
         "criacao": "07/06/1991",
         "paroco": "Paróco - Pe. Leonildo Minutti Júnior",
         "padroeiro": "Sagrado Coração de Jesus",
-        "diacono": "Diác. Dr. José Rafael Mazzoni"
+        "diacono": "Diácono - Dr. José Rafael Mazzoni"
       }
     },
     "sagradaFamilia" :{
@@ -1274,7 +1274,7 @@
         "festa": "Sagrada Família",
         "criacao": "11/02/1995",
         "padroeiro": "Sagrada Família",
-        "administradorParoquial": "Pe. Gustavo Rubin da Mota"
+        "administradorParoquial": "Administrador Paroquial - Pe. Gustavo Rubin da Mota"
       }
     },
     "saoSebastiao":{
@@ -1292,7 +1292,7 @@
         "criacao": "20/1",
         "paroco": "Paróco - Pe. Leonildo Minutti Júnior",
         "padroeiro": "São Sebastião",
-        "diacono": "Diác. Dr. José Rafael Mazzoni"
+        "diacono": "Diácono - Murilo Keler Fernandes"
       }
     },
     "santoAntonioDePadua":{
@@ -1397,9 +1397,9 @@
         "regiaoPastoral": 4,
         "festa": "11/08",
         "criacao": "11/08/2001",
-        "administradorParoquial": "Pe. Giuliano Henrique Lourenço Alamino",
+        "administradorParoquial": "Administrador Paroquial - Pe. Giuliano Henrique Lourenço Alamino",
         "padroeiro": "Santa Clara de Assis",
-        "diacono": "Thiago de Freitas Albertini"
+        "diacono": "Diácono - Thiago de Freitas Albertini"
       }
     },
     "saoJoseTrabalhador":{
@@ -1426,7 +1426,7 @@
         "criacao": "25/12/1994",
         "paroco": "Paróco - Pe. Giuliano Henrique Lourenço Alamino",
         "padroeiro": "São José Operário",
-        "diacono": "Thiago Freitas Albertini"
+        "diacono": "Diácono - Thiago Freitas Albertini"
       }
     },
     "saoPedroApostolo": {
@@ -1451,7 +1451,7 @@
         "regiaoPastoral": 4,
         "festa": "29/06",
         "criacao": "04/03/1999",
-        "administradorParoquial": "Pe. Reinaldo Batista da Cunha",
+        "administradorParoquial": "Administrador Paroquial - Pe. Reinaldo Batista da Cunha",
         "padroeiro": "São Pedro"
       }
     },
@@ -1472,7 +1472,7 @@
           "regiaoPastoral": 5,
           "festa": "15/08",
           "criacao": "13/02/2000",
-          "administradorParoquial": "Pe. Fernando Crialez Mastelari",
+          "administradorParoquial": "Administrador Paroquial - Pe. Fernando Crialez Mastelari",
           "padroeiro": "Nossa Senhora da Assunção"
         }
     },
