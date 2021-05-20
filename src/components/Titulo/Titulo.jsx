@@ -11,7 +11,7 @@ class Titulo extends Component {
     return (
       <div className="tintura" align="center" >
         <img src="/brasao.png" alt="Brasão da Diocese" className="brasao" />
-        <p className="titulo">{this.props.titulo}</p>
+        <p className="tituloComponente">{this.props.titulo}</p>
       </div>
     );
   }
