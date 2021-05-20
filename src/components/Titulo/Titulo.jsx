@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './estilo.css';
 
 class Titulo extends Component {
   constructor(props) {
@@ -8,10 +9,9 @@ class Titulo extends Component {
 
   render() {
     return (
-      <div className="tintura" align="center">
-        <img src="/brasao.png" alt="Brasão da Diocese" />
-        <p>{this.props.titulo}</p>
-        
+      <div className="tintura" align="center" >
+        <img src="/brasao.png" alt="Brasão da Diocese" className="brasao" />
+        <p className="titulo">{this.props.titulo}</p>
       </div>
     );
   }
