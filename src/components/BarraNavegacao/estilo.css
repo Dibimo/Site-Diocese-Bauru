@@ -1,0 +1,8 @@
+.semDecoracao{
+    color: white;
+}
+
+.semDecoracao:hover{
+    text-decoration: none;
+    color: white;
+}
