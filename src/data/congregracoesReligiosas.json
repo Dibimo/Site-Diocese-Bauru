@@ -1,0 +1,78 @@
+{
+    "masculinas": {
+        "ordemDosFradesMenores": {
+            "titulo": ["Ordem dos Frades Menores, OFM"],
+            "nomes": ["Seminário Seráfico Santo Antônio","Seminário Menor e Casa de Encontros e Retiros"],
+            "local": "Estrada de Piratininga, KM 04, Caixa Postal 32",
+            "cidade": "Agudos – SP",
+            "cep": "17120-000",
+            "telefone": "Fones: (14) 3262-1215 - Fax: (14) 3262-2565",
+            "email": "tesouraria@seminario.org.br"
+        },
+        "companhiaDeMaria": {
+            "titulo": ["Companhia de Maria (Marianistas)","Residência Marianista"],
+            "nomes": [""],
+            "local": "Rua Santa Paula, 4-33, Jardim Redentor",
+            "cidade": "Bauru - SP",
+            "cep": "17032-150",
+            "telefone": "(14) 3206-7536",
+            "email": "angelpalaciossa@yahoo.com.br"
+        },
+        "missionarioDoSagradoCoracao": {
+            "titulo": ["Missionários do Sagrado Coração","Santuário Nossa Senhora Aparecida"],
+            "nomes": [""],
+            "local": "Praça Washington Luís, 4-51, Centro",
+            "cidade": "Bauru – SP",
+            "cep": "17010-210",
+            "telefone": "(14) 3202-9031",
+            "email": "secretaria@santuarioaparecidabauru.com.br"
+        },
+        "rogacionistaDoCoracaoDeJesus": {
+            "titulo": ["Rogacionista do Coração de Jesus","Seminário Propedêutico"],
+            "nomes": [""],
+            "local": "Alameda Cônego Anibal Di Frância, 12-55, Parque Vista Alegre",
+            "cidade": "Bauru – SP",
+            "cep": "17020-690",
+            "telefone": "(14) 3237-7475",
+            "email": "propedeutico.br@rcj.org"
+        },
+        "irmaosDoSagradoCoracao": {
+            "titulo": ["Irmãos do Sagrado Coração, SC"],
+            "nomes": [""],
+            "local": "Rua Irmãos do Sagrado Coração, 3-30, Núcleo José Regino",
+            "cidade": "Bauru – SP",
+            "cep": "17031-723",
+            "telefone": "(14) 3203-5568",
+            "email": "ctv.irsc@gmail.com"
+        }
+    },
+    "femininas": {
+        "irmasApostolasDoSagradoCoracaoDeJesus": {
+            "titulo": ["Irmãs Apóstolas do Sagrado Coração de Jesus"],
+            "nomes": ["Colégio São Francisco de Assis"],
+            "local": "Rua Santo Antônio, 6-56, Jardim Bela Vista",
+            "cidade": "Bauru – SP",
+            "cep": "17060-500",
+            "telefone": "(14) 3102-2222",
+            "email": "irtvaz@yahoo.com.br"
+        },
+        "colegioSaoJose": {
+            "titulo": ["Colégio São José"],
+            "nomes": [""],
+            "local": "Rua Antônio Alves, 12-66, Centro",
+            "cidade": "Bauru – SP",
+            "cep": "17015-330",
+            "telefone": "(14) 3366-3000",
+            "email": "ir.jucelia@yahoo.com.br"
+        }
+        
+    },
+    "paroquias":[
+        "Paróquia Santo Antônio – Bauru",
+        "Paróquia Santo Antônio- Agudos",
+        "Paróquia Santa Clara de Assis – Bauru",
+        "Paróquia São Paulo Apóstolo – Agudos",
+        "Paróquia São Sebastião – Avaí"
+    ]
+
+}
