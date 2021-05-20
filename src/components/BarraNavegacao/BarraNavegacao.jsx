@@ -24,7 +24,7 @@ const BarraNavegacao = (props) => {
                     <Collapse isOpen={!collapsed} navbar>
                         <Nav navbar>
                             <NavItem>
-                                <NavLink href="/adm"><h4>...</h4></NavLink>
+                                <Link to="/congregacoes_religiosas" className="semDecoracao"><h4>Congregações Religiosas</h4></Link>
                             </NavItem>
 
                             <NavItem>
