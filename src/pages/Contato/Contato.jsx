@@ -8,6 +8,21 @@ import contatos from './../../data/contatos.json';
 class Contato extends Component {
 
   constroiCardsContatos(){
+    let titulos = {
+      agudos: "Agudos",
+      arealva: "Arealva",
+      avai: "Avai",
+      bauru: "Bauru",
+      boraceia: "Boraceia",
+      cabraliaPaulista: "Cabralia",
+      duartina: "Duartina",
+      galia: "Galia",
+      iacanga: "Iacanga",
+      lucianopolis: "Lucianopolis",
+      paulistania: "Paulistania",
+      pederneiras: "Pederneiras",
+      piratininga: "Piratininga"
+    }
     let cards = [];
     let cidadesNomes = Object.keys(contatos);
     cidadesNomes.map((cidadeNome)=>{
@@ -24,7 +39,7 @@ class Contato extends Component {
       });
       let card = (
         <div className="container" style={{ border: "1px solid", margin: "2px" }}>
-          <h5>{cidadeNome}</h5>
+          <h5>{titulos[cidadeNome]}</h5>
           {contatosParoquias}
         </div>
       );
