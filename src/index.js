@@ -8,20 +8,21 @@ import Administracao from './pages/Administracao/Administracao';
 import Contato from './pages/Contato/Contato';
 import Paroquia from './pages/Paroquias/Paroquias';
 import Programacao from './pages/Programacao/Programacao';
+import CongregacoesReligiosas from "./pages/CongregacoesReligiosas/CongregacoesReligiosas";
 
 
 
 ReactDOM.render(
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact={true} component={App} />
-        <Route path="/Administracao" component={Administracao} />
-        <Route path="/contato" component={Contato} />
-        <Route path="/paroquias" component={Paroquia} />
-        <Route path="/programacao" component={Programacao} />
-
-      </Switch>
-    </BrowserRouter>,
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact={true} component={App} />
+      <Route path="/Administracao" component={Administracao} />
+      <Route path="/contato" component={Contato} />
+      <Route path="/paroquias" component={Paroquia} />
+      <Route path="/programacao" component={Programacao} />
+      <Route path="/congregacoes_religiosas" component={CongregacoesReligiosas} />
+    </Switch>
+  </BrowserRouter>,
   document.getElementById("root")
 );
 
