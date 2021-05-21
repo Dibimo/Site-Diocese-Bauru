@@ -9,7 +9,7 @@ class Titulo extends Component {
 
   render() {
     return (
-      <div className="tintura" align="center" >
+      <div className="tintura conteinerTituloComponente">
         <img src="/brasao.png" alt="Brasão da Diocese" className="brasao" />
         <p className="tituloComponente">{this.props.titulo}</p>
       </div>

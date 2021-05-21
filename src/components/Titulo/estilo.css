@@ -1,9 +1,14 @@
-.brasao{
-    padding-right: 75%;
-    margin-bottom: 0px;
-    position: relative;
+.conteinerTituloComponente{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0% 40%;
 }
+
 .tituloComponente{
+    font-size: 30px;
+    text-shadow: 2px 0 0 black;
     color: white;
 }
 
