@@ -6,11 +6,12 @@
         "Seminário Seráfico Santo Antônio",
         "Seminário Menor e Casa de Encontros e Retiros"
       ],
-      "local": "Estrada de Piratininga, KM 04, Caixa Postal 32",
+      "local": "Estrada de Piratininga, KM 04,",
       "cidade": "Agudos – SP",
       "cep": "17120-000",
       "telefone": "Fones: (14) 3262-1215 - Fax: (14) 3262-2565",
-      "email": "tesouraria@seminario.org.br"
+      "email": "tesouraria@seminario.org.br",
+      "caixaPostal": "Caixa Postal 32"
     },
     "companhiaDeMaria": {
       "titulos": ["Companhia de Maria (Marianistas)", "Residência Marianista"],
@@ -118,7 +119,7 @@
       "cidade": "Bauru - SP",
       "cep": "17020-690",
       "telefone": "(14) 3237-7475",
-      "email": "-",
+      "email": null,
       "caixaPostal": "Caixa Postal 297 (17015-970)"
     },
     "irmaosDoSagradoCoracao": {
