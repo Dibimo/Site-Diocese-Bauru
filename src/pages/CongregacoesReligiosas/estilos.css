@@ -1,0 +1,28 @@
+.congregacoesConteiner{
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 5%;
+}
+.congregacoesMasculinas, .congregacoesFemininas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    margin-top: 10px;
+}
+.congregacoesMasculinas div, .congregacoesFemininas div{
+    width: 100%;
+    margin: 4px 0px;
+    
+}
+.outrosCongregacoesConteiner{
+    display: flex;
+    justify-content: center;
+    
+}
+.outrosCongregacoes{
+    width: 81%;
+}
+.outrosCongregacoes div{
+    margin: 4px 0px;
+}
