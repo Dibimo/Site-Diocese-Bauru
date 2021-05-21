@@ -84,7 +84,7 @@ class CardParoquia extends Component {
   render() {
 
     return (
-      <div className="container" style={{ border: "1px solid", margin: "2px" }}>
+      <div className="container cardParoquiaComponente" style={{ border: "1px solid", margin: "2px" }}>
         <h5>{this.props.paroquia.nome}</h5>
         <img src={this.props.caminhoImagem+ "paroquia.webp"} />
 
