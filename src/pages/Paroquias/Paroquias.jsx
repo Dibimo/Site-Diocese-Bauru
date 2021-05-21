@@ -4,6 +4,7 @@ import Rodape from "./../../components/Rodape/Rodape";
 import CardParoquia from "./../../components/CardParoquia/CardParoquia";
 import Titulo from "./../../components/Titulo/Titulo";
 import paroquias from "./../../data/paroquias.json";
+import "./estilo.css";
 
 class Paroquias extends Component {
   constructor(props) {
@@ -29,7 +30,7 @@ class Paroquias extends Component {
     nomesParoquias.map((paroquia) => {
       //caminho para a pasta de imagens de cada paroquia
       let caminhoImagem = "imagens/Paroquias/" + opcao + "/" + paroquia + "/";
-      cards.push(
+      cards.push(        
         <CardParoquia paroquia={cidadeSelecionada[paroquia]} caminhoImagem={caminhoImagem}></CardParoquia>
       );
     });
@@ -61,7 +62,9 @@ class Paroquias extends Component {
           <option value="pederneiras">Pederneiras</option>
           <option value="piratininga">Piratininga</option>
         </select>
-        {this.constroiCards(this.state.opcao)}
+        <div className="conteinerParoquias">
+          {this.constroiCards(this.state.opcao)}
+        </div>
         <Rodape></Rodape>
       </div>
     );

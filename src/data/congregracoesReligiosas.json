@@ -64,6 +64,25 @@
             "cep": "17015-330",
             "telefone": "(14) 3366-3000",
             "email": "ir.jucelia@yahoo.com.br"
+        },
+        "ordemDaImaculadaConceicao": {
+            "titulo": ["Mosteiro da Imaculada Conceição e São José","Monjas Concepcionistas Franciscanas Contemplativas"],
+            "nomes": [""],
+            "local": "Estrada Vicinal Maria Domingues Veríssimo, s/nº",
+            "cidade": "Piratininga – SP",
+            "cep": "17490-971",
+            "telefone": "(14) 3265-1624",
+            "email": "mosteiro@moic.org.br"
+        },
+        
+        "unisagrado": {
+            "titulo": ["Unisagrado"],
+            "nomes": [""],
+            "local": "Rua Irmã Arminda, 10-50, Jardim Brasil",
+            "cidade": "Bauru – SP",
+            "cep": "17011-160",
+            "telefone": "(14) 2107-7000",
+            "email": "ir.fabiana@usc.br"
         }
         
     },
@@ -73,6 +92,23 @@
         "Paróquia Santa Clara de Assis – Bauru",
         "Paróquia São Paulo Apóstolo – Agudos",
         "Paróquia São Sebastião – Avaí"
-    ]
-
+    ],
+    "associacaoPublicaDeFieis":{
+        "titulo": "Associação Pública de Fiéis - Fraternidade Santo Inácio de Antioquia",
+        "nome": "Residência dos Frades Inacianos e Casa de Formação (Postulantado e Noviciado Inaciano)",
+        "local":"Alameda das Hortênsias, 8-40, Parque Vista Alegre",
+        "cidade":"Bauru - SP",
+        "cep": "17020-510",
+        "telefone": "(14) 3202-8187",
+        "email": "alfredodesouza1966@gmail.com"
+    },
+    "casasDeFormacaoDosReligiosos":{
+        "titulo": "Associação Pública de Fiéis - Fraternidade Santo Inácio de Antioquia",
+        "nome": "Residência dos Frades Inacianos e Casa de Formação (Postulantado e Noviciado Inaciano)",
+        "local":"Alameda das Hortênsias, 8-40, Parque Vista Alegre",
+        "cidade":"Bauru - SP",
+        "cep": "17020-510",
+        "telefone": "(14) 3202-8187",
+        "email": "alfredodesouza1966@gmail.com"
+    }
 }

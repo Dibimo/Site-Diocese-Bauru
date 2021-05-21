@@ -1,0 +1,9 @@
+.conteinerParoquias{
+    display: flex; 
+    flex-wrap: wrap;
+   
+}
+.cardParoquiaComponente{
+    width: 49.5%;
+    margin: 1%;
+}
