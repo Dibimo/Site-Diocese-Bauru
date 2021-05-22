@@ -21,6 +21,9 @@
         "padroeiro": "Nossa Senhora Aparecida",
         "administradorParoquial": "Administrador Paroquial - Padre Paulo Tavares",
         "vigario": "Vigário - Padre Rafael Zagatto"
+      },
+      "mapa":{
+        "link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.7409196665135!2d-48.97131388564452!3d-22.476368185232403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c0a137dee102f3%3A0xb527ca05a893dcef!2sR.%20Dion%C3%ADzio%20Dalbeto%2C%2085%20-%20Parque%20Pampulha%2C%20Agudos%20-%20SP%2C%2017120-000!5e0!3m2!1spt-BR!2sbr!4v1621633372161!5m2!1spt-BR!2sbr"
       }
     },
     "santoAntonioDePauda": {
@@ -59,6 +62,9 @@
         "padroeiro": "Santo Antônio",
         "paroco": "Paróco - Pe. Paulo Tavares de Brito",
         "diacono": "Diácono - Diác. Marcos Alberto Arantes"
+      },
+      "mapa":{
+        "link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.724150370709!2d-48.99254248564444!3d-22.476998085232047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c0a10e22494187%3A0x9ac935893f70b35d!2sPar%C3%B3quia%20Santo%20Ant%C3%B4nio!5e0!3m2!1spt-BR!2sbr!4v1621633430251!5m2!1spt-BR!2sbr"
       }
     },
     "saoPauloApostolo": {
@@ -105,6 +111,9 @@
         "padroeiro": "São Paulo Apóstolo",
         "paroco": "Paróco - Pe. Frei Silvio Trindade Werlingue, OFM",
         "vigario": "Vigário - Pe. Frei Pedro do Nascimento Vianna, OFM"
+      },
+      "mapa":{
+        "link":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.9165511927267!2d-48.98900168564454!3d-22.469769985235796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c0a11b98914ef7%3A0xd913bd356aad9f2b!2sAv.%20Benedito%20Otoni%2C%20582%20-%20Centro%2C%20Agudos%20-%20SP%2C%2017120-017!5e0!3m2!1spt-BR!2sbr!4v1621633469824!5m2!1spt-BR!2sbr"
       }
     }
   },
@@ -165,7 +174,8 @@
         "criacao": "31/05/1925",
         "padroeiro": "São Sebastião",
         "paroco": "Paróco - Pe. Joseph Pottamplackal"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6214.596494972332!2d-49.33665801687772!3d-22.15565108752459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf0bcb7abb8c07%3A0x1694ed2f29e0d973!2sC%C3%A2mara%20Municipal!5e0!3m2!1spt-BR!2sbr!4v1621643801397!5m2!1spt-BR!2sbr" }
     }
   },
   "boraceia": {
@@ -202,7 +212,8 @@
         "festa": "12/10",
         "padroeiro": "Nossa Senhora Aparecida",
         "paroco": "Paróco - Pe. Antônio Marcos Roque de Carvalho"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7388.385543997799!2d-48.78057755047275!3d-22.19477917334869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf4d92aa1d329d%3A0x22fc46d8afa1b0be!2sR.%20Terciliano%20Sgavioli%2C%20738%2C%20Borac%C3%A9ia%20-%20SP%2C%2017270-000!5e0!3m2!1spt-BR!2sbr!4v1621643993086!5m2!1spt-BR!2sbr" } 
     }
   },
   "pederneiras": {
@@ -256,7 +267,8 @@
         "padroeiro": "Nossa Senhora Aparecida",
         "administradorParoquial": "Administrador Paroquial - Pe. Luiz Eduardo Monteiro Fontana",
         "vigario": "Vigário - Pe. Ednei Antônio Braga Rodrigues"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6205.3625379099985!2d-48.77078155524161!3d-22.36379734487903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c0aa7adbe40df7%3A0x9e6f71f1ea0c4c87!2sIgreja%20Nossa%20Senhora%20Aparecida!5e0!3m2!1spt-BR!2sbr!4v1621644440087!5m2!1spt-BR!2sbr" } 
     },
     "saoSebastiao":{
         "nome":"São Sebastião",
@@ -291,7 +303,8 @@
             "padroeiro":"São Sebastião",
             "paroco": "Paróco - Pe. Luiz Eduardo Monteiro Fontana",
             "vigario": "Vigário - Pe. Ednei Antônio Braga Rodrigues"
-        }
+        },
+        "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6205.94980739768!2d-48.78210657974634!3d-22.35061425869882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf5592a010e5b3%3A0x5aa3b39119d59aeb!2sAv.%20Tiradentes%2C%2058%20-%20Jd%20Anchieta%2C%20Pederneiras%20-%20SP%2C%2017280-000!5e0!3m2!1spt-BR!2sbr!4v1621644612443!5m2!1spt-BR!2sbr" } 
     },
     "saoJudasTadeu":{
         "nome":"São Judas Tadeu",
@@ -345,7 +358,8 @@
             "festa":"28/10", 
             "padroeiro":"São Judas Tadeu", 
             "administradorParoquial": "Administrador Paroquial - Pe. Anderson Luís Moreira"
-        }
+        },
+        "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5218.872023453944!2d-48.79428851242658!3d-22.34230612693387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf55dd173552ef%3A0xc6db41d1dd4c73d4!2sR.%20Josu%C3%A9%20Almeida%20Franco%2C%20Pederneiras%20-%20SP%2C%2017280-000!5e0!3m2!1spt-BR!2sbr!4v1621644689447!5m2!1spt-BR!2sbr" } 
     }
   },
   "cabraliaPaulista":{
@@ -373,7 +387,8 @@
               "festa":"06/08", 
               "padroeiro":"Senhor Bom Jesus",
               "administradorParoquial": "Administrador Paroquial - Pe. Maurício dos Santos Guerra" 
-          }
+          },
+          "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6201.125611264088!2d-49.33888341455436!3d-22.45869076489584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf7f3153715d2f%3A0x491af99dbcf6db4!2sPrefeitura%20Municipal%20de%20Cabr%C3%A1lia%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1621645021080!5m2!1spt-BR!2sbr" } 
       }
   },
   "duartina": {
@@ -411,7 +426,8 @@
               "rotatividade": "- Todas as terças e Quintas-feiras, às 20h, rotatividade de missas nos setores, zona rural e Capela do Hospital (em casos especiais, modificações serão comunicadas com antecedência).",
               "administradorParoquial": "Administrador Paroquial - Padre Luiz Antônio de Almeida",
               "diacono": "Diácono - Sebastião Fabiano de Oliveira"
-          }
+          },
+          "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5215.988426190466!2d-49.41723208490901!3d-22.41920819340371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf8319d6823973%3A0xf708735a515dd48f!2sR.%20Jorge%20Nassao%2C%20Duartina%20-%20SP%2C%2017470-000!5e0!3m2!1spt-BR!2sbr!4v1621645279061!5m2!1spt-BR!2sbr" } 
       }
   },
   "galia": {
@@ -456,7 +472,8 @@
               "festa":"19/03", 
               "padroeiro":"São José",
               "administradorParoquial": "Administrador Paroquial - Pe. Márcio José Cattache" 
-          }
+          },
+          "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6208.573068376262!2d-49.555581264549794!3d-22.291636712653546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf97dcad9594a1%3A0xfcd29adbb759aa76!2sPra%C3%A7a%20Cust%C3%B3dio%20de%20Araujo%20Ribeiro%2C%20G%C3%A1lia%20-%20SP%2C%2017450-000!5e0!3m2!1spt-BR!2sbr!4v1621645529307!5m2!1spt-BR!2sbr" } 
       }
   },
   "lucianopolis": {
@@ -485,7 +502,8 @@
               "festa":"29/07", 
               "padroeiro":"São Pedro",
               "administradorParoquial": "Administrador Paroquial - Pe. Maurício dos Santos Guerra"
-          }
+          },
+          "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14752.02898171979!2d-49.53054257966976!3d-22.428753114109696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf855350fcdaf3%3A0x84a6dd03b95668f5!2sLucian%C3%B3polis%2C%20SP%2C%2017475-000!5e0!3m2!1spt-BR!2sbr!4v1621645627593!5m2!1spt-BR!2sbr" } 
       }
   },
   "paulistania": {
@@ -516,12 +534,13 @@
               "festa":"01/10",
               "padroeiro":"Santa Teresinha",
               "administradorParoquial": "Administrador Paroquial - Pe. Antônio Rodrigues Neto"
-          }
+          },
+          "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7368.040266821705!2d-49.405104!3d-22.5783503!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c07fa65eea6e17%3A0x3fcdbb64c01f4539!2sR.%20J%C3%BAlio%20Granchi%2C%20110%2C%20Paulist%C3%A2nia%20-%20SP%2C%2017150-000!5e0!3m2!1spt-BR!2sbr!4v1621645942936!5m2!1spt-BR!2sbr" } 
       }
   },
   "piratininga": {
       "santaMaria":{
-          "nome":"Santa Maria",
+          "nome":"Santa Maria de Piratininga",
           "horariosDeMissa":[
             "Quarta-feira: 16h",
             "Quinta-feira: 6h30",
@@ -553,7 +572,8 @@
               "padroeiro":"Santa Maria",
               "setor": "Setor: Sábado: 19h ou 20h30 (Escala de Missa ou Celebração)",
               "paroco": "Paróco - Pe. Enedir Gonçalves Moreira"
-          }
+          },
+          "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.418994522855!2d-49.13839598564589!3d-22.413250285265065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf65ac2b93df9f%3A0xc0e30bb20ecd2dc5!2sIgreja%20Catolica%20Santa%20Maria%20De%20Piratininga!5e0!3m2!1spt-BR!2sbr!4v1621692206992!5m2!1spt-BR!2sbr" } 
       }
   },
   "iacanga": {
@@ -612,7 +632,8 @@
               "festa":"24/06", 
               "padroeiro":"São João Bastista",
               "paroco": "Paróco - Pe. Rosinaldo Faria de Sousa" 
-          }
+          },
+          "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10482.182285283994!2d-49.02615886252281!3d-21.741095841486757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bedf9bbd0ee6ff%3A0xcf63a9e196c53f57!2sIgreja%20matriz%20padroeiro%20S%C3%A3o%20Jo%C3%A3o%20Batista!5e0!3m2!1spt-BR!2sbr!4v1621692398375!5m2!1spt-BR!2sbr" } 
       }
   },
   "arealva": {
@@ -812,7 +833,8 @@
               "padroeiro":"Santa Catarina de Alexandria", 
               "paroco": "Paróco - Pe. Romildo Alceu da Silva",
               "diacono": "Diácono - Antônio Arthur Fernandes"
-          }
+          },
+          "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3698.521145494896!2d-48.91285028565445!3d-22.029651585464812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf39a2bb37a64d%3A0xe8a5eb8f6f083c8a!2sPra%C3%A7a%20D%C3%ADdimo%20Maulaz%20Silva%2C%20Arealva%20-%20SP%2C%2017160-000!5e0!3m2!1spt-BR!2sbr!4v1621692455507!5m2!1spt-BR!2sbr" } 
       }
   },
   "bauru": {
@@ -839,7 +861,8 @@
         "padroeiro": "Nossa Senhora Aparecida",
         "paroco": "Pároco - Pe. Joaquim dos Santos Filho, MSC",
         "vigario": "Vigário - Pe. Carlos Roberto Rodrigues, MSC"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7382.103274629025!2d-49.07473219082642!3d-22.313886781125575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67b83528bb19%3A0xbcdc0929027238f7!2sPra%C3%A7a%20Washington%20Luiz%2C%204%20-%20Centro%2C%20Bauru%20-%20SP%2C%2017010-210!5e0!3m2!1spt-BR!2sbr!4v1621692620011!5m2!1spt-BR!2sbr" } 
     },
     "saoCristovao":{
       "nome": "São Cristóvão",
@@ -866,7 +889,8 @@
         "festa": " 25/07",
         "padroeiro": "São Cristóvão",
         "paroco": "Pároco - Pe. Marcos Eduardo Pavan"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4388.25894866179!2d-49.0580957823052!3d-22.35093955300668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf6743e8947859%3A0x56a1034b3722225d!2sAv.%20Nossa%20Sra.%20de%20F%C3%A1tima%2C%2015-80%20-%20Jardim%20Europa%2C%20Bauru%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1621692688478!5m2!1spt-BR!2sbr" } 
     },
     "saoJudaseSaoDimas":{
       "nome": "São Judas Tadeu e São Dimas - Bauru",
@@ -891,7 +915,8 @@
         "padroeiro": "São Cristóvão",
         "paroco": "Paróco - Pe. Gustavo da Natividade",
         "diacono": "Diácono - José Luiz Faco"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5218.9786896451915!2d-49.08017704456542!3d-22.339456651562323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf6703f224f49b%3A0xe4818dbf61423189!2sR.%20Fernando%20Costa%2C%203-10%20-%20Vila%20Nova%20Santa%20Clara%2C%20Bauru%20-%20SP%2C%2017014-130!5e0!3m2!1spt-BR!2sbr!4v1621692746212!5m2!1spt-BR!2sbr" } 
     },
     "santaRitaDeCassia":{
       "nome": "Santa Rita de Cássia",
@@ -908,7 +933,8 @@
         "festa": "22/05",
         "padroeiro": "Santa Rita",
         "paroco": "Paróco - Pe. Milton César Carraschi"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7381.427697570089!2d-49.06691169996047!3d-22.326659351770715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67a1ac52bc27%3A0xe7d230bca6a1c1cd!2sR.%20S%C3%A3o%20Gon%C3%A7alo%2C%2054%20-%20Quadra%203%20-%20Vila%20Altinopolis%2C%20Bauru%20-%20SP%2C%2017012-170!5e0!3m2!1spt-BR!2sbr!4v1621692812512!5m2!1spt-BR!2sbr" } 
     },
     "santaTeresinhaDoMeninoJesus": {
       "nome": "Santa Teresinha do Menino Jesus",
@@ -925,7 +951,8 @@
         "padroeiro": "Santa Teresinha",
         "paroco": "Paróco - Pe. Carlos Henrique Andrade Siqueira",
         "vigario": "Vigário - Pe. Eduardo Campagnani Ferreira"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5219.46217309317!2d-49.07685208633422!3d-22.32653657201406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67aee1e244c3%3A0xe960f73c9821caa!2sPra%C3%A7a%20Rodrigues%20de%20Abreu%20-%20Vila%20Mesquita%2C%20Bauru%20-%20SP%2C%2017015-301!5e0!3m2!1spt-BR!2sbr!4v1621692906646!5m2!1spt-BR!2sbr" } 
     },
     "saoJoseDeAnchieta": {
       "nome": "São José de Anchieta",
@@ -959,7 +986,8 @@
         "criacao": "-",
         "festa": "-",
         "padroeiro": "São Jose de Anchieta"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7383.223915023536!2d-49.043783292030575!3d-22.292684457144016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf5d57eafa6217%3A0x5b1afa2b39e42407!2sR.%20Ant%C3%B4nio%20Crepaldi%2C%2030%20-%20Quadra%202%20-%20N%C3%BAcleo%20Habitacional%20Mary%20Dota%2C%20Bauru%20-%20SP%2C%2017026-490!5e0!3m2!1spt-BR!2sbr!4v1621693128602!5m2!1spt-BR!2sbr" } 
     },
     "nossaSenhoradasGracas":{
       "nome": "Nossa Senhora das Graças",
@@ -1007,7 +1035,8 @@
         "vigario1": "Vigário - Pe. Mateus de Jesus Donizetti Albino, RCJ,", 
         "vigario2": "Vigário - Pe. Guido Montinelli, RCJ, ", 
         "vigario3": "Vigário - Pe. Henrique de Lima Mateus, RCJ" 
-        }
+        },
+        "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7382.862689249245!2d-49.07146195392634!3d-22.299520876208653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67db10b24b5f%3A0x593ccafaf82ac20c!2sAlameda%20C%C3%B4nego%20An%C3%ADbal%20Difr%C3%A2ncia%2C%2010-4%20-%20Parque%20Vista%20Alegre%2C%20Bauru%20-%20SP%2C%2017020-700!5e0!3m2!1spt-BR!2sbr!4v1621693175912!5m2!1spt-BR!2sbr" } 
       },
       "saoBras":{
       "nome": "São Brás",
@@ -1034,7 +1063,8 @@
         "festa": "03/02",
         "padroeiro": "São Brás",
         "paroco": "Paróco - Pe. Sebastião Pereira"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6209.049528829633!2d-49.087566995809496!3d-22.280908779531092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf688b98ef58a9%3A0x7a7dc8ab01d459d4!2sR.%20dos%20Radialistas%2C%205%20-%20Quadra%201%20-%20Nucleo%20Res.%20Edison%20Bastos%20Gasparini%2C%20Bauru%20-%20SP%2C%2017022-220!5e0!3m2!1spt-BR!2sbr!4v1621693219235!5m2!1spt-BR!2sbr" } 
     },
     "santaEdwiges" : {
       "nome": "Santa Edwiges",
@@ -1062,7 +1092,8 @@
         "festa": "16/10",
         "padroeiro": "Santa Edwiges",
         "administradorParoquial": "Administrador Paroquial - Pe. Gilberto José de Melo"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6208.499347592205!2d-49.05089521768575!3d-22.293296164339434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67fb0727c645%3A0xd59fc8acbfb5641f!2sR.%20Cabo%20Torelli%20Agnelli%2C%201129%20-%20N%C3%BAcleo%20Habitacional%20Mary%20Dota%2C%20Bauru%20-%20SP%2C%2017026-290!5e0!3m2!1spt-BR!2sbr!4v1621693331844!5m2!1spt-BR!2sbr" } 
     },
     "santaLuzia": {
       "nome": "Santa Luzia",
@@ -1094,7 +1125,8 @@
         "criacao": "20/01/1969",
         "padroeiro": "Santa Luzia",
         "paroco": "Paróco - Pe. Frei Luciano da Silva Barbosa, SIA"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7382.428605019488!2d-49.05778152981392!3d-22.307733555947692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67934bd5be7f%3A0x87f652011edd0c39!2sR.%20Em%C3%ADlio%20Vi%C3%A9gas%2C%204-57%20-%20Vila%20Santa%20Luzia%2C%20Bauru%20-%20SP%2C%2017025-350!5e0!3m2!1spt-BR!2sbr!4v1621693417195!5m2!1spt-BR!2sbr" }
     },
     "saoPauloApostolo" :{
       "nome": "São Paulo Apóstolo",
@@ -1131,7 +1163,8 @@
         "criacao": "03/10/2004",
         "padroeiro": "São Paulo Apóstolo",
         "administradorParoquial": "Administrador Paroquial - Pe. Frei José Adeildo dos Santos, SIA"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8781.21213494032!2d-49.07246699750534!3d-22.276288836006792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf6868fff3b08b%3A0xc09b42437839405b!2sR.%20Alberto%20del%20Masso%2C%204-2%20-%20Pousada%20da%20Esperan%C3%A7a%20I%2C%20Bauru%20-%20SP%2C%2017022-096!5e0!3m2!1spt-BR!2sbr!4v1621693665134!5m2!1spt-BR!2sbr" } 
     },
     "mariaMaeDoRedentor" :{
       "nome": "Maria Mãe do Redentor",
@@ -1154,7 +1187,8 @@
         "paroco": "Paróco - Pe. Agnaldo Pereira",
         "diacono": "Diácono - Murilo Keler Fernandes",
         "padroeiro": "Maria Mãe do Redentor"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6207.5144552735965!2d-49.034519825861366!3d-22.315454814666843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf67bdf971a3e9%3A0xbf5269eb5f9b9620!2sPar%C3%B3quia%20M%C3%A3e%20do%20Redentor!5e0!3m2!1spt-BR!2sbr!4v1621693936107!5m2!1spt-BR!2sbr" } 
     },
     "imaculadaConceicao" :{
       "nome": "Imaculada Conceição",
@@ -1179,7 +1213,8 @@
         "festa": "08/12",
         "criacao": "08/12/2006",
         "paroco": "Paróco - Pe. Everaldo Junior Rambaldi"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8777.612504923227!2d-49.03171374321201!3d-22.333553583845198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf5d93d1c0c337%3A0xf082b366d6a63a90!2sR.%20Cyr%C3%AAnio%20Ferraz%20de%20Aguiar%2C%20104%20-%20Quadra%203%20-%20Jardim%20Bela%20Vista%2C%20Bauru%20-%20SP%2C%2017060-257!5e0!3m2!1spt-BR!2sbr!4v1621693982581!5m2!1spt-BR!2sbr" } 
     },
     "mariaDeNaraze":{
       "nome": "Maria de Nazaré",
@@ -1220,7 +1255,8 @@
         "paroco": "Paróco - Pe. Camilo da Silva Matos",
         "padroeiro": "Maria de Nazaré",
         "diacono": "Diácono - Paulo Roberto Oliveira Lourenço"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7381.52914065098!2d-49.02351927460026!3d-22.324741894679807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf5da2ecee59d3%3A0x5731cd549c28bc20!2sMatriz%20Maria%20de%20Nazar%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1621694083907!5m2!1spt-BR!2sbr" } 
     },
     "santuarioDoSagradoCoracao":{
       "nome": "Santuário do Sagrado Coração de Jesus",
@@ -1253,7 +1289,8 @@
         "paroco": "Paróco - Pe. Leonildo Minutti Júnior",
         "padroeiro": "Sagrado Coração de Jesus",
         "diacono": "Diácono - Dr. José Rafael Mazzoni"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.5803595023403!2d-49.05143911008734!3d-22.334593131661165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf677aa59aecf9%3A0xddf031be55d9d452!2sPar%C3%B3quia%20Universit%C3%A1ria%20do%20Sagrado%20Cora%C3%A7%C3%A3o%20de%20Jesus!5e0!3m2!1spt-BR!2sbr!4v1621694365416!5m2!1spt-BR!2sbr" } 
     },
     "sagradaFamilia" :{
       "nome": "Sagrada Família",
@@ -1275,7 +1312,8 @@
         "criacao": "11/02/1995",
         "padroeiro": "Sagrada Família",
         "administradorParoquial": "Administrador Paroquial - Pe. Gustavo Rubin da Mota"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5219.578680175275!2d-49.043963254296315!3d-22.32342210410245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf677fe4bd7801%3A0x695722de2c2de660!2sR.%20Lu%C3%ADs%20Bassoto%2C%2025%20-%20Quadra%204%20-%20Vila%20Carmem%2C%20Bauru%20-%20SP%2C%2017030-500!5e0!3m2!1spt-BR!2sbr!4v1621694414272!5m2!1spt-BR!2sbr" } 
     },
     "saoSebastiao":{
       "nome": "São Sebastião",
@@ -1293,7 +1331,8 @@
         "paroco": "Paróco - Pe. Leonildo Minutti Júnior",
         "padroeiro": "São Sebastião",
         "diacono": "Diácono - Murilo Keler Fernandes"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8778.550090295377!2d-49.06364733706086!3d-22.318651426969282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf679782612d71%3A0x2c7b189dfbcbf5eb!2sTv.%20S%C3%A3o%20Sebasti%C3%A3o%2C%2053%20-%20Quadra%201%20-%20Vila%20Cardia%2C%20Bauru%20-%20SP%2C%2017013-340!5e0!3m2!1spt-BR!2sbr!4v1621694467558!5m2!1spt-BR!2sbr" } 
     },
     "santoAntonioDePadua":{
       "nome": "Santo Antônio de Pádua",
@@ -1337,7 +1376,8 @@
         "padroeiro": "Santo Antônio",
         "vigario1" : "Vigario - Pe. Frei André Becker, OFM",
         "vigario2": "Vigario - Pe. Frei Ricardo Backbs, OFM"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6207.551535249151!2d-49.08683138379262!3d-22.314620947206205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf66336a91c183%3A0x255e272b6087d351!2sPar%C3%B3quia%20Santo%20Ant%C3%B4nio!5e0!3m2!1spt-BR!2sbr!4v1621694543137!5m2!1spt-BR!2sbr" } 
     },
     "saoBenedito" : {
       "nome": "São Benedito",
@@ -1363,7 +1403,8 @@
         "criacao": "21/07/1944",
         "paroco": "Paróco - Pe. Gustavo Henrique Crepaldi",
         "padroeiro": "São Benedito"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.645403429367!2d-49.08758748564778!3d-22.329246585308503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf6653d7ebbbd5%3A0xd03df09b9cdef191!2sPar%C3%B3quia%20S%C3%A3o%20Benedito!5e0!3m2!1spt-BR!2sbr!4v1621694768940!5m2!1spt-BR!2sbr" } 
     },
     "santaClara":{
       "nome": "Santa Clara",
@@ -1400,7 +1441,8 @@
         "administradorParoquial": "Administrador Paroquial - Pe. Giuliano Henrique Lourenço Alamino",
         "padroeiro": "Santa Clara de Assis",
         "diacono": "Diácono - Thiago de Freitas Albertini"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1551.9455822074058!2d-49.12313431922516!3d-22.30943011550281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf65ffdd5f2e43%3A0xee6157791406274b!2sPar%C3%B3quia%20Santa%20Clara!5e0!3m2!1spt-BR!2sbr!4v1621694861512!5m2!1spt-BR!2sbr" } 
     },
     "saoJoseTrabalhador":{
       "nome": "São José Trabalhador",
@@ -1427,7 +1469,8 @@
         "paroco": "Paróco - Pe. Giuliano Henrique Lourenço Alamino",
         "padroeiro": "São José Operário",
         "diacono": "Diácono - Thiago Freitas Albertini"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.493852557572!2d-49.104862969625756!3d-22.327297364722966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf666b10adfd8f%3A0x4979c0b242ec4cc9!2zUGFyw7NxdWlhIFPDo28gSm9zw6kgVHJhYmFsaGFkb3I!5e0!3m2!1spt-BR!2sbr!4v1621694925050!5m2!1spt-BR!2sbr" } 
     },
     "saoPedroApostolo": {
       "nome": "São Pedro Apóstolo",
@@ -1453,7 +1496,8 @@
         "criacao": "04/03/1999",
         "administradorParoquial": "Administrador Paroquial - Pe. Reinaldo Batista da Cunha",
         "padroeiro": "São Pedro"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4389.16913391443!2d-49.12455067855866!3d-22.32201899822229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf65e20d67f919%3A0x3cb59d3b4206d371!2zUGFyw7NxdWlhIFPDo28gUGVkcm8gQXDDs3N0b2xv!5e0!3m2!1spt-BR!2sbr!4v1621695024520!5m2!1spt-BR!2sbr" } 
     },
     "nossaSenhoraDaAssuncao":{
         "nome": "Nossa Senhora da Assunção",
@@ -1474,7 +1518,8 @@
           "criacao": "13/02/2000",
           "administradorParoquial": "Administrador Paroquial - Pe. Fernando Crialez Mastelari",
           "padroeiro": "Nossa Senhora da Assunção"
-        }
+        },
+        "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6205.647734724104!2d-49.10340240674592!3d-22.35739613840179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf66eb2fc3360d%3A0xd6679bbcb219fd66!2sR.%20Jos%C3%A9%20Bueno%20de%20Camargo%20Sobrinho%2C%205-25%20-%20Jardim%20Ouro%20Verde%2C%20Bauru%20-%20SP%2C%2017056-042!5e0!3m2!1spt-BR!2sbr!4v1621695089062!5m2!1spt-BR!2sbr" }
     },
     "senhorBomJesus":{
       "nome": "Senhor Bom Jesus",
@@ -1493,7 +1538,8 @@
         "criacao": "23/05/1965",
         "paroco": "Paróco - Pe. Wellington Supriano",
         "padroeiro": "Senhor Bom Jesus"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6206.528694997332!2d-49.091045193035534!3d-22.337612105899044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf66f8bffbdff5%3A0xb5f5835927b2ee9!2sR.%20Martins%20Fontes%2C%2075%20-%20Quadra%206%20-%20Vila%20Independencia%2C%20Bauru%20-%20SP%2C%2017054-310!5e0!3m2!1spt-BR!2sbr!4v1621695245909!5m2!1spt-BR!2sbr" } 
     },
     "saoJoaoBatistaeNossaSenhoraLourdes":{
       "nome": "São João Batista e Nossa Senhora de Lourdes",
@@ -1517,7 +1563,8 @@
         "criacao": "23/06/1998",
         "paroco": "Paróco - Pe. Luís Antônio Carqueijo Sé",
         "padroeiro": "São João Batista"
-      }
+      },
+      "mapa": { "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.092090157082!2d-49.10581278564729!3d-22.350151385297686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf668d13c891b5%3A0x595b9f0adcd24062!2sR.%20Pedro%20Fernandes%2C%2084%20-%20Quadra%2013%20-%20Vila%20S%C3%A3o%20Jo%C3%A3o%20do%20Ipiranga%2C%20Bauru%20-%20SP%2C%2017056-140!5e0!3m2!1spt-BR!2sbr!4v1621695300730!5m2!1spt-BR!2sbr" } 
     }
   }
 }
