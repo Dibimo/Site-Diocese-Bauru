@@ -95,6 +95,8 @@ class CardParoquia extends Component {
 
         <h6>Informações Adicionais</h6>
         {this.constroiInformacoesAdicionais(this.props.paroquia.informacoesAdicionais)}
+        <h6>Mapa</h6>
+        <iframe src={this.props.paroquia.mapa.link} width="500" height="450" allowfullscreen="" style={{border: 0}} loading="lazy"></iframe>
       </div>
     );
   }
