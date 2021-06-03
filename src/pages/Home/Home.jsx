@@ -65,7 +65,7 @@ class Home extends Component {
                 <Card titulo="Notícias" />
               </Grid>   
               <Grid align="center" item xs={12} sm={6} md={4}>
-                <Card titulo="Clero" />
+                <Link to="/clero"> <Card titulo="Clero" /></Link>
               </Grid>
             </Grid>
 
