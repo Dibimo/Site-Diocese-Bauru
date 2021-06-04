@@ -1,0 +1,63 @@
+.conteinerBispos{
+    width: 51%;
+    height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0 auto 3% auto;
+}
+
+.conteinerBispos div.bispoFotoTexto{
+    float: left;    
+}
+
+.conteinerBispos div.bispoFotoTexto img{
+    margin-right: 10px;
+}
+
+.tituloClero{
+    display: flex;
+    justify-content: center;
+}
+
+.conteinerPadresBauru{
+    display: flex;
+    width: 65%;
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    margin: 0 auto 0 auto;
+    
+}
+
+.nomesPadresBauru{
+    width: 50%;
+    border: 1px solid black
+}
+
+.conteinerDiaconosPermanentes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.nomesDiaconosPermanentes{
+    width: 50%;
+    border: 1px solid black
+}
+
+.nomesPadresBauru:nth-child(2n), .nomesDiaconosPermanentes:nth-child(2n){
+    width: 49%;
+    margin-left: 1%;
+    
+}
+
+.conteinerPadresResidindoFora{
+    display: flex;
+    justify-content: center;
+}
+
+.padreResidindoFora{
+    margin: 1%;
+}
