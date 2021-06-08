@@ -10,7 +10,7 @@ import Paroquia from './pages/Paroquias/Paroquias';
 import Programacao from './pages/Programacao/Programacao';
 import CongregacoesReligiosas from "./pages/CongregacoesReligiosas/CongregacoesReligiosas";
 import Clero from "./pages/Clero/Clero";
-
+import Noticias from './pages/Noticias/Noticias';
 
 
 ReactDOM.render(
@@ -23,6 +23,7 @@ ReactDOM.render(
       <Route path="/programacao" component={Programacao} />
       <Route path="/congregacoes_religiosas" component={CongregacoesReligiosas} />
       <Route path="/clero" component={Clero} />
+      <Route path="/noticias" component={Noticias} />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
