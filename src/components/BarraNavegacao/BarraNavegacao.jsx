@@ -28,7 +28,7 @@ const BarraNavegacao = (props) => {
                             </NavItem>
 
                             <NavItem>
-                                <NavLink href="/paroquia"><h4>...</h4></NavLink>
+                                <Link to="/noticias" className="semDecoracao"><h4>Notícias Diocesanas</h4></Link>
                             </NavItem>
 
                             <NavItem>
