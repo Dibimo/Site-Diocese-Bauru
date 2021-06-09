@@ -82,11 +82,7 @@ class CongregacoesReligiosas extends Component {
   constroiDiaconos(){
 
   }
-
   
-
-  
-
   render() {
     return (
       <Container
@@ -96,7 +92,7 @@ class CongregacoesReligiosas extends Component {
         sm="maxWidth"
       >
         <BarraNavegacao></BarraNavegacao>
-        <Titulo titulo="Clero"></Titulo>
+        <Titulo titulo="CLERO"></Titulo>
         <>
           <button onClick={this.voltar}>&lt;</button>
           <button onClick={this.avancar}>&gt;</button>
