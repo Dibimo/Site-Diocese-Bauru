@@ -4,6 +4,7 @@ import Rodape from "./../../components/Rodape/Rodape";
 import CardParoquia from "./../../components/CardParoquia/CardParoquia";
 import Titulo from "./../../components/Titulo/Titulo";
 import paroquias from "./../../data/paroquias.json";
+import { Collapse } from "reactstrap";
 import "./estilo.css";
 
 class Paroquias extends Component {
@@ -11,12 +12,14 @@ class Paroquias extends Component {
     super(props);
     this.state = {
       opcao: "",
+      collapsed: false,
     };
     this.handleChange = this.handleChange.bind(this);
   }
 
   handleChange(event) {
     this.setState({ opcao: event.target.value });
+    (this.seletor.blur());
   }
 
   constroiCards(opcao) {
@@ -30,7 +33,7 @@ class Paroquias extends Component {
     nomesParoquias.map((paroquia) => {
       //caminho para a pasta de imagens de cada paroquia
       let caminhoImagem = "imagens/Paroquias/" + opcao + "/" + paroquia + "/";
-      cards.push(        
+      cards.push(
         <CardParoquia paroquia={cidadeSelecionada[paroquia]} caminhoImagem={caminhoImagem}></CardParoquia>
       );
     });
@@ -42,26 +45,34 @@ class Paroquias extends Component {
       <div className="container">
         <BarraNavegacao></BarraNavegacao>
         <Titulo titulo={"Paróquias"}></Titulo>
-        <select
-          name="selecionaCidade"
-          id="selecionadaCidade"
-          onChange={this.handleChange}
-        >
-          <option value="">Escolha a Cidade</option>
-          <option value="agudos">Agudos</option>
-          <option value="arealva">Arealva</option>
-          <option value="avai">Avai</option>
-          <option value="bauru">Bauru</option>
-          <option value="boraceia">Boraceia</option>
-          <option value="cabraliaPaulista">Cabralia Paulista</option>
-          <option value="duartina">Duartina</option>
-          <option value="galia">Galia</option>
-          <option value="iacanga">Iacanga</option>
-          <option value="lucianopolis">Lucianopolis</option>
-          <option value="paulistania">Paulistania</option>
-          <option value="pederneiras">Pederneiras</option>
-          <option value="piratininga">Piratininga</option>
-        </select>
+        <div className="conteinerSeletorCidades">
+          <div>Selecione uma cidade: </div>
+          <select
+            name="selecionaCidade"
+            id="selecionadaCidade"
+            className="seletorCidades"
+            onChange={this.handleChange}
+            ref={(seletor) => {this.seletor = seletor;}}
+          >
+            <option className="opcaoCidade" value="">Escolha a Cidade</option>
+            <option className="opcaoCidade" value="agudos">Agudos</option>
+            <option className="opcaoCidade" value="arealva">Arealva</option>
+            <option className="opcaoCidade" value="avai">Avai</option>
+            <option className="opcaoCidade" value="bauru">Bauru</option>
+            <option className="opcaoCidade" value="boraceia">Boraceia</option>
+            <option className="opcaoCidade" value="cabraliaPaulista">Cabralia Paulista</option>
+            <option className="opcaoCidade" value="duartina">Duartina</option>
+            <option className="opcaoCidade" value="galia">Galia</option>
+            <option className="opcaoCidade" value="iacanga">Iacanga</option>
+            <option className="opcaoCidade" value="lucianopolis">Lucianopolis</option>
+            <option className="opcaoCidade" value="paulistania">Paulistania</option>
+            <option className="opcaoCidade" value="pederneiras">Pederneiras</option>
+            <option className="opcaoCidade" value="piratininga">Piratininga</option>
+          </select>
+        </div>
+        {this.state.opcao && (
+          <div>Clique no nome da paróquia para saber mais</div>
+        )}
         <div className="conteinerParoquias">
           {this.constroiCards(this.state.opcao)}
         </div>
