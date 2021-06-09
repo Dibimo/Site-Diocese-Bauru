@@ -4,7 +4,6 @@ import Rodape from "./../../components/Rodape/Rodape";
 import CardParoquia from "./../../components/CardParoquia/CardParoquia";
 import Titulo from "./../../components/Titulo/Titulo";
 import paroquias from "./../../data/paroquias.json";
-import { Collapse } from "reactstrap";
 import "./estilo.css";
 
 class Paroquias extends Component {
@@ -12,7 +11,6 @@ class Paroquias extends Component {
     super(props);
     this.state = {
       opcao: "",
-      collapsed: false,
     };
     this.handleChange = this.handleChange.bind(this);
   }
