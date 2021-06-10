@@ -3,9 +3,21 @@ import BarraNavegacao from "./../../components/BarraNavegacao/BarraNavegacao";
 import Rodape from "./../../components/Rodape/Rodape";
 import Titulo from "./../../components/Titulo/Titulo";
 import CardContato from './../../components/CardContato/CardContato';
+import Container from "@material-ui/core/Container";
 import contatos from './../../data/contatos.json';
+import CardCidadesContatos from "../../components/CardCidadesContatos/CardCidadesContatos";
+
+import './estilo.css';
+
 
 class Contato extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      collapsed: false,
+    };
+  }
 
   constroiCardsContatos(){
     let titulos = {
@@ -28,6 +40,7 @@ class Contato extends Component {
     cidadesNomes.map((cidadeNome)=>{
       var cidade = contatos[cidadeNome];
       let paroquias = Object.keys(cidade);
+
       let contatosParoquias = paroquias.map((paroquia) => {
         let informacoes = [];
         informacoes.push(
@@ -37,11 +50,12 @@ class Contato extends Component {
         );
         return informacoes;
       });
+
       let card = (
-        <div className="container" style={{ border: "1px solid", margin: "2px" }}>
-          <h5>{titulos[cidadeNome]}</h5>
-          {contatosParoquias}
-        </div>
+        <CardCidadesContatos
+          cidadeNome = {titulos[cidadeNome]}
+          contatosParoquias = {contatosParoquias}
+        ></CardCidadesContatos>
       );
       cards.push(card);
     });
@@ -54,10 +68,10 @@ class Contato extends Component {
 
   render() {
     return (
-      <div className="container">
+      <Container style={{backgroundColor: "#F3EEE8"}} border="1px" border-radius="5px"  sm="maxWidth">
         <BarraNavegacao></BarraNavegacao>
         <Titulo titulo={'Contato'}></Titulo>
-        {/* Titulo */}
+        
         <div> {/*Parte 1 - "entrar em contato direto com a diocese"*/}
             <div style={{textAlign: "center"}}>
                 <h4>CÚRIA DIOCESANA</h4>
@@ -72,17 +86,17 @@ class Contato extends Component {
                 <div>DE 2ª A 6ª FEIRA: DAS 8H ÀS 12H / DAS 13H ÀS 17H30</div>
             </div>
             <hr />
-            <input style={{display: "block", marginBottom: "10px"}} type="text" placeholder="Nome: " />
-            <input style={{display: "block", marginBottom: "10px"}} type="text" placeholder="E-mail: " />
-            <input style={{display: "block", marginBottom: "10px"}} type="text" placeholder="Assunto: " />
-            <textarea cols="30" rows="10" placeholder="Mensagem: "></textarea>
+            <input className="inputContato" type="text" placeholder="Nome: " />
+            <input className="inputContato" type="text" placeholder="E-mail: " />
+            <input className="inputContato" type="text" placeholder="Assunto: " />
+            <textarea className="inputContato" cols="30" rows="10" placeholder="Mensagem: "></textarea>
         </div>
+
         <div> {/*Parte 2 - "Informações especificas para cada paroquia"*/}
-            <div>Informações</div>
             <div>{this.constroiCardsContatos()}</div>
         </div>
         <Rodape></Rodape>
-      </div>
+      </Container>
     );
   }
 }
