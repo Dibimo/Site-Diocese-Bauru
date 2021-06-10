@@ -23,7 +23,7 @@ class Home extends Component {
   }
   render() {
     return (
-      <Container style={{backgroundColor: "#F3EEE8"}} border="1px" border-radius="5px"  sm="maxWidth">        
+      <Container style={{backgroundColor: "#F3EEE8"}} border="1px" border-radius="5px"  sm="maxWidth">
         <BarraNavegacao></BarraNavegacao>
         
         <PainelRotativo
