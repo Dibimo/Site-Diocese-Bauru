@@ -21,8 +21,19 @@
     
 }
 .outrosCongregacoes{
-    width: 81%;
+    margin: 1% auto;
+    width: 75%;
 }
-.outrosCongregacoes div{
+.outrosCongregacoes > div{
     margin: 4px 0px;
+    border: none;
+    background-color: #eddc86;
+    border-radius: 10px;
+    padding: 7px 10px 7px 10px;
+}
+
+
+
+.negrito{
+    font-weight: bold;
 }
