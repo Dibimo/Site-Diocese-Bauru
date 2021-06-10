@@ -4,6 +4,7 @@ import Rodape from "./../../components/Rodape/Rodape";
 import CardParoquia from "./../../components/CardParoquia/CardParoquia";
 import Titulo from "./../../components/Titulo/Titulo";
 import paroquias from "./../../data/paroquias.json";
+import Container from "@material-ui/core/Container";
 import "./estilo.css";
 
 class Paroquias extends Component {
@@ -40,7 +41,12 @@ class Paroquias extends Component {
 
   render() {
     return (
-      <div className="container">
+      <Container
+        style={{ backgroundColor: "#F3EEE8" }}
+        border="1px"
+        border-radius="5px"
+        sm="maxWidth"
+      >
         <BarraNavegacao></BarraNavegacao>
         <Titulo titulo={"Paróquias"}></Titulo>
         <div className="conteinerSeletorCidades">
@@ -75,7 +81,7 @@ class Paroquias extends Component {
           {this.constroiCards(this.state.opcao)}
         </div>
         <Rodape></Rodape>
-      </div>
+      </Container>
     );
   }
 }
