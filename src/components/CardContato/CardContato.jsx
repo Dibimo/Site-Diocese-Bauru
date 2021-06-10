@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import './estilo.css';
 class CardContato extends Component {
   constructor(props) {
     super(props);
@@ -19,8 +19,8 @@ class CardContato extends Component {
 
   render() {
     return (
-      <div className="container" style={{ border: "1px solid tomato", margin: "2px" }}>
-        <div>{this.props.paroquia.nome}</div>
+      <div className="containerInformacoesParoquias">
+        <h6>{this.props.paroquia.nome}</h6>
         <div>{this.constroiContato(this.props.paroquia.contato)}</div>
       </div>
     );
