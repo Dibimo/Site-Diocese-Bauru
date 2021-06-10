@@ -1,0 +1,11 @@
+.containerInformacoesParoquias{
+    padding: 2px 15px 2px 15px;
+    margin-bottom: 1%;
+    border: 2px solid #93272e;
+    border-radius: 10px;
+}
+
+.containerInformacoesParoquias h6{
+    font-weight: bold;
+}
+
