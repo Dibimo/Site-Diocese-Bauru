@@ -1,3 +1,39 @@
+#conteinerCalendario{
+    margin: 2% auto 2% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conteinerPainelInfo{
+    margin: 2% auto 2% auto;
+    /* border-left: 1px solid black;
+    border-bottom: 1px solid black; */
+}
+
+.react-calendar__navigation{
+    background-color: #b11918;
+}
+
+.react-calendar__navigation button:enabled:focus{
+    background-color: #b11918;
+
+}
+
+.react-calendar__navigation button:enabled:hover {
+    background-color: #ee9c9cbe;
+}
+
+.react-calendar__navigation__arrow{
+    color: white
+}
+
+
+span.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from{
+    text-transform: uppercase;
+    color: white;
+}
+
 .react-calendar button{
     border-radius: 0px;
 }
@@ -20,10 +56,6 @@ button.react-calendar__month-view__days__day--weekend.react-calendar__tile--acti
 
 button.react-calendar__month-view__days__day--weekend {
     color: black;
-}
-
-#calendario{
-    margin: 2% auto 2% auto;
 }
 
 #redesSociais{
