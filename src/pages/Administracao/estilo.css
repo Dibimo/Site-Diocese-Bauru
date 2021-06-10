@@ -1,12 +1,17 @@
 .primeiroConteiner{
-    margin-top: 1%;
+    margin-top: 3%;
     display: flex;
     justify-content: space-around;
 }
 .primeiroConteinerItem{
     width: 31%;
-    
-    
+}
+
+.primeiroConteinerItem  > div /*espaçamento entre os cards*/{
+    margin: 3px auto 0 auto;
+}
+.primeiroConteinerItem  > div *{ /*espaçamento entre as informações*/
+    margin: -1px auto 0 auto;
 }
 
 .conteinerInformacoes *{
@@ -17,6 +22,7 @@
 .segundoConteiner{
     display: flex;
     justify-content: space-around;
+    margin-top: 3%;
     
 }
 
@@ -25,12 +31,20 @@
     align-self: center;
 }
 
+.segundoConteinerItem > div{
+    margin-bottom: 7%;
+}
+
+.segundoConteinerItem > div > *{ /*Removendo espaços entre as informações*/
+    margin: -1px auto 0 auto;
+}
+
 .conteinerConselhoDiocesano{
     align-items: center;
     display: flex;
     flex-direction: column;
 
-    width: 55%;
+    width: 37%;
     margin: 0 auto;
     
     background-color: #f1eb99;
@@ -47,10 +61,20 @@
     font-size: 24px;
 }
 
-.conteinerConselhoDiocesano p{
+.conteinerConselhoDiocesano  p {
     width: 100%;
     text-align: center;
     
+}
+
+.tituloAdministracao{
+    font-weight: bold;
+    color: #b51818;
+}
+
+.tituloAdministracao#tituloConselhoEconomico{
+    text-align: center;
+
 }
 
 
@@ -63,14 +87,14 @@
     display: flex;
     flex-direction: column;
 
-    width: 90%;
+    width: 70%;
     margin: 0 auto 1% auto;
 
     
     background-color: #f1eb99;
 }
 
-.conteinerConselhoDeLeigos p.tituloConselhoDeLeigos{
+.conteinerConselhoDeLeigos h6.tituloConselhoDeLeigos{
     cursor: pointer;
     background-color: #e9e087;
     width: 100%;
