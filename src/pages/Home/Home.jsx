@@ -35,10 +35,10 @@ class Home extends Component {
         <div className="tintura2 round">
 
           <br></br>
-          <div  align="center" padding="2px" style={{marginTop: "40px"}}>
-            <Link to="/programacao"><button width="200px" height="80px">Programação</button></Link>
-            <button>Movimentos</button>
-            <button type="submit"><i class="fas fa-church"></i>Seminários</button>
+          <div  align="center" padding="2px" style={{marginTop: "40px", marginBottom: "20px"}}>
+            <Link to="/programacao"><button id="botaoProgramacao"></button></Link>
+            <button id="botaoMovimentos"></button>
+            <button id="botaoSeminarios" type="submit"><i class="fas fa-church"></i></button>
           </div>
 
           <br></br>
