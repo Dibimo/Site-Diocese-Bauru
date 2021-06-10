@@ -46,16 +46,18 @@ class CongregacoesReligiosas extends Component {
         <Titulo titulo="CONGREGAÇÕES RELIGIOSAS"></Titulo>
 
         <div className="congregacoesConteiner">
+
           <section className="congregacoesMasculinas">
-            <button width="200px" height="80px">Masculinas</button>
+            <button id="iconeMasculinas"></button>
             {this.controiCards(congregacoes.masculinas)}
             {this.constroiParoquias()}
           </section>
 
           <section className="congregacoesFemininas">
-            <button width="200px" height="80px">Femininas</button>
+            <button id="iconeFemininas"></button>
             {this.controiCards(congregacoes.femininas)}
           </section>
+
         </div>
         <section className="outrosCongregacoesConteiner">
           <div className="outrosCongregacoes">
