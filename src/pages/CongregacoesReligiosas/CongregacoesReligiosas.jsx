@@ -23,11 +23,11 @@ class CongregacoesReligiosas extends Component {
     let paroquiasDivs = [];
     congregacoes.paroquias.map((paroquia)=>{
       paroquiasDivs.push(
-        <div>{paroquia}</div>
+        <div className="negrito">{paroquia}</div>
       );
     });
     return (
-      <div className="paroquiasCongregacoesMasculinas conteudoCardCongregacao" style={{ border: "1px solid" }}>
+      <div className="paroquiasCongregacoesMasculinas conteinerCardCongregacao conteudoCardCongregacao">
         Paróquias:
         {paroquiasDivs}
       </div>
@@ -43,7 +43,7 @@ class CongregacoesReligiosas extends Component {
         sm="maxWidth"
       >
         <BarraNavegacao></BarraNavegacao>
-        <Titulo titulo="Congregações Religiosas"></Titulo>
+        <Titulo titulo="CONGREGAÇÕES RELIGIOSAS"></Titulo>
 
         <div className="congregacoesConteiner">
           <section className="congregacoesMasculinas">
