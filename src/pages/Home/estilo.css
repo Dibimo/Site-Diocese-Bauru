@@ -7,11 +7,28 @@ button{
     font-size: 25px;
     box-sizing: content-box;
     color:black;
-    background-color:#fdf9c4;
+    background-color:#f2ed99;
     border-style: solid;
-    border-color: #fdf9c4;
+    border-color: #f2ed99;
     border-radius: 25px;
   }
+
+#botaoProgramacao, #botaoMovimentos, #botaoSeminarios{
+  width: 280px;
+  height: 55px;
+}
+
+#botaoProgramacao{
+  background: url(./../../assets/botaoProgramacao.svg) 100% / 100%  no-repeat #f2ed99;
+}
+
+#botaoMovimentos{
+  background: url(./../../assets/botaoMovimentos.svg) 100% / 100%  no-repeat #f2ed99;
+}
+
+#botaoSeminarios{
+  background: url(./../../assets/botaoSeminarios.svg) 100% / 100%  no-repeat #f2ed99;
+}
   
   a{
     margin: 0 15px;
