@@ -14,7 +14,6 @@ class Programacao extends Component {
     this.state = {
       data: new Date(),
     };
-    // this._data = new Date();
     this._eventos = null;
     this.handleChange = this.handleChange.bind(this);
   }
@@ -53,13 +52,14 @@ class Programacao extends Component {
         <BarraNavegacao></BarraNavegacao>
         <Titulo titulo={"PROGRAMAÇÃO"}></Titulo>
 
-        <div id="calendario">
+        <div id="conteinerCalendario">
           <Calendar
             onClickDay={this.handleChange}
             next2Label={null}
             prev2Label={null}
             showNeighboringMonth={false}
             view={"mounth"}
+            calendarType="US"
             tileClassName={({ date }) => {
               let classes = "";
               if (date.getDay() === 0) {
@@ -71,11 +71,10 @@ class Programacao extends Component {
               return classes;
             }}
           />
-          <div>
-            <p>Aqui é o painel de informações</p>
+          <div id="conteinerPainelInfo">
+            <h5>INFORMAÇÕES</h5>
             {this.constroiEvento(this.state.data)}
           </div>
-
         </div>
         <div id="redesSociais">
           <TwitterTimelineEmbed
