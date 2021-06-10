@@ -70,29 +70,34 @@ class Contato extends Component {
     return (
       <Container style={{backgroundColor: "#F3EEE8"}} border="1px" border-radius="5px"  sm="maxWidth">
         <BarraNavegacao></BarraNavegacao>
-        <Titulo titulo={'Contato'}></Titulo>
+        <Titulo titulo={'CONTATO'}></Titulo>
         
         <div> {/*Parte 1 - "entrar em contato direto com a diocese"*/}
-            <div style={{textAlign: "center"}}>
-                <h4>CÚRIA DIOCESANA</h4>
-                <div>RUA FERNANDO COSTA, 3-30, JARDIM ESTORIL - BAURU - CEP 17014-130</div>
-                <div>CAIXA POSTAL 550 - 17015-8706</div>
-                <div>FONE: (14) 3879-8706</div>
-                <div>E-MAIL: CURIA@BISPADOBAURU.ORG.BR</div>
+
+            <div className="conteinerDadosContato"> {/**Parte dos dados de contato */}
+              <h6>CÚRIA DIOCESANA</h6>
+              <div>RUA FERNANDO COSTA, 3-30, JARDIM ESTORIL - BAURU - CEP 17014-130</div>
+              <div>CAIXA POSTAL 550 - 17015-8706</div>
+              <div>FONE: (14) 3879-8706</div>
+              <div>E-MAIL: CURIA@BISPADOBAURU.ORG.BR</div>
+              
+              <hr />
+              
+              <h6>HORÁRIO DE FUNCIONAMENTO</h6>
+              <div>DE 2ª A 6ª FEIRA: DAS 8H ÀS 12H / DAS 13H ÀS 17H30</div>
+              <hr />
             </div>
-            <hr />
-            <div style={{textAlign: "center"}}>
-                <h4>HORÁRIO DE FUNCIONAMENTO</h4>
-                <div>DE 2ª A 6ª FEIRA: DAS 8H ÀS 12H / DAS 13H ÀS 17H30</div>
+            
+            <div className="conteinerInputsContato"> {/**Parte dos inputs */}
+              <input className="inputContato" type="text" placeholder="Nome: " />
+              <input className="inputContato" type="text" placeholder="E-mail: " />
+              <input className="inputContato" type="text" placeholder="Assunto: " />
+              <textarea className="inputContato" cols="30" rows="10" placeholder="Mensagem: "></textarea>
             </div>
-            <hr />
-            <input className="inputContato" type="text" placeholder="Nome: " />
-            <input className="inputContato" type="text" placeholder="E-mail: " />
-            <input className="inputContato" type="text" placeholder="Assunto: " />
-            <textarea className="inputContato" cols="30" rows="10" placeholder="Mensagem: "></textarea>
         </div>
 
-        <div> {/*Parte 2 - "Informações especificas para cada paroquia"*/}
+        {/*Parte 2 - "Informações especificas para cada paroquia"*/}
+        <div className="conteinerCardsContatos"> 
             <div>{this.constroiCardsContatos()}</div>
         </div>
         <Rodape></Rodape>
