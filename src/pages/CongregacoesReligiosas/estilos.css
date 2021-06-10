@@ -15,6 +15,22 @@
     margin: 4px 0px;
     
 }
+
+#iconeMasculinas, #iconeFemininas{
+    width: 340px;
+    height: 45px;
+    cursor: auto;
+    margin-top: 2%;
+}
+
+#iconeMasculinas{
+    background: url(./../../assets/congregacoesMasculinas.svg) 100% / 100%  no-repeat #ebd972;
+}
+#iconeFemininas{
+    background: url(./../../assets/congregacoesFemininas.svg) 100% / 100%  no-repeat #f2ed99;
+}
+
+
 .outrosCongregacoesConteiner{
     display: flex;
     justify-content: center;
