@@ -9,9 +9,30 @@ class CardContato extends Component {
   constroiContato(infoContato){
     return (
       <div>
-        <div>Rua: {infoContato.rua}</div>
-        <div>E-mail: {infoContato.email}</div>
-        <div>Telefone(s): {infoContato.telefone}</div>
+        <div>
+          <img 
+            src="/imagens/localizacaoIcone.png" 
+            alt="localização-icone" 
+            className="iconeContato"
+          />
+          Rua: {infoContato.rua}
+        </div>
+        <div>
+        <img 
+          src="/imagens/emailIcone.png" 
+          alt="icone-email" 
+          className="iconeContato"
+        /> 
+        E-mail: {infoContato.email}
+        </div>
+        <div>
+          <img 
+            src="/imagens/telefoneIcone.png" 
+            alt="icone-telefone" 
+            className="iconeContato"
+          />
+          Telefone(s): {infoContato.telefone}
+        </div>
       </div>
     );
   }
