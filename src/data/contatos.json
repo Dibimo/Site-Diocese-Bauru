@@ -23,7 +23,16 @@
         "email": "spapostolo@terra.com.br",
         "rua": "Avenida Benedito Ottoni, 582 - Centro"
       }
-      
+    }
+  },
+  "arealva": {
+    "santaCatarinaDeAlexandria": {
+      "nome": "Santa Catarina de Alexandria",
+      "contato": {
+        "telefone": "(14) 3296-2244 / 99171-2124",
+        "email": "santacatarina@bispadobauru.org.br",
+        "rua": "Praça Dídimo Maulaz da Silva, 780 - Centro"
+      }
     }
   },
   "avai": {
@@ -36,123 +45,6 @@
       }
     }
   },
-  "boraceia": {
-    "nossaSenhoraAparecida": {
-      "nome": "Nossa Senhora Aparecida",
-      "contato": {
-        "telefone": "(14) 3295-1230",
-        "email": "nsaparecida-boraceia@bispadobauru.org.br",
-        "rua": "Rua Terciliano Sgavioli, 738 - Centro"
-      }
-    }
-  },
-  "pederneiras": {
-    "nossaSenhoraAparecida": {
-      "nome": "Nossa Senhora Aparecida",
-      "contato": {
-        "telefone": "(14) 3284-1138",
-        "email": "nsaparecida-peder@bispadobauru.org.br",
-        "rua": "Avenida Nossa Senhora Aparecida, L-1669 - V. Paulista"
-      }
-    },
-    "saoSebastiao":{
-        "nome":"São Sebastião",
-        "contato": {
-          "telefone": "3284-1065/3252-3200",
-          "email": "ssebastiao_pdr@yahoo.com.br/ssebastiao_pdr@hotmail.com",
-          "rua": "Avenida Tiradentes, S-58 - Centro"
-        }
-    },
-    "saoJudasTadeu":{
-        "nome":"São Judas Tadeu",
-        "contato": {
-          "telefone": "(14) 3252-2803 / (14) 98185-2803",
-          "email": "saojudas.peder@gmail.com",
-          "rua": "Rua Josué de Almeida Franco, O-951 - Michel Neme",
-          "cep": "17.280-820"
-        }
-    }
-  },
-  "cabraliaPaulista":{
-      "senhorBomJesusDoMirante":{
-          "nome":"Senhor Bom Jesus do Mirante",
-          "contato": {
-            "telefone": "(14) 3285-1132",
-            "email": "parbomjesus@hotmail.com",
-            "rua": "Rua 6 de Agosto, 579 - Centro"
-          }
-      }
-  },
-  "duartina": {
-      "santaLuiza":{
-          "nome":"Santa Luzia",
-          "contato": {
-            "telefone": "(14) 3282-1677",
-            "email": "paroquiasantaluzia@aonet.com.br",
-            "rua": "Praça Monsenhor Jorge Antônio Martinelli"
-          }
-      }
-  },
-  "galia": {
-      "saoJose":{
-          "nome":"São Jose",
-          "contato": {
-            "telefone": "(14) 3274-1157",
-            "email": "saojosegalia@bispadobauru.org.br",
-            "rua": "Praça Custódio Araújo Ribeiro, s/n - Centro"
-          }
-      }
-  },
-  "lucianopolis": {
-      "saoPedroApostolo":{
-          "nome":"São Pedro Apóstolo",
-          "contato": {
-            "telefone": "(14) 3286-1109",
-            "email": "paroquia-saopedro@uol.com.br",
-            "rua": "Praça da Bandeira,109"
-          }
-      }
-  },
-  "paulistania": {
-      "santaTeresinhaDoMeninoJesusEdaSagradaFace":{
-          "nome":"Santa Teresinha do Menino Jesus e da Sagrada Face",
-          "contato": {
-            "telefone": "(14) 3275-7175",
-            "email": "-",
-            "rua": "Rua Vereador Júlio Granchi, 110 - Centro"
-          }
-      }
-  },
-  "piratininga": {
-      "santaMaria":{
-          "nome":"Santa Maria",
-          "contato": {
-            "telefone": "(14) 3265-1038",
-            "email": "santamaria-piratin@bispadobauru.org.br",
-            "rua": "Praça Virgem Imaculada, 66 - Centro"
-          }
-      }
-  },
-  "iacanga": {
-      "saoJoaoBatista":{
-          "nome":"São João Batista",
-          "contato": {
-            "telefone": "(14) 3294-1115",
-            "email": "saojoaoiacanga@gmail.com",
-            "rua": "Praça Evaristo de Oliveira Caria, s/n - Centro"
-          }
-      }
-  },
-  "arealva": {
-      "santaCatarinaDeAlexandria":{
-          "nome":"Santa Catarina de Alexandria",
-          "contato": {
-            "telefone": "(14) 3296-2244 / 99171-2124",
-            "email": "santacatarina@bispadobauru.org.br",
-            "rua": "Praça Dídimo Maulaz da Silva, 780 - Centro"
-          }
-      }
-  },
   "bauru": {
     "nossaSenhoraAparecida": {
       "nome": "Nossa Senhora Aparecida",
@@ -163,7 +55,7 @@
         "site": "www.santuarioaparecidabauru.com.br"
       }
     },
-    "saoCristovao":{
+    "saoCristovao": {
       "nome": "São Cristóvão",
       "contato": {
         "telefone": "3234-6429",
@@ -172,7 +64,7 @@
         "site": "www.saocristovaobauru.org.br"
       }
     },
-    "saoJudaseSaoDimas":{
+    "saoJudaseSaoDimas": {
       "nome": "São Judas Tadeu e São Dimas - Bauru",
       "contato": {
         "telefone": "(14) 3223-1314",
@@ -180,7 +72,7 @@
         "rua": "Rua Fernando Costa, 3-10 - Jd. Estoril"
       }
     },
-    "santaRitaDeCassia":{
+    "santaRitaDeCassia": {
       "nome": "Santa Rita de Cássia",
       "contato": {
         "telefone": "(14) 3223-5000 / 99115-2878",
@@ -204,15 +96,15 @@
         "rua": "Rua Antônio Crepaldi, 2-30 - Mary Dota"
       }
     },
-    "nossaSenhoradasGracas":{
+    "nossaSenhoradasGracas": {
       "nome": "Nossa Senhora das Graças",
       "contato": {
         "telefone": "3239-2599 / 99809-2599",
         "email": "pnsg@bispadobauru.org.br",
         "rua": "Alameda Cônego Aníbal Di Frância, 10-4, Parque Vista Alegre"
       }
-      },
-      "saoBras":{
+    },
+    "saoBras": {
       "nome": "São Brás",
       "contato": {
         "telefone": "(14) 3239-3127",
@@ -220,7 +112,7 @@
         "rua": "Rua dos Radialistas, 1-5 - Núcleo Gasparini"
       }
     },
-    "santaEdwiges" : {
+    "santaEdwiges": {
       "nome": "Santa Edwiges",
       "contato": {
         "telefone": "(14) 3243-5570 / 99141-6422",
@@ -236,7 +128,7 @@
         "rua": "Rua Emílio Viegas, 4-57 - Vila Santa Luzia"
       }
     },
-    "saoPauloApostolo" :{
+    "saoPauloApostolo": {
       "nome": "São Paulo Apóstolo",
       "contato": {
         "telefone": "(14) 3277-3777",
@@ -244,7 +136,7 @@
         "rua": "Rua Alberto Delmasso, 4-215 – Pousada da Esperança I"
       }
     },
-    "mariaMaeDoRedentor" :{
+    "mariaMaeDoRedentor": {
       "nome": "Maria Mãe do Redentor",
       "contato": {
         "telefone": "(14) 3203-4042",
@@ -252,7 +144,7 @@
         "rua": "Rua São Ivo, 1-70 - Jd. Redentor I"
       }
     },
-    "imaculadaConceicao" :{
+    "imaculadaConceicao": {
       "nome": "Imaculada Conceição",
       "contato": {
         "telefone": "(14) 3281-8657",
@@ -260,7 +152,7 @@
         "rua": "Rua Cyrênio Ferraz de Aguiar, 3-104, Presidente Geisel"
       }
     },
-    "mariaDeNaraze":{
+    "mariaDeNaraze": {
       "nome": "Maria de Nazaré",
       "contato": {
         "telefone": "(14) 3203-6127 / 99900-8837 (WhatsApp)",
@@ -268,7 +160,7 @@
         "rua": "Rua Maria de Lourdes Almeida Camargo, 3-54 - Pq. Bauru"
       }
     },
-    "santuarioDoSagradoCoracao":{
+    "santuarioDoSagradoCoracao": {
       "nome": "Santuário do Sagrado Coração de Jesus",
       "contato": {
         "telefone": "(14) 3879-0001",
@@ -276,7 +168,7 @@
         "rua": "Rua Benedito Moreira Pinto, Q. 7 - Jardim Panorama"
       }
     },
-    "sagradaFamilia" :{
+    "sagradaFamilia": {
       "nome": "Sagrada Família",
       "contato": {
         "telefone": "(14) 3206-4000/(14) 988165005 (Whatsapp)",
@@ -284,7 +176,7 @@
         "rua": "Rua Luiz Bassoto, 4-25 - Jd. Marambá"
       }
     },
-    "saoSebastiao":{
+    "saoSebastiao": {
       "nome": "São Sebastião",
       "contato": {
         "telefone": "(14) 3223-3877",
@@ -292,7 +184,7 @@
         "rua": "Travessas São Sebastião, 1-53 - Vila Cardia"
       }
     },
-    "santoAntonioDePadua":{
+    "santoAntonioDePadua": {
       "nome": "Santo Antônio de Pádua",
       "contato": {
         "telefone": "3222-4484 / 3222-6661",
@@ -301,7 +193,7 @@
         "site": "www.paroquiasantoantonio.org.br"
       }
     },
-    "saoBenedito" : {
+    "saoBenedito": {
       "nome": "São Benedito",
       "contato": {
         "telefone": "(14) 3223-3034 ",
@@ -310,7 +202,7 @@
         "site": "http://www.paroquiasaobeneditobauru.org.br/"
       }
     },
-    "santaClara":{
+    "santaClara": {
       "nome": "Santa Clara",
       "contato": {
         "telefone": "(14) 3238-1128",
@@ -318,7 +210,7 @@
         "rua": "Rua Sargento Manoel Faria Inojosa,11-65 - Vila industrial"
       }
     },
-    "saoJoseTrabalhador":{
+    "saoJoseTrabalhador": {
       "nome": "São José Trabalhador",
       "contato": {
         "telefone": "(14) 3238-2871",
@@ -334,15 +226,15 @@
         "rua": "Rua da Igreja, 1-55 - Vila Dutra"
       }
     },
-    "nossaSenhoraDaAssuncao":{
-        "nome": "Nossa Senhora da Assunção",
-        "contato": {
-          "telefone": "(14) 3236-6188",
-          "email": "assuncao@travelnet.com.br",
-          "rua": "Rua José Bueno Camargo Sobrinho, 5-25 - Jd. Ouro Verde"
-        }
+    "nossaSenhoraDaAssuncao": {
+      "nome": "Nossa Senhora da Assunção",
+      "contato": {
+        "telefone": "(14) 3236-6188",
+        "email": "assuncao@travelnet.com.br",
+        "rua": "Rua José Bueno Camargo Sobrinho, 5-25 - Jd. Ouro Verde"
+      }
     },
-    "senhorBomJesus":{
+    "senhorBomJesus": {
       "nome": "Senhor Bom Jesus",
       "contato": {
         "telefone": "(14) 3236-1311 / 3245-9699",
@@ -350,12 +242,119 @@
         "rua": "Rua Martins Fontes, 6-75 - Vila Independência"
       }
     },
-    "saoJoaoBatistaeNossaSenhoraLourdes":{
+    "saoJoaoBatistaeNossaSenhoraLourdes": {
       "nome": "São João Batista e Nossa Senhora de Lourdes",
       "contato": {
         "telefone": "(14) 3236-2112",
         "email": "saojbatista@ig.com.br",
         "rua": "Rua Pedro Fernandes, 13-84 - V. Ipiranga"
+      }
+    }
+  },
+  "boraceia": {
+    "nossaSenhoraAparecida": {
+      "nome": "Nossa Senhora Aparecida",
+      "contato": {
+        "telefone": "(14) 3295-1230",
+        "email": "nsaparecida-boraceia@bispadobauru.org.br",
+        "rua": "Rua Terciliano Sgavioli, 738 - Centro"
+      }
+    }
+  },
+  "cabraliaPaulista": {
+    "senhorBomJesusDoMirante": {
+      "nome": "Senhor Bom Jesus do Mirante",
+      "contato": {
+        "telefone": "(14) 3285-1132",
+        "email": "parbomjesus@hotmail.com",
+        "rua": "Rua 6 de Agosto, 579 - Centro"
+      }
+    }
+  },
+  "duartina": {
+    "santaLuiza": {
+      "nome": "Santa Luzia",
+      "contato": {
+        "telefone": "(14) 3282-1677",
+        "email": "paroquiasantaluzia@aonet.com.br",
+        "rua": "Praça Monsenhor Jorge Antônio Martinelli"
+      }
+    }
+  },
+  "galia": {
+    "saoJose": {
+      "nome": "São Jose",
+      "contato": {
+        "telefone": "(14) 3274-1157",
+        "email": "saojosegalia@bispadobauru.org.br",
+        "rua": "Praça Custódio Araújo Ribeiro, s/n - Centro"
+      }
+    }
+  },
+  "iacanga": {
+    "saoJoaoBatista": {
+      "nome": "São João Batista",
+      "contato": {
+        "telefone": "(14) 3294-1115",
+        "email": "saojoaoiacanga@gmail.com",
+        "rua": "Praça Evaristo de Oliveira Caria, s/n - Centro"
+      }
+    }
+  },
+  "lucianopolis": {
+    "saoPedroApostolo": {
+      "nome": "São Pedro Apóstolo",
+      "contato": {
+        "telefone": "(14) 3286-1109",
+        "email": "paroquia-saopedro@uol.com.br",
+        "rua": "Praça da Bandeira,109"
+      }
+    }
+  },
+  "paulistania": {
+    "santaTeresinhaDoMeninoJesusEdaSagradaFace": {
+      "nome": "Santa Teresinha do Menino Jesus e da Sagrada Face",
+      "contato": {
+        "telefone": "(14) 3275-7175",
+        "email": "-",
+        "rua": "Rua Vereador Júlio Granchi, 110 - Centro"
+      }
+    }
+  },
+  "pederneiras": {
+    "nossaSenhoraAparecida": {
+      "nome": "Nossa Senhora Aparecida",
+      "contato": {
+        "telefone": "(14) 3284-1138",
+        "email": "nsaparecida-peder@bispadobauru.org.br",
+        "rua": "Avenida Nossa Senhora Aparecida, L-1669 - V. Paulista"
+      }
+    },
+    "saoSebastiao": {
+      "nome": "São Sebastião",
+      "contato": {
+        "telefone": "3284-1065/3252-3200",
+        "email": "ssebastiao_pdr@yahoo.com.br/ssebastiao_pdr@hotmail.com",
+        "rua": "Avenida Tiradentes, S-58 - Centro"
+      }
+    },
+    "saoJudasTadeu": {
+      "nome": "São Judas Tadeu",
+      "contato": {
+        "telefone": "(14) 3252-2803 / (14) 98185-2803",
+        "email": "saojudas.peder@gmail.com",
+        "rua": "Rua Josué de Almeida Franco, O-951 - Michel Neme",
+        "cep": "17.280-820"
+      }
+    }
+  },
+  "piratininga": {
+    "santaMaria": {
+      "nome": "Santa Maria",
+      "contato": {
+        "telefone": "(14) 3265-1038",
+        "email": "santamaria-piratin@bispadobauru.org.br",
+        "rua": "Praça Virgem Imaculada, 66 - Centro"
       }
     }
   }
