@@ -1,9 +1,52 @@
+.conteinerSeletorCidades{
+    display: flex;
+    margin: 1% auto 1% auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.seletorCidades{
+    margin-left: 1%;
+    outline: none;
+    border: 0px;
+    appearance: none;
+    width: 25%;
+    text-align: center;
+    background: url(./../../assets/setaSelect.svg) 101% / 15% no-repeat #e6e08c;
+}
+
+.seletorCidades:focus {
+    background: url(./../../assets/setaSelectParaCima.svg) 101% / 15%  no-repeat #e6e08c;
+}
+
+/* .opcaoCidade{
+    margin-left: 1%;
+    outline: none;
+    border: 0px;
+    appearance: none;
+    width: 25%;
+    display: flex;
+    
+    text-align: center;
+
+} */
+
 .conteinerParoquias{
     display: flex; 
     flex-wrap: wrap;
-   
+    align-items: flex-start;
+    
+    
 }
 .cardParoquiaComponente{
+    border: 1px solid #8c2020;
+    border-radius: 10px;
     width: 49.5%;
-    margin: 1%;
+    flex: 0 0 49.5%;
+    
+    margin: 2px;
+    background-color: #f2e0dc;
+    min-height: 0;
+    
 }
+
