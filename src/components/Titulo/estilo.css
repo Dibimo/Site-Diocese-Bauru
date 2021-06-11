@@ -6,14 +6,18 @@
 .conteinerTituloComponente{
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0% 40%;
     background-color: #8b0000;
 }
 
+.conteinerTituloComponente > *{
+    margin: 0 1%;
+}
+
 .tituloComponente{
     font-size: 30px;
+    white-space: nowrap; /*não quebra a linha*/
     /* text-shadow: 2px 0 0 black; */
     color: white;
     font-family: "Chapaza";
