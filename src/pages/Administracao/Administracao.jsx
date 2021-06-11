@@ -24,7 +24,7 @@ class Administracao extends Component {
     return (
       <Container style={{backgroundColor: "#F3EEE8"}} border="1px" border-radius="5px"  sm="maxWidth">
         <BarraNavegacao></BarraNavegacao>
-        <Titulo titulo="Administração"></Titulo>
+        <Titulo titulo="ADMINISTRAÇÃO"></Titulo>
         <div className="primeiroConteiner">
           <div className="primeiroConteinerItem">
             <div>

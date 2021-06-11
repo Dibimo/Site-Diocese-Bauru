@@ -48,7 +48,7 @@ class Paroquias extends Component {
         sm="maxWidth"
       >
         <BarraNavegacao></BarraNavegacao>
-        <Titulo titulo={"Paróquias"}></Titulo>
+        <Titulo titulo={"PARÓQUIAS"}></Titulo>
         <div className="conteinerSeletorCidades">
           <div>Selecione uma cidade: </div>
           <select
