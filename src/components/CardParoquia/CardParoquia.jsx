@@ -1,11 +1,15 @@
 import React, { Component } from "react";
-
+import { Collapse} from 'reactstrap';
+import './estilo.css'
 
 class CardParoquia extends Component {
   constructor(props) {
     super(props);
     this.caminhoImagem = "";
     this.paroquia = {};
+    this.state = {
+      collapsed: false,
+    };
   }
 
   constroiHorariosMissas(vetor) {
@@ -38,65 +42,92 @@ class CardParoquia extends Component {
   }
 
   constroiInformacoesAdicionais(info){
+    let naoEhUmaImagem = true;
     let divs = [];
-    //montando as informações fixas
+    //montando as informações adicionais PADRÃO
     divs.push(
       <div>Padroeiro: {info.padroeiro}</div>,
       <div>Região Pastoral: {info.regiaoPastoral}</div>,
       <div>Criada em: {info.criacao}</div>,
       <div>Data da Festa: {info.festa}</div>
     );
-    //removendo informações fixas do objeto
-    delete info.padroeiro;
-    delete info.regiaoPastoral;
-    delete info.criacao;
-    delete info.festa;
 
-    //percorrendo as demais informações
     let imagens = [
       /paroco/,
       /administradorParoquial/, 
       /diacono/, 
       /vigario/, 
     ];
-    let informacoesAdicionais = Object.keys(info);
-    informacoesAdicionais.map((adicional, key)=>{
-      let tagImagem = null;
-      if(imagens.some(img => img.test(adicional))){
-        tagImagem = (
-          <img
-            src={this.props.caminhoImagem + adicional + ".webp"}
-            alt={info[adicional]}
-          />
+    let infoAdicionalNaoPadrao = Object.keys(info);
+
+    //removendo as informações padrões, para não haver repetição de conteudo.
+    infoAdicionalNaoPadrao.splice(infoAdicionalNaoPadrao.indexOf('padroeiro'),1);
+    infoAdicionalNaoPadrao.splice(infoAdicionalNaoPadrao.indexOf('regiaoPastoral'),1);
+    infoAdicionalNaoPadrao.splice(infoAdicionalNaoPadrao.indexOf('criacao'),1);
+    infoAdicionalNaoPadrao.splice(infoAdicionalNaoPadrao.indexOf('festa'),1);
+
+    //montando as informações especificas de cada paróquia
+    infoAdicionalNaoPadrao.map((adicional, key)=>{
+      naoEhUmaImagem = true;
+      let imagem = null;
+      if(imagens.some(img => img.test(adicional))){ //verifica se a informação é uma imagem
+        imagem = (
+          <div className="conteinerFotoImagem">
+            <img
+              src={this.props.caminhoImagem + adicional + ".webp"}
+              alt={info[adicional]}
+              className="imagemPerfil"
+            />
+            <div className="nomePessoa"
+            >{info[adicional]}</div> {/*Nome da pessoa na foto */}
+          </div>
         );
+        naoEhUmaImagem = false;
       }
-      divs.push(
+      divs.push( //monta todos os dados
         <div key={key}>
-          {tagImagem}
-          <div>{info[adicional]}</div>
+          {imagem}
+          {naoEhUmaImagem && <div>{info[adicional]}</div>}
         </div>
       );
     });
-    return divs;
+    return divs; //retorna as divs com todos os dados montados
   }
 
 
   render() {
-
+    let nomeParoquia = this.props.paroquia.nome;
     return (
-      <div className="container cardParoquiaComponente" style={{ border: "1px solid", margin: "2px" }}>
-        <h5>{this.props.paroquia.nome}</h5>
-        <img src={this.props.caminhoImagem+ "paroquia.webp"} />
+      <div 
+        className="container cardParoquiaComponente"
+      >
+        <div 
+          className="conteinerTituloFoto"
+          onClick={()=>{this.setState({collapsed: !(this.state.collapsed)})}}
+        >
+          <img 
+            src={this.props.caminhoImagem+ "paroquia.webp"} 
+            alt={nomeParoquia} 
+            className="fotoParoquia"
+          />
+          <h5>{nomeParoquia}</h5>
 
-        <div>Horarios das Missas Matriz:</div>
-        {this.constroiHorariosMissas(this.props.paroquia.horariosDeMissa)}
-        <hr />
-        {this.constroiCapelas(this.props.paroquia.capelas)}
+        </div>
+        <Collapse isOpen={this.state.collapsed}>
 
-        <h6>Informações Adicionais</h6>
-        {this.constroiInformacoesAdicionais(this.props.paroquia.informacoesAdicionais)}
-        <h6>Mapa</h6>
-        <iframe src={this.props.paroquia.mapa.link} width="500" height="450" allowfullscreen="" style={{border: 0}} loading="lazy"></iframe>
+          <p>Horarios das Missas Matriz:</p>
+          {this.constroiHorariosMissas(this.props.paroquia.horariosDeMissa)}
+          <hr />
+          {this.constroiCapelas(this.props.paroquia.capelas)}
+
+          <h6>Informações Adicionais</h6>
+
+          <div className="conteinerInfoAdicional">
+            {this.constroiInformacoesAdicionais(this.props.paroquia.informacoesAdicionais)}
+          </div>
+
+          <iframe src={this.props.paroquia.mapa.link} width="500" height="450" allowfullscreen="" style={{border: 0}} loading="lazy"></iframe>
+        </Collapse>
       </div>
     );
   }
