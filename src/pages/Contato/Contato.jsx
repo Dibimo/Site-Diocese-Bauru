@@ -23,15 +23,15 @@ class Contato extends Component {
     let titulos = {
       agudos: "Agudos",
       arealva: "Arealva",
-      avai: "Avai",
+      avai: "Avaí",
       bauru: "Bauru",
-      boraceia: "Boraceia",
-      cabraliaPaulista: "Cabralia",
+      boraceia: "Boracéia",
+      cabraliaPaulista: "Cabrália Paulista",
       duartina: "Duartina",
-      galia: "Galia",
+      galia: "Gália",
       iacanga: "Iacanga",
-      lucianopolis: "Lucianopolis",
-      paulistania: "Paulistania",
+      lucianopolis: "Lucianópolis",
+      paulistania: "Paulistânia",
       pederneiras: "Pederneiras",
       piratininga: "Piratininga"
     }
@@ -60,7 +60,7 @@ class Contato extends Component {
       cards.push(card);
     });
     return(
-      <div>
+      <div className="conteinerCardsContatos">
         {cards}
       </div>
     );
@@ -97,8 +97,8 @@ class Contato extends Component {
         </div>
 
         {/*Parte 2 - "Informações especificas para cada paroquia"*/}
-        <div className="conteinerCardsContatos"> 
-            <div>{this.constroiCardsContatos()}</div>
+        <div > 
+            {this.constroiCardsContatos()}
         </div>
         <Rodape></Rodape>
       </Container>
