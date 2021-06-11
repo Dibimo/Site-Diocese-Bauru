@@ -11,6 +11,12 @@ class CardCidadesContatos extends Component {
     this.state = {
       collapsed: false,
     };
+    this.converteBoolInt = this.converteBoolInt.bind(this);
+    this.caminhos = ["/imagens/setaParaBaixo.png","/imagens/setaParaCima.png"]
+  }
+
+  converteBoolInt(estaAberto){
+    return estaAberto ? 1: 0
   }
 
   render() {
@@ -19,9 +25,18 @@ class CardCidadesContatos extends Component {
         className="containerCidadesContatos"
         style={{margin: "2px" }}
       >
-        <h5 onClick={() => {
-          this.setState({ collapsed: !this.state.collapsed });
-        }}>{this.props.cidadeNome}</h5>
+        <div 
+          className="conteinerTituloSeta"
+          onClick={() => {
+            this.setState({ collapsed: !this.state.collapsed });
+            this.setState({ caminhoParaSeta: this.caminhos[this.converteBoolInt(this.state.collapsed)] });
+            // this.viraSeta(this.state.collapsed);
+          }}
+        >
+          <h5>{this.props.cidadeNome}</h5>
+          <img src={this.caminhos[this.converteBoolInt(this.state.collapsed)]} alt="seta" />
+
+        </div>
         <Collapse isOpen={this.state.collapsed}>{this.props.contatosParoquias}</Collapse>
       </div>
     );
