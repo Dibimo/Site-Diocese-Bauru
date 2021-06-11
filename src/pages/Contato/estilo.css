@@ -20,6 +20,9 @@
 
 .conteinerCardsContatos{
     margin-bottom: 3%;
+    display: grid;
+    justify-items: center;
+
 }
 
 .inputContato{
