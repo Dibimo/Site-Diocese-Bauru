@@ -22,6 +22,38 @@
     background-color: #f0d4da;
     border-radius: 10px;
 }
+
+.setasNavegacao{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#setaVoltar.setasNavegacao{
+    margin-right: 2%;
+}
+
+#setaAvancar.setasNavegacao{
+    margin-left: 2%;
+}
+
+.conteinerBispos h1{
+    font-size: 35px;
+    font-family: "Chapaza";
+    color: #860000;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.conteinerBispos h2{
+    font-size: 25px;
+    font-family: "Chapaza";
+    color: #ddc65e;
+    text-align: center;
+    
+}
+
 .conteudoBispos{
     padding: 0 10px;
     overflow: scroll;
@@ -133,12 +165,12 @@ p#padresResidindoFora{
     border-radius: 0 0 10px 10px;
 }
 
-.nomesDiaconosPermanentes{
+.nomesDiaconos{
     width: 50%;
     text-align: center;
 }
 
-.nomesPadresBauru:nth-child(2n), .nomesDiaconosPermanentes:nth-child(2n){
+.nomesPadresBauru:nth-child(2n), .nomesDiaconos:nth-child(2n){
     width: 47%;
     margin-left: 1%;
     margin-right: 2%;
