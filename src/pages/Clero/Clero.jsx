@@ -10,8 +10,7 @@ import { Collapse } from 'reactstrap';
 
 import "./estilo.css";
 class CongregacoesReligiosas extends Component {
-
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       contador: 0,
@@ -19,61 +18,51 @@ class CongregacoesReligiosas extends Component {
       collapsePadres: false,
       collapseDiaconosPermanentes: false,
       collapseDiaconos: false,
-      
-    }
+    };
+    this.caminhos = [
+      "/imagens/setaParaBaixoVermelha.png",
+      "/imagens/setaParaCimaVermelha.png",
+    ];
     this.avancar = this.avancar.bind(this);
     this.voltar = this.voltar.bind(this);
+    this.converteBoolInt = this.converteBoolInt.bind(this);
+    this.renderThumb = this.renderThumb.bind(this);
   }
   //Bispos
-  avancar(){
+  avancar() {
     let itemAtual = (this.state.contador + 1) % 6;
-    this.setState({contador: itemAtual,});
+    this.setState({ contador: itemAtual });
   }
 
-  voltar(){
+  voltar() {
     let itemAtual;
 
-    if ((this.state.contador) == 0) {
+    if (this.state.contador == 0) {
       itemAtual = 5;
-    }else{
-      itemAtual = (this.state.contador - 1);
+    } else {
+      itemAtual = this.state.contador - 1;
     }
     this.setState({ contador: itemAtual });
   }
-  controiTexto(paragrafos){
+  controiTexto(paragrafos) {
     let texto = [];
-    paragrafos.map((paragrafo)=>{
-      texto.push(
-        <p>{paragrafo}</p>
-      );
+    paragrafos.map((paragrafo) => {
+      texto.push(<p>{paragrafo}</p>);
     });
     return texto;
   }
 
   //Cards
-  constroiCardPadres(){
+  constroiCardPadres() {
     let cards = [];
-    padresDiaconos.padresDioceseBauru.map((padre)=>{
-        cards.push(
-          <p className="nomesPadresBauru">{padre}</p>
-        );
+    padresDiaconos.padresDioceseBauru.map((padre) => {
+      cards.push(<p className="nomesPadresBauru">{padre}</p>);
     });
     return cards;
   }
-
-  constroiCardDiaconosPermanentes(){
+  constroiPadresResidindoFora() {
     let cards = [];
-    padresDiaconos.diaconosPermanentes.map((diacono)=>{
-        cards.push(
-          <p className="nomesDiaconosPermanentes">{diacono}</p>
-        );
-    });
-    return cards;
-  }
-
-  constroiPadresResidindoFora(){
-    let cards = [];
-    padresDiaconos.padresResidindoFora.map((padre)=>{
+    padresDiaconos.padresResidindoFora.map((padre) => {
       cards.push(
         <div className="padreResidindoFora">
           <img src={"/imagens/Clero/" + padre.foto} />
@@ -85,10 +74,35 @@ class CongregacoesReligiosas extends Component {
     return cards;
   }
 
-  constroiDiaconos(){
-
+  constroiCardDiaconosPermanentes() {
+    let cards = [];
+    padresDiaconos.diaconosPermanentes.map((diacono) => {
+      cards.push(<p className="nomesDiaconos">{diacono}</p>);
+    });
+    return cards;
   }
+  constroiCardDiaconos() {
+    let cards = [];
+    padresDiaconos.diaconos.map((diacono) => {
+      cards.push(<p className="nomesDiaconos">{diacono}</p>);
+    });
+    return cards;
+  }
+
+  converteBoolInt(estaAberto) {
+    return estaAberto ? 1 : 0;
+  }
+
   
+  renderThumb({ style, ...props }) {
+    const { top } = this.state;
+    const thumbStyle = {
+      backgroundColor: "#860000",
+      borderRadius: "10px",
+    };
+    return <div style={{ ...style, ...thumbStyle }} {...props} />;
+  }
+
   render() {
     return (
       <Container
@@ -111,9 +125,15 @@ class CongregacoesReligiosas extends Component {
         </div>
 
         <div className="conteinerBispos">
-          <button onClick={this.voltar}>&lt;</button>
-          <Scrollbars style={{ width: "100%", height: 400 }}>
-            <div>{bispos[this.state.contador].nome}</div>
+          <img 
+            id="setaVoltar"
+            className="setasNavegacao" 
+            src="/imagens/setaParaEsquerdaVermelha.png" alt="seta" 
+            onClick={this.voltar}
+          />
+          <Scrollbars style={{ width: "100%", height: 400 }} renderThumbVertical={this.renderThumb}>
+            <h1>{bispos[this.state.contador].titulo}</h1>
+            <h2>{bispos[this.state.contador].nome}</h2>
             <div className="bispoFotoTexto">
               <img
                 src={"/imagens/Clero/" + bispos[this.state.contador].nomeFoto}
@@ -123,7 +143,12 @@ class CongregacoesReligiosas extends Component {
               {this.controiTexto(bispos[this.state.contador].texto)}
             </div>
           </Scrollbars>
-          <button onClick={this.avancar}>&gt;</button>
+          <img 
+            id="setaAvancar"
+            className="setasNavegacao" 
+            src="/imagens/setaParaDireitaVermelha.png" alt="seta" 
+            onClick={this.avancar}
+          />
         </div>
 
         <div
@@ -132,7 +157,11 @@ class CongregacoesReligiosas extends Component {
             this.setState({ collapsePadres: !this.state.collapsePadres });
           }}
         >
-          <p>PADRES DA DIOCESE DE BAURU</p>
+          <p id="padresDiocese">PADRES DA DIOCESE DE BAURU</p>
+          <img
+            src={this.caminhos[this.converteBoolInt(this.state.collapsePadres)]}
+            alt="seta-para-baixo"
+          />
         </div>
         <Collapse isOpen={this.state.collapsePadres}>
           <Scrollbars
@@ -142,6 +171,7 @@ class CongregacoesReligiosas extends Component {
               marginRight: "auto",
               marginLeft: "auto",
             }}
+            renderThumbVertical={this.renderThumb}
           >
             <div className="conteinerPadresBauru">
               {this.constroiCardPadres()}
@@ -151,7 +181,7 @@ class CongregacoesReligiosas extends Component {
 
         <hr />
 
-        <p className="tituloClero">Padres Residindo Fora da Diocese</p>
+        <p id="padresResidindoFora">Padres Residindo Fora da Diocese</p>
         <div className="conteinerPadresResidindoFora">
           {this.constroiPadresResidindoFora()}
         </div>
@@ -169,7 +199,15 @@ class CongregacoesReligiosas extends Component {
                 });
               }}
             >
-              <p>DIÁCONOS PERMANENTES</p>
+              <p id="diaconosPermanentes">DIÁCONOS PERMANENTES</p>
+              <img
+                src={
+                  this.caminhos[
+                    this.converteBoolInt(this.state.collapseDiaconosPermanentes)
+                  ]
+                }
+                alt="seta-para-baixo"
+              />
             </div>
             <Collapse isOpen={this.state.collapseDiaconosPermanentes}>
               <div className="conteinerDiaconosPermanentes">
@@ -186,11 +224,19 @@ class CongregacoesReligiosas extends Component {
                 });
               }}
             >
-              <p>DIÁCONOS</p>
+              <p id="diaconos">DIÁCONOS</p>
+              <img
+                src={
+                  this.caminhos[
+                    this.converteBoolInt(this.state.collapseDiaconos)
+                  ]
+                }
+                alt="seta-para-baixo"
+              />
             </div>
             <Collapse isOpen={this.state.collapseDiaconos}>
               <div className="conteinerDiaconosPermanentes">
-                {this.constroiCardDiaconosPermanentes()}
+                {this.constroiCardDiaconos()}
               </div>
             </Collapse>
           </div>
