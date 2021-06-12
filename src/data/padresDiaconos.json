@@ -123,6 +123,25 @@
       "Sebastião Fabiano de Oliveira",
       "Santa Luzia – Duartina"
     ],
+    "diaconos":[
+        "Diácono A",
+        "Igreja A",
+
+        "Diácono B",
+        "Igreja B",
+        
+        "Diácono C",
+        "Igreja C",
+
+        "Diácono D",
+        "Igreja D",
+
+        "Diácono E",
+        "Igreja E",
+
+        "Diácono F",
+        "Igreja F"
+    ],
     "padresResidindoFora":[
         {
             "nome":"Cristiano Guilherme Borro Barbosa, Pe.",
