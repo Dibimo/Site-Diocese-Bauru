@@ -1,55 +1,114 @@
+.conteinerSubTitulo{
+    width: 60%;
+    margin: 3% auto;
+}
+
+.subtituloClero{
+    color: #ddc65e;
+    font-family: Chapaza;
+    text-align: center;
+}
+
+.textoSubtitulo{
+    text-align: center;
+}
+
 .conteinerBispos{
+    display: flex;
+    margin: 0 auto 3% auto;
+    padding: 0 10px;
     width: 51%;
     height: 400px;
+    background-color: #f0d4da;
+    border-radius: 10px;
+}
+.conteudoBispos{
+    padding: 0 10px;
     overflow: scroll;
     overflow-x: hidden;
-    margin: 0 auto 3% auto;
+    background-color: #f0d4da;
+    border-radius: 10px;
 }
 
 .conteinerBispos div.bispoFotoTexto{
-    float: left;    
+    float: left;
+}
+
+#texto{
+    margin-right: 20px;
 }
 
 .conteinerBispos div.bispoFotoTexto img{
     margin-right: 10px;
+    border-radius: 100%;
+    border: 3px solid #8c201f;
+    height: 250px;
+    width: 250px;
+    object-fit: fill;
 }
 
 .tituloClero{
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: #8c201f;
+    background-color: #dec75f;
+    border-radius: 100px;
+    width: 66%;
+    height: 45px;
+    margin: 0 auto 0 auto;
+    cursor: pointer;
+}
+.tituloClero p{
+    margin: 0;   
 }
 
 .conteinerPadresBauru{
     display: flex;
-    width: 65%;
-    height: 450px;
-    overflow: scroll;
-    overflow-x: hidden;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    padding: 1% 0 0 0;
     margin: 0 auto 0 auto;
+    background-color: #e5d99f;
+    border-radius: 0 0 10px 10px;
     
 }
 
 .nomesPadresBauru{
     width: 50%;
-    border: 1px solid black
+    text-align: center;
+}
+
+.conteinerDiaconosGeral{
+    display: flex;    
+    margin-bottom: 2%;
+}
+
+.conteinerDiaconosGeral>div{
+    width: 100%;
+}
+.conteinerDiaconosGeral>div>div.tituloClero{
+    width: 90%;
 }
 
 .conteinerDiaconosPermanentes{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
-    margin: 0 auto 0 auto;
+    width: 77%;
+    padding: 1% 0 0 0;
+    margin: 0 auto 3% auto;
+    background-color: #e5d99f;
+    border-radius: 0 0 10px 10px;
 }
 
 .nomesDiaconosPermanentes{
     width: 50%;
-    border: 1px solid black
+    text-align: center;
 }
 
 .nomesPadresBauru:nth-child(2n), .nomesDiaconosPermanentes:nth-child(2n){
-    width: 49%;
+    width: 47%;
     margin-left: 1%;
+    margin-right: 2%;
     
 }
 
