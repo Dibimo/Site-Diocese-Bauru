@@ -49,18 +49,51 @@
 
 .tituloClero{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: #8c201f;
     background-color: #dec75f;
     border-radius: 100px;
+
     width: 66%;
     height: 45px;
+    padding: 5px 25px 5px 25px;
     margin: 0 auto 0 auto;
     cursor: pointer;
 }
-.tituloClero p{
+.tituloClero p#padresDiocese{
     margin: 0;   
+    margin-left: 35%;
+}
+
+p#padresResidindoFora{
+    text-align: center;
+
+    width: 66%;
+    height: 45px;
+
+    background-color: #dec75f;
+    
+    border-radius: 100px;
+    
+    padding: 10px 25px 9px 25px;
+    margin: 0 auto 0 auto;
+}
+
+.tituloClero p#diaconosPermanentes{
+    margin: 0;
+    margin-left: 30%;
+}
+
+.tituloClero p#diaconos{
+    margin: 0;
+    margin-left: 45%;
+}
+
+.tituloClero img{
+    width: 40px;
+    height: 40px;
+    
 }
 
 .conteinerPadresBauru{
@@ -93,7 +126,7 @@
 .conteinerDiaconosPermanentes{
     display: flex;
     flex-wrap: wrap;
-    width: 77%;
+    width: 80%;
     padding: 1% 0 0 0;
     margin: 0 auto 3% auto;
     background-color: #e5d99f;
