@@ -74,9 +74,7 @@ class Paroquias extends Component {
             <option className="opcaoCidade" value="piratininga">Piratininga</option>
           </select>
         </div>
-        {this.state.opcao && (
-          <div>Clique no nome da paróquia para saber mais</div>
-        )}
+        
         <div className="conteinerParoquias">
           {this.constroiCards(this.state.opcao)}
         </div>
