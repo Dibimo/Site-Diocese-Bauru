@@ -5,6 +5,8 @@ import Titulo from "./../../components/Titulo/Titulo";
 import bispos from "./../../data/bispos.json";
 import padresDiaconos from "./../../data/padresDiaconos.json";
 import Container from "@material-ui/core/Container";
+import { Scrollbars } from "react-custom-scrollbars-2";
+import { Collapse } from 'reactstrap';
 
 import "./estilo.css";
 class CongregacoesReligiosas extends Component {
@@ -14,6 +16,10 @@ class CongregacoesReligiosas extends Component {
     this.state = {
       contador: 0,
       bispoAtual: {},
+      collapsePadres: false,
+      collapseDiaconosPermanentes: false,
+      collapseDiaconos: false,
+      
     }
     this.avancar = this.avancar.bind(this);
     this.voltar = this.voltar.bind(this);
@@ -93,22 +99,55 @@ class CongregacoesReligiosas extends Component {
       >
         <BarraNavegacao></BarraNavegacao>
         <Titulo titulo="CLERO"></Titulo>
-        <>
-          <button onClick={this.voltar}>&lt;</button>
-          <button onClick={this.avancar}>&gt;</button>
-        </>
-        <div className="conteinerBispos">
-          <div>{bispos[this.state.contador].nome}</div>
-          <div className="bispoFotoTexto">
-            <img
-              src={"/imagens/Clero/" + bispos[this.state.contador].nomeFoto}
-            ></img>
-          </div>
-          <div>{this.controiTexto(bispos[this.state.contador].texto)}</div>
+
+        <div className="conteinerSubTitulo">
+          <h2 className="subtituloClero">CONHEÇA A EQUIPE DA DIOCESE</h2>
+          <p className="textoSubtitulo">
+            O CLERO É COMPOSTO POR DIÁCONOS PERMANENTES, PRESBÍTEROS (PADRES)
+            DIOCESANO E POR PRESBÍTEROS RELIGIOSOS. EM COMUNHÃO COM O BISPO
+            DIOCESANO, O PRESBÍTERIO ATUA NAS 42 PARÓQUIAS DA DIOCESE E NOS
+            SERVIÇOS PASTORAIS E MOVIMENTOS EXISTENTES.
+          </p>
         </div>
 
-        <p className="tituloClero">Padres da Diocese de Bauru</p>
-        <div className="conteinerPadresBauru">{this.constroiCardPadres()}</div>
+        <div className="conteinerBispos">
+          <button onClick={this.voltar}>&lt;</button>
+          <Scrollbars style={{ width: "100%", height: 400 }}>
+            <div>{bispos[this.state.contador].nome}</div>
+            <div className="bispoFotoTexto">
+              <img
+                src={"/imagens/Clero/" + bispos[this.state.contador].nomeFoto}
+              ></img>
+            </div>
+            <div id="texto">
+              {this.controiTexto(bispos[this.state.contador].texto)}
+            </div>
+          </Scrollbars>
+          <button onClick={this.avancar}>&gt;</button>
+        </div>
+
+        <div
+          className="tituloClero"
+          onClick={() => {
+            this.setState({ collapsePadres: !this.state.collapsePadres });
+          }}
+        >
+          <p>PADRES DA DIOCESE DE BAURU</p>
+        </div>
+        <Collapse isOpen={this.state.collapsePadres}>
+          <Scrollbars
+            style={{
+              height: 450,
+              width: "63%",
+              marginRight: "auto",
+              marginLeft: "auto",
+            }}
+          >
+            <div className="conteinerPadresBauru">
+              {this.constroiCardPadres()}
+            </div>
+          </Scrollbars>
+        </Collapse>
 
         <hr />
 
@@ -116,14 +155,46 @@ class CongregacoesReligiosas extends Component {
         <div className="conteinerPadresResidindoFora">
           {this.constroiPadresResidindoFora()}
         </div>
-
         <hr />
 
-        <p className="tituloClero">Diaconos Permanentes</p>
-        <div className="conteinerDiaconosPermanentes">
-          {this.constroiCardDiaconosPermanentes()}
+        {/*DIACONOS*/}
+        <div className="conteinerDiaconosGeral">
+          <div>
+            <div
+              className="tituloClero"
+              onClick={() => {
+                this.setState({
+                  collapseDiaconosPermanentes:
+                    !this.state.collapseDiaconosPermanentes,
+                });
+              }}
+            >
+              <p>DIÁCONOS PERMANENTES</p>
+            </div>
+            <Collapse isOpen={this.state.collapseDiaconosPermanentes}>
+              <div className="conteinerDiaconosPermanentes">
+                {this.constroiCardDiaconosPermanentes()}
+              </div>
+            </Collapse>
+          </div>
+          <div>
+            <div
+              className="tituloClero"
+              onClick={() => {
+                this.setState({
+                  collapseDiaconos: !this.state.collapseDiaconos,
+                });
+              }}
+            >
+              <p>DIÁCONOS</p>
+            </div>
+            <Collapse isOpen={this.state.collapseDiaconos}>
+              <div className="conteinerDiaconosPermanentes">
+                {this.constroiCardDiaconosPermanentes()}
+              </div>
+            </Collapse>
+          </div>
         </div>
-
         <Rodape></Rodape>
       </Container>
     );
