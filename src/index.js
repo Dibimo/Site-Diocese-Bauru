@@ -11,6 +11,7 @@ import Programacao from './pages/Programacao/Programacao';
 import CongregacoesReligiosas from "./pages/CongregacoesReligiosas/CongregacoesReligiosas";
 import Clero from "./pages/Clero/Clero";
 import Noticias from './pages/Noticias/Noticias';
+import Comunicados from './pages/Comunicados/Comunicados';
 import ConteudoExpandido from './pages/ConteudoExpandido/ConteudoExpandido';
 
 ReactDOM.render(
@@ -24,6 +25,7 @@ ReactDOM.render(
       <Route path="/congregacoes_religiosas" component={CongregacoesReligiosas} />
       <Route path="/clero" component={Clero} />
       <Route path="/noticias" component={Noticias} />
+      <Route path="/comunicados" component={Comunicados} />
       <Route path="/conteudo_expandido" component={ConteudoExpandido} />
     </Switch>
   </BrowserRouter>,
