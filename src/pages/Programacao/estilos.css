@@ -58,6 +58,19 @@ button.react-calendar__month-view__days__day--weekend {
     color: black;
 }
 
+.conteinerInfoEvento h6{
+    margin-left: 5%;
+}
+
+.conteinerInfoEvento li{
+    margin-left: 15%;
+}
+
+#iconeInfo{
+    width: 64px;
+    height: 64px;
+}
+
 #redesSociais{
     display: flex;
     justify-content: space-around;
