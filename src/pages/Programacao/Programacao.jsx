@@ -5,6 +5,7 @@ import Titulo from './../../components/Titulo/Titulo'
 import Container from "@material-ui/core/Container";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 import { Calendar } from "react-calendar";
+import { Collapse } from "reactstrap";
 import "react-calendar/dist/Calendar.css";
 import "./estilos.css"
 import feriados from "../../data/feriados.json";
@@ -13,6 +14,7 @@ class Programacao extends Component {
     super(props);
     this.state = {
       data: new Date(),
+      collpse: false,
     };
     this._eventos = null;
     this.handleChange = this.handleChange.bind(this);
@@ -21,6 +23,9 @@ class Programacao extends Component {
   handleChange(date) {
     this.setState({ data: date });
   }
+
+  
+
   constroiEvento(data) {
     let mes = data.toLocaleString("default", { month: "long" });
     let dia = data.getDate();
@@ -32,9 +37,12 @@ class Programacao extends Component {
     if (dias.includes(mes + dia)) {
       let eventosDia= [];
       let divs = [];
+      divs.push(
+        <h6>{dia} DE {mes.toUpperCase()}</h6>
+      );
       eventosDia = feriados[mes][mes+dia];
       eventosDia.map((evento)=>{
-        divs.push(<div>{evento}<br></br></div>);
+        divs.push(<li>{evento}<br></br></li>);
       });
       return divs;
     }
@@ -72,8 +80,16 @@ class Programacao extends Component {
             }}
           />
           <div id="conteinerPainelInfo">
-            <h5>INFORMAÇÕES</h5>
-            {this.constroiEvento(this.state.data)}
+            <Collapse isOpen={this.constroiEvento(this.state.data)}>
+              <h5>
+                <img id="iconeInfo" src="/imagens/Programacao/iconeInformacoes.png" alt="icone"/>
+                INFORMAÇÕES SOBRE O EVENTO
+              </h5>
+              
+              <div className="conteinerInfoEvento">
+                {this.constroiEvento(this.state.data)}
+              </div>
+            </Collapse>
           </div>
         </div>
         <div id="redesSociais">
