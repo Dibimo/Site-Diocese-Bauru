@@ -1,0 +1,14 @@
+.paginacao{
+    display: flex;
+    list-style: none;
+}
+
+li button.paginacaoBotao, li button.paginacaoBotaoLigado{
+    background-color: transparent;
+    border-color: black;
+    border-radius: 0px;
+}
+li button.paginacaoBotaoLigado{
+    color: #8b0000;
+    border-color: #8b0000;
+}
