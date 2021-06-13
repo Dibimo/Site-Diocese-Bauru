@@ -55,11 +55,15 @@ class Administracao extends Component {
         <hr />
         
         <div className="conteinerConselhoDiocesano">
-          <p className="tituloConselhoDiocesano" 
+          <div
+            className="tituloConselhoDiocesano"
             onClick={()=>{
-              this.setState({ collapsedConselhoDiocesano: !this.state.collapsedConselhoDiocesano});
-            }}
-          >Conselho Presbiteral Diocesano</p>
+                this.setState({ collapsedConselhoDiocesano: !this.state.collapsedConselhoDiocesano});
+              }}
+           >
+              <p>Conselho Presbiteral Diocesano</p>
+
+          </div>
             <Collapse isOpen={this.state.collapsedConselhoDiocesano}>
               <p>Bispo Diocesano: Dom Rubens Sevilha, OCD</p>
               <p>Vigário Geral: Pe. Luiz Eduardo Monteiro Fontana</p>
