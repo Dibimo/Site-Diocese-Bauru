@@ -3,6 +3,7 @@ import BarraNavegacao from "./../../components/BarraNavegacao/BarraNavegacao";
 import Rodape from "./../../components/Rodape/Rodape";
 import Titulo from "./../../components/Titulo/Titulo";
 import Paginacao from "./../../components/Paginacao/Paginacao";
+import Container from "@material-ui/core/Container";
 import { Link } from "react-router-dom";
 import conversandoComBispo from './../../data/conversandoComBispo.json';
 import noticias from './../../data/noticias.json'
@@ -13,10 +14,12 @@ function Noticias() {
     const [deslocamentoNoticias, setDeslocamentoNoticias] = useState(0);
 
 
-    const totalConversandoBispo = conversandoComBispo.length; //total de notícias
-    const totalNoticias = noticias.length;
+    const totalConversandoBispo = conversandoComBispo.length; //total de posts
+    const totalNoticias = noticias.length; //total de noticias
+
     const [conversandoBispo,setConversandoBispo] = useState([]);
-    
+    const [noticiasVisiveis, setNoticiasVisiveis] = useState([]);
+
     useEffect(()=>{
       let vetor = [conversandoComBispo[deslocamentoBispo]];
       if((deslocamentoBispo+1)<totalConversandoBispo){
@@ -26,19 +29,32 @@ function Noticias() {
       
     },[deslocamentoBispo]);
 
-    const constroiConversandoBispo = ()=>{
+    useEffect(()=>{
+      let vetor = [noticias[deslocamentoNoticias]];
+      if((deslocamentoNoticias + 1)<totalNoticias){
+        vetor.push(noticias[deslocamentoNoticias + 1]);
+      }
+      if((deslocamentoNoticias + 2)<totalNoticias){
+        vetor.push(noticias[deslocamentoNoticias + 2]);
+      }
+
+      setNoticiasVisiveis(vetor);
+      
+    },[deslocamentoNoticias])
+
+    const constroiCards = (vetor,tipo,pastaImagens)=>{
       let cards = [];
-      conversandoBispo.map((conversando)=>{
+      vetor.map((item)=>{
         cards.push(
           <li className="cardConteudo">
-            <Link to={{pathname: "/conteudo_expandido", conteudo: conversando, tipo: "bispo"}}>
+            <Link to={{pathname: "/conteudo_expandido", conteudo: item, tipo}}>
               <img 
                 className="capa"
-                src={"/imagens/conversandoBispo/"+conversando.capa}  
+                src={"/imagens/"+pastaImagens+"/"+item.capa}  
                 alt="capa" 
               />
               <p className="tituloConteudo">
-                {conversando.titulo}
+                {item.titulo}
               </p>
           
             </Link>
@@ -48,12 +64,10 @@ function Noticias() {
       return(cards);
     }
 
-    
-
     return (
-      <div className="container">
+      <Container style={{backgroundColor: "#F3EEE8"}} border="1px" border-radius="5px"  sm="maxWidth">
         <BarraNavegacao></BarraNavegacao>
-        <Titulo titulo={"Notícias da Semana"}></Titulo>
+        <Titulo titulo={"NOTÍCIAS DA SEMANA"}></Titulo>
 
         <div
           style={{
@@ -63,7 +77,7 @@ function Noticias() {
           }}
         >
           <h1>Conversando com o Bispo</h1>
-          <ul className="listaConteudo">{constroiConversandoBispo()}</ul>
+          <ul className="listaConteudo">{constroiCards(conversandoBispo,"bispo","conversandoBispo")}</ul>
 
           <Paginacao
             limitePorPag={2}
@@ -73,16 +87,16 @@ function Noticias() {
           ></Paginacao>
 
           <h1>Notícias Diocesanas</h1>
-          <ul className="listaConteudo"></ul>
+          <ul className="listaConteudo">{constroiCards(noticiasVisiveis,"noticias","Noticias")}</ul>
           <Paginacao
-            limitePorPag={2}
+            limitePorPag={3}
             totalItens={totalNoticias}
             deslocamento={deslocamentoNoticias}
             setDeslocamento={setDeslocamentoNoticias}
           ></Paginacao>
         </div>
         <Rodape></Rodape>
-      </div>
+      </Container>
     );
 }
 export default Noticias;
