@@ -59,7 +59,7 @@ class Home extends Component {
                 alignItems="center"
               >
               <Grid align="center" item xs={12} sm={6} md={4}>
-                <Card titulo="Comunicados" />
+                <Link to="/comunicados"><Card titulo="Comunicados" /></Link> 
               </Grid> 
               <Grid align="center" item xs={12} sm={6} md={4}>
                 <Card titulo="Notícias" />
