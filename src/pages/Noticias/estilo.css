@@ -4,6 +4,12 @@
     list-style: none;
     grid-gap: 2rem;
 } */
+
+.tituloSecaoConteudo{
+    margin: 2%;
+    font-family: "Chapaza";
+}
+
 .listaConteudo{
     height: 200px;
     /* width: 100%; */
@@ -56,5 +62,9 @@
     color: white;
     margin: 0;
     text-align: center;
+}
+
+#videoChamada{
+    margin-bottom: 2%;
 }
 
