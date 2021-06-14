@@ -75,7 +75,7 @@ function Comunicados() {
           alignItems: "center",
         }}
       >
-        <h1>DIOCESE</h1>
+        <h1 className="tituloSecaoConteudo">DIOCESE</h1>
         <ul className="listaConteudo">
           {constroiCards(comunicados, "comunicados", "Comunicados")}
         </ul>
@@ -87,7 +87,7 @@ function Comunicados() {
           setDeslocamento={setDeslocamentoDiocese}
         ></Paginacao>
 
-        <h1>ATOS DO GOVERNO</h1>
+        <h1 className="tituloSecaoConteudo">ATOS DO GOVERNO</h1>
         <ul className="listaConteudo" id="atosGoverno">
           {constroiCards(noticiasVisiveis, "atosDoGoverno", "AtosGoverno")}
         </ul>
