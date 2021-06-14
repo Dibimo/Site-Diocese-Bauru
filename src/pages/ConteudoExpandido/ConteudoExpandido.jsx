@@ -39,7 +39,28 @@ function ConteudoExpandido() {
         </>
       );
     }
-
+    if(tipo === "atosDoGoverno"){
+      pagina = (
+        <>
+          <h1>{conteudo.titulo}</h1>
+          <img src={"/imagens/AtosGoverno/" + conteudo.capa} alt={conteudo.capa} />
+          <div>{constroiTextoAtoGov()}</div>
+          <div>
+            <p>{conteudo.data}</p>
+            <p>{conteudo.assinatura}</p>
+            <p>{conteudo.funcao}</p>
+          </div>
+        </>
+      );
+    }
+    if(tipo === 'comunicados'){
+      pagina = (
+        <>
+          <h1>{conteudo.titulo}</h1>
+          <img src={"/imagens/Comunicados/" + conteudo.capa} alt={conteudo.capa} />
+        </>
+      );
+    }
     return pagina;
   }
 
@@ -57,6 +78,16 @@ function ConteudoExpandido() {
   }
 
   const constroiTextoNoticia = ()=>{
+    let textoConstruido = [];
+    conteudo.texto.map((paragrafo)=>{
+      textoConstruido.push(
+        <p>{paragrafo}</p>
+      );
+    });
+    return textoConstruido;
+  }
+
+  const constroiTextoAtoGov = ()=>{
     let textoConstruido = [];
     conteudo.texto.map((paragrafo)=>{
       textoConstruido.push(
