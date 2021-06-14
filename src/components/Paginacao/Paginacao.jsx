@@ -23,11 +23,18 @@ export default function Paginacao({
       <ul className="paginacao">
         <li>
           <button
-            onClick={() => onPageChange(pagAtual - 1)}
             disabled={pagAtual === 1}
+            onClick={() => onPageChange(pagAtual - 1)}
+            className="botaoDeslocamento"
           >
-            Anterior
+            <img 
+              src="/imagens/setaParaEsquerdaPreta.png" 
+              alt="seta" 
+              className="setaPaginacao"
+              
+            />
           </button>
+          
         </li>
         {botoes
           .map((_, index) => {
@@ -54,10 +61,16 @@ export default function Paginacao({
           })}
         <li>
           <button
-            onClick={() => onPageChange(pagAtual + 1)}
             disabled={pagAtual === paginas}
-          >
-            Próxima
+            onClick={() => onPageChange(pagAtual + 1)}
+            className="botaoDeslocamento"
+            >
+            <img 
+              src="/imagens/setaParaDireitaPreta.png" 
+              alt="seta" 
+              className="setaPaginacao"
+              
+            />
           </button>
         </li>
       </ul>
