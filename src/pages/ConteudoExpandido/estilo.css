@@ -1,0 +1,34 @@
+.tituloExpandido{
+    text-align: center;
+    margin: 1% 0
+}
+
+.capaExpandida{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.conteinerTexto{
+    width: 65%;
+    margin: 0 auto 0 auto;
+}
+
+.conteinerTexto p{
+    text-align: justify;
+}
+
+.citacaoBiblica{
+    font-weight: bold;
+}
+
+#assinaturaAtoGov{
+    width: 65%;
+    margin: 0 auto 2% auto;
+}
+
+#assinaturaAtoGov p {
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 2px;
+}
