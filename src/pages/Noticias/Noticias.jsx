@@ -76,7 +76,7 @@ function Noticias() {
             alignItems: "center",
           }}
         >
-          <h1>Conversando com o Bispo</h1>
+          <h1 className="tituloSecaoConteudo">CONVERSANDO COM O BISPO</h1>
           <ul className="listaConteudo">{constroiCards(conversandoBispo,"bispo","conversandoBispo")}</ul>
 
           <Paginacao
@@ -86,7 +86,7 @@ function Noticias() {
             setDeslocamento={setDeslocamentoBispo}
           ></Paginacao>
 
-          <h1>Notícias Diocesanas</h1>
+          <h1 className="tituloSecaoConteudo">NOTÍCIAS DIOCESANAS</h1>
           <ul className="listaConteudo">{constroiCards(noticiasVisiveis,"noticias","Noticias")}</ul>
           <Paginacao
             limitePorPag={3}
@@ -94,6 +94,8 @@ function Noticias() {
             deslocamento={deslocamentoNoticias}
             setDeslocamento={setDeslocamentoNoticias}
           ></Paginacao>
+          <h1 className="">A VOZ DO PASTOR - DOM RUBENS SEVILHA, ODC</h1>
+          <iframe id="videoChamada" width="709" height="399" src="https://www.youtube.com/embed/aZCMFTGvQbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <Rodape></Rodape>
       </Container>
