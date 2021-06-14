@@ -3,9 +3,20 @@
     list-style: none;
 }
 
+.botaoDeslocamento{
+    background-color: transparent;
+    border: none;
+}
+
+.setaPaginacao{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
 li button.paginacaoBotao, li button.paginacaoBotaoLigado{
     background-color: transparent;
-    border-color: black;
+    border: none;
     border-radius: 0px;
 }
 li button.paginacaoBotaoLigado{
