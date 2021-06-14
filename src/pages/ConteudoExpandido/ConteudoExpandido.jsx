@@ -2,8 +2,9 @@ import React, { Component, useEffect, useState } from "react";
 import BarraNavegacao from "../../components/BarraNavegacao/BarraNavegacao";
 import Rodape from "../../components/Rodape/Rodape";
 import { useLocation } from "react-router-dom";
+import Container from "@material-ui/core/Container";
 
-
+import './estilo.css';
 
 function ConteudoExpandido() {
   const{ conteudo } = useLocation();
@@ -14,16 +15,14 @@ function ConteudoExpandido() {
     if(tipo === 'bispo'){
       pagina = (
         <>
-          <div>
-            Postado em: {conteudo.data} * {conteudo.minutosParaLer} min para ler
+          <div style={{ marginTop: "1%" }}>
+            Postado em: {conteudo.data} • {conteudo.minutosParaLer} min para ler
           </div>
-          <h1>
-            {conteudo.titulo}
-          </h1>
-          <img src={'/imagens/conversandoBispo/'+conteudo.capa} alt="" />
-          <div>
-            {constroiTextoConvBispo()}
+          <h1 className="tituloExpandido">{conteudo.titulo}</h1>
+          <div className="capaExpandida">
+            <img src={"/imagens/conversandoBispo/" + conteudo.capa} alt="" />
           </div>
+          <div className="conteinerTexto">{constroiTextoConvBispo()}</div>
         </>
       );
     }
@@ -31,21 +30,25 @@ function ConteudoExpandido() {
       pagina = (
         <>
           <div>
-            Postado em: {conteudo.data} * {conteudo.minutosParaLer} min para ler
+            Postado em: {conteudo.data} • {conteudo.minutosParaLer} min para ler
           </div>
-          <h1>{conteudo.titulo}</h1>
-          <img src={"/imagens/noticias/" + conteudo.capa} alt="" />
-          <div>{constroiTextoNoticia()}</div>
+          <h1 className="tituloExpandido">{conteudo.titulo}</h1>
+          <div className="capaExpandida">
+            <img src={"/imagens/noticias/" + conteudo.capa} alt="" />
+          </div>
+          <div className="conteinerTexto">{constroiTextoNoticia()}</div>
         </>
       );
     }
     if(tipo === "atosDoGoverno"){
       pagina = (
         <>
-          <h1>{conteudo.titulo}</h1>
-          <img src={"/imagens/AtosGoverno/" + conteudo.capa} alt={conteudo.capa} />
-          <div>{constroiTextoAtoGov()}</div>
-          <div>
+          <h1 className="tituloExpandido">{conteudo.titulo}</h1>
+          <div className="capaExpandida">
+            <img src={"/imagens/AtosGoverno/" + conteudo.capa} alt={conteudo.capa} />
+          </div>
+          <div className="conteinerTexto">{constroiTextoAtoGov()}</div>
+          <div id="assinaturaAtoGov">
             <p>{conteudo.data}</p>
             <p>{conteudo.assinatura}</p>
             <p>{conteudo.funcao}</p>
@@ -56,8 +59,10 @@ function ConteudoExpandido() {
     if(tipo === 'comunicados'){
       pagina = (
         <>
-          <h1>{conteudo.titulo}</h1>
-          <img src={"/imagens/Comunicados/" + conteudo.capa} alt={conteudo.capa} />
+          <h1 className="tituloExpandido">{conteudo.titulo}</h1>
+          <div className="capaExpandida">
+            <img src={"/imagens/Comunicados/" + conteudo.capa} alt={conteudo.capa} />
+          </div>
         </>
       );
     }
@@ -69,7 +74,7 @@ function ConteudoExpandido() {
     conteudo.conteudo.map((paragrafo)=>{
         textoConstruido.push(
           <>
-            <p>{paragrafo.citacaoBiblica}</p>
+            <p className="citacaoBiblica">{paragrafo.citacaoBiblica}</p>
             <p>{paragrafo.texto}</p>
           </>
         );
@@ -91,7 +96,7 @@ function ConteudoExpandido() {
     let textoConstruido = [];
     conteudo.texto.map((paragrafo)=>{
       textoConstruido.push(
-        <p>{paragrafo}</p>
+        <p style={{fontWeight: "bold"}}>{paragrafo}</p>
       );
     });
     return textoConstruido;
@@ -99,11 +104,11 @@ function ConteudoExpandido() {
 
 
   return (
-    <div className="container">
+    <Container style={{backgroundColor: "#F3EEE8"}} border="1px" border-radius="5px"  sm="maxWidth">
       <BarraNavegacao></BarraNavegacao>
       {constroiPagina()}
       <Rodape></Rodape>
-    </div>
+    </Container>
   );
 }
 export default ConteudoExpandido;
