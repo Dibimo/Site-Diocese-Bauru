@@ -15,10 +15,15 @@ class Administracao extends Component {
       collapsedConselhoDiocesano: false,
       collapsedConselhoDeLeigos: false,
     };
-    
-    
-
+    this.caminhos = [
+      "/imagens/Administracao/setaSelect.png",
+      "/imagens/Administracao/setaSelectParaCima.png",
+    ];
   };
+
+  converteBoolInt(estaAberto){
+    return estaAberto ? 1:0;
+  }
 
   render() {
     return (
@@ -60,9 +65,9 @@ class Administracao extends Component {
             onClick={()=>{
                 this.setState({ collapsedConselhoDiocesano: !this.state.collapsedConselhoDiocesano});
               }}
-           >
-              <p>Conselho Presbiteral Diocesano</p>
-
+          >
+              <p id="textoTituloConselhoDiocesano">Conselho Presbiteral Diocesano</p>
+              <img className="setaAdm" src={this.caminhos[this.converteBoolInt(this.state.collapsedConselhoDiocesano)]} alt="seta" />
           </div>
             <Collapse isOpen={this.state.collapsedConselhoDiocesano}>
               <p>Bispo Diocesano: Dom Rubens Sevilha, OCD</p>
@@ -125,24 +130,29 @@ class Administracao extends Component {
         <hr />
 
         <div className="conteinerConselhoDeLeigos">
-          <h6 
-              onClick={()=>{
-                this.setState({ collapsedConselhoDeLeigos: !this.state.collapsedConselhoDeLeigos});
-              }} 
-              className="tituloConselhoDeLeigos"
-            >Principal objetivos do Conselhor de Leigos</h6>
-            <Collapse isOpen={this.state.collapsedConselhoDeLeigos}>
-              <ul>
-                <li>Despertar a consciência da identidade, da vocação e missão dos leigos e leigas na busca de uma presença efetivamente transformadora no mundo e na Igreja.</li>
-                <li>Incentivar a Vivência eclesial, mediante a troca de experiências e convívio entre os diversos movimentos, pastorais, leigos e leigas engajados em paróquias e comunidades, no respeito mútuo e na busca de caminhos e respostas comuns.</li>
-                <li>Criar e incentivar mecanismos para oferecer uma formação integral, gradual, buscando capacitá-los para que possam responder com eficácia aos desafios a que são chamados no exercício de sua vocação.</li>
-                <li>Levar leigos e leigas a descobrirem e vivenciarem sua espiritualidade nos seus ambientes de trabalho, de lazer, de convívio cotidiano, à moda do sal e fermento.</li>
-                <li>Incentivar a articulação e organização do laicato nos diferentes níveis da Diocese.</li>
-                <li>Estimular a participação permanente do laicato nos processos de planejamento, decisão, execução e avaliação da Ação Evangelizadora da Igreja.</li>
-                <li>Representar o laicato junto aos setores organizados da Igreja Católica e outras Igrejas Cristãs e da própria sociedade.</li>
-                <li>Fazer-se presente na caminhada ecumênica, contribuindo e incentivando a comunhão entre leigos católicos e de outras Igrejas Cristãs, na base do Povo de Deus.</li>
-              </ul>
-            </Collapse>
+          
+          <div 
+            className="tituloConselhoDeLeigos"
+            onClick={()=>{
+              this.setState({ collapsedConselhoDeLeigos: !this.state.collapsedConselhoDeLeigos});
+            }}
+          >
+            <p>Principais objetivos do Conselho de Leigos</p>
+            <img className="setaAdm" src={this.caminhos[this.converteBoolInt(this.state.collapsedConselhoDeLeigos)]} alt="seta" />
+          </div>
+
+          <Collapse isOpen={this.state.collapsedConselhoDeLeigos}>
+            <ul>
+              <li>Despertar a consciência da identidade, da vocação e missão dos leigos e leigas na busca de uma presença efetivamente transformadora no mundo e na Igreja.</li>
+              <li>Incentivar a Vivência eclesial, mediante a troca de experiências e convívio entre os diversos movimentos, pastorais, leigos e leigas engajados em paróquias e comunidades, no respeito mútuo e na busca de caminhos e respostas comuns.</li>
+              <li>Criar e incentivar mecanismos para oferecer uma formação integral, gradual, buscando capacitá-los para que possam responder com eficácia aos desafios a que são chamados no exercício de sua vocação.</li>
+              <li>Levar leigos e leigas a descobrirem e vivenciarem sua espiritualidade nos seus ambientes de trabalho, de lazer, de convívio cotidiano, à moda do sal e fermento.</li>
+              <li>Incentivar a articulação e organização do laicato nos diferentes níveis da Diocese.</li>
+              <li>Estimular a participação permanente do laicato nos processos de planejamento, decisão, execução e avaliação da Ação Evangelizadora da Igreja.</li>
+              <li>Representar o laicato junto aos setores organizados da Igreja Católica e outras Igrejas Cristãs e da própria sociedade.</li>
+              <li>Fazer-se presente na caminhada ecumênica, contribuindo e incentivando a comunhão entre leigos católicos e de outras Igrejas Cristãs, na base do Povo de Deus.</li>
+            </ul>
+          </Collapse>
             
         </div>
         <Rodape></Rodape>
