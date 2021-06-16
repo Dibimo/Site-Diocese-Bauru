@@ -13,6 +13,8 @@ import Clero from "./pages/Clero/Clero";
 import Noticias from './pages/Noticias/Noticias';
 import Comunicados from './pages/Comunicados/Comunicados';
 import ConteudoExpandido from './pages/ConteudoExpandido/ConteudoExpandido';
+import Seminarios from './pages/Seminarios/Seminarios'
+import Movimentos from './pages/Movimentos/Movimentos'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -27,6 +29,9 @@ ReactDOM.render(
       <Route path="/noticias" component={Noticias} />
       <Route path="/comunicados" component={Comunicados} />
       <Route path="/conteudo_expandido" component={ConteudoExpandido} />
+      <Route path="/seminarios" component={Seminarios} />
+      <Route path="/movimentos" component={Movimentos} />
+
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
