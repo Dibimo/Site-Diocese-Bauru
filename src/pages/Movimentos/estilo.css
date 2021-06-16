@@ -1,0 +1,186 @@
+.textoInicial{
+    margin-top: 2%;
+}
+
+.textoInicial p{
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto 0 auto;
+
+}
+
+.organizacaoSetores{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.organizacaoSetores>div{
+    width: 50%;
+}
+
+.organizacaoSetores h3{
+    text-align: center;
+    width: 100%;
+    color: #953234;
+}
+
+.organizacao img{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -5%;
+}
+
+
+.setores{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.setores p{
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 21%;
+    height: 50px;
+    font-size: 10px;
+    line-height: 50px;
+    margin: 1%;
+}
+
+p#charis{
+    line-height: 25px;
+}
+
+p#bensTemporais{
+    line-height: 25px;
+}
+
+p#paragrafoIntermediario{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+
+.pilaresSetores{
+    margin-top: 3%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pilaresSetores>div{
+    width: 50%;
+}
+
+.pilaresSetores h3{
+    text-align: center;
+    width: 100%;
+    color: #953234;
+}
+
+.pilares{
+    display: flex;
+    justify-content: center;
+}
+
+.pilares img{
+    width: 45%;
+    
+}
+
+.evangelizacao{
+    margin-top: 13%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.evangelizacao p{
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 29%;
+    height: 50px;
+    font-size: 13px;
+    line-height: 50px;
+    margin: 1%;
+}
+
+
+
+.missaoAcaoSocial{
+    margin-top: 3%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.missaoAcaoSocial>div{
+    width: 50%;
+}
+
+.missaoAcaoSocial h3{
+    text-align: center;
+    width: 100%;
+    color: #953234;
+}
+
+.missao{
+    display: flex;
+    justify-content: center;
+}
+
+.missao img{
+    width: 55%;
+    
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.social p{
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    width: 46%;
+    
+    font-size: 15px;
+    line-height: 15px;
+    margin: 1%;
+    padding: 10%;
+}
+
+
+
+
+/*CORES*/
+
+.azul{
+    background-color: #4fb8f1;
+}
+
+.salmao{
+    background-color: #ffaf78;
+}
+
+.verde{
+    background-color: #22e080;
+}
+
+.amarelo{
+    background-color: #eed84a;
+}
+
