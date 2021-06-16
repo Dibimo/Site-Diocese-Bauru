@@ -1,0 +1,112 @@
+.conteinerSeminario{
+    margin-top: 2%;
+}
+
+.tituloSeminario{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto 5px auto;
+}
+
+.tituloSeminario h3{
+    text-align: center;
+    font-family: 'Chapaza';
+    font-size: 25px;
+    color: #e6c855;
+    margin-top: 3%;
+}
+
+.tituloSeminario img{
+    width: 90px;
+    height: 90px;
+    margin-right: 2%;
+}
+
+.conteinerSeminario p{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.conteinerCursos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+
+.curso:nth-child(1n){
+    margin-left: 20%;
+}
+
+.curso:nth-child(2n){
+    margin-right: 20%;
+}
+
+.curso h3{
+    text-align: center;
+    background-color: #f7ffb1;
+    padding: 10px 15px 5px 15px;
+    font-family: 'Chapaza';
+    color: #ef9706;
+    border-radius: 15px;
+    
+}
+
+.curso h6{
+    margin-top: 7px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.curso p{
+    font-size: 12px;
+    
+    width: 250px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+#paragrafoEspecial{
+    white-space: nowrap;
+    margin-bottom: 25px;
+}
+
+#equipeFormacao{
+    text-align: center;
+    font-family: 'Chapaza';
+    color: #ad1918;
+}
+
+.bispoDiocesano{
+    font-size: 17px;
+    text-align: center;
+}
+
+.bispoDiocesano h6{
+    font-size: 30px;
+}
+
+.conteinerEquipeFormacao{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 20%;
+    margin-bottom: 2%;
+}
+
+
+.conteinerCargos{
+    width: 50%;
+    
+}
+
+.conteinerCargos h6{
+    color: #af201e
+}
+
+.conteinerCargos p{
+    margin: 5px
+}
