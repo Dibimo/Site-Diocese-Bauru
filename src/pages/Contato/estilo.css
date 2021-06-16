@@ -37,3 +37,11 @@
     width: 100%;
 }
 
+#botaoEnviar{
+    background-color: #97201d;
+    border: none;
+    color: white;
+    padding: 0 2%;
+    margin: -10px auto 0 auto;
+}
+
