@@ -94,6 +94,7 @@ class Contato extends Component {
               <input className="inputContato" type="text" placeholder="Assunto: " />
               <textarea className="inputContato" cols="30" rows="10" placeholder="Mensagem: "></textarea>
             </div>
+            <button id="botaoEnviar">Enviar</button>
         </div>
 
         {/*Parte 2 - "Informações especificas para cada paroquia"*/}
