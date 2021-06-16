@@ -37,8 +37,8 @@ class Home extends Component {
           <br></br>
           <div  align="center" padding="2px" style={{marginTop: "40px", marginBottom: "20px"}}>
             <Link to="/programacao"><button id="botaoProgramacao"></button></Link>
-            <button id="botaoMovimentos"></button>
-            <button id="botaoSeminarios" type="submit"><i class="fas fa-church"></i></button>
+            <Link to="/movimentos"><button id="botaoMovimentos"></button></Link>
+            <Link to="/seminarios"><button id="botaoSeminarios" type="submit"><i class="fas fa-church"></i></button></Link>
           </div>
 
           <br></br>
@@ -62,7 +62,7 @@ class Home extends Component {
                 <Link to="/comunicados"><Card titulo="Comunicados" /></Link> 
               </Grid> 
               <Grid align="center" item xs={12} sm={6} md={4}>
-                <Card titulo="Notícias" />
+                <Link to="/noticias"><Card titulo="Notícias" /></Link>
               </Grid>   
               <Grid align="center" item xs={12} sm={6} md={4}>
                 <Link to="/clero"> <Card titulo="Clero" /></Link>
