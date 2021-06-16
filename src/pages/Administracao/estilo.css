@@ -52,6 +52,10 @@
     
 }
 
+.tituloConselhoDiocesano{
+    display: flex;
+}
+
 .conteinerConselhoDiocesano div.tituloConselhoDiocesano{
     cursor: pointer;
     background-color: #e9e087;
@@ -63,6 +67,11 @@ div.tituloConselhoDiocesano p{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+}
+
+.setaAdm{
+    width: 32px;
+    height: 32px;
 }
 
 .conteinerConselhoDiocesano  p {
@@ -81,6 +90,9 @@ div.tituloConselhoDiocesano p{
 
 }
 
+#textoTituloConselhoDiocesano{
+    border: none
+}
 
 .conteinerConselhoDiocesano p:not(:last-child){
     border-bottom: 1px solid #e2b247;
@@ -90,18 +102,28 @@ div.tituloConselhoDiocesano p{
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 50%;
     margin: 0 auto 1% auto;
     background-color: #f1eb99;
 }
 
-.conteinerConselhoDeLeigos h6.tituloConselhoDeLeigos{
+.tituloConselhoDeLeigos{
+    display: flex;
+    justify-content: space-between;
     cursor: pointer;
     background-color: #e9e087;
     width: 100%;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
+}
+
+.tituloConselhoDeLeigos p{
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto 0 auto;
 }
 
 .conteinerConselhoDeLeigos ul li{
