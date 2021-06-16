@@ -1,5 +1,14 @@
+#barraNavegacao:not(input){
+    font-family: 'Chapaza';
+}
+
 .semDecoracao{
     color: white;
+}
+
+.semDecoracao h4{
+    font-size: 15px;
+    margin-left: 4%;
 }
 
 .semDecoracao:hover{
