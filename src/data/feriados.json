@@ -8,9 +8,9 @@
         "abril4": ["Páscoa"]
     },
     "maio": {
-        "maio1": ["Dia do trabalho", "Missa especial em honra aos trabalhadores"],
-        "maio16": ["Dia 16 de Maio", "Confraternização depois da Missa para Jovens"],
-        "maio26": ["Dia de Santo Tal"]
+        "maio1": ["Dia do trabalho"],
+        "maio16": ["Dia 16 de Maio"],
+        "maio26": ["Dia 26 de Maio"]
     },
     "junho": {
         "junho3": ["Cospus Christi"]
